@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Glypher.FontAwesome5Free</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Glypher.FontAwesome5Free.GlyphFont">
+            <summary>
+            Font Awesome 5 Pro fonts
+            </summary>
+        </member>
+        <member name="P:Plugin.Glypher.FontAwesome5Free.GlyphFont.Brand">
+            <summary>
+            Brand font.
+            </summary>
+        </member>
+        <member name="P:Plugin.Glypher.FontAwesome5Free.GlyphFont.Regular">
+            <summary>
+            Regular font.
+            </summary>
+        </member>
+        <member name="P:Plugin.Glypher.FontAwesome5Free.GlyphFont.Solid">
+            <summary>
+            Solid font.
+            </summary>
+        </member>
+        <member name="T:Plugin.Glypher.FontAwesome5Free.GlyphList">
+            <summary>
+            Font Awesome Pro 5.8.1
+            </summary>
+        </member>
+    </members>
+</doc>
