@@ -9,8 +9,20 @@
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    
-    
+
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Elvin (Tharindu) Thudugala</Authors>
+    <PackageTags>android, ios, xamarin, xamarin.forms, font, icon, glyph</PackageTags>
+    <PackageProjectUrl>https://github.com/thudugala/Plugin.Glypher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thudugala/Plugin.Glypher</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>This plugin extend support for font-glyphs (font-icons) for Xamarin.Forms applications.</Description>
+    <PackageIconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/icon.png</PackageIconUrl>
+    <Copyright>Copyright © Elvin (Tharindu) Thudugala</Copyright>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Check: https://github.com/thudugala/Plugin.Glypher/releases </PackageReleaseNotes>
+    <owners>ththlk</owners>
 
     <!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
