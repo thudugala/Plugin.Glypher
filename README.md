@@ -5,6 +5,21 @@
 # Plugin.Glypher
 This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applications.
 
+# Usage
+
+```XML
+xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
+xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
+
+<Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
+       FontSize="Large"
+       extColor="CornflowerBlue" />
+       
+<Button glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
+        FontSize="Large"
+        TextColor="IndianRed" />
+```       
+
 # Setup
 
 - `Plugin.Glypher` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher/) Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher
@@ -20,6 +35,20 @@ This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applica
 
 - Reference `Plugin.Glypher.FontAwesome5Free` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)
 
+```csharp
+public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+
+            GlyphRegister.Current.Init(typeof(GlyphList));
+
+            MainPage = new NavigationPage(new MainPage());
+        }
+    }
+```
+
 ## Android Project
 
 - Add fonts to `Assets` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Free-Regular-400.otf" and "Font Awesome 5 Free-Solid-900.otf"
@@ -30,7 +59,7 @@ This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applica
 
 - Modify `Info.plist` by add below code.
 
-```
+```XML
 <key>UIAppFonts</key>
 <array>
   <string>Font Awesome 5 Brands-Regular-400.otf</string>
@@ -47,6 +76,20 @@ This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applica
 
 - Reference `Plugin.Glypher.FontAwesome5Pro` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)
 
+```csharp
+public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+
+            GlyphRegister.Current.Init(typeof(GlyphList));
+
+            MainPage = new NavigationPage(new MainPage());
+        }
+    }
+```
+
 ## Android Project
 
 - Add fonts to `Assets` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Pro-Light-300.otf", "Font Awesome 5 Pro-Regular-400.otf", "Font Awesome 5 Pro-Solid-900.otf"
@@ -57,7 +100,7 @@ This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applica
 
 - Modify `Info.plist` by add below code.
 
-```
+```XML
 <key>UIAppFonts</key>
 <array>
   <string>Font Awesome 5 Brands-Regular-400.otf</string>
