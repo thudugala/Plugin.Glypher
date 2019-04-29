@@ -1,13 +1,15 @@
 <img src="screenshots/icon.png" alt="icon" width="64px" >
 
+[![Build status](https://ci.appveyor.com/api/projects/status/t28ovdlfdb1hmoys?svg=true)](https://ci.appveyor.com/project/tmt242001/plugin-glypher)
+
 # Plugin.Glypher
 This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applications.
 
 # Setup
 
-- `Plugin.Glypher` Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher
-- `Plugin.Glypher.FontAwesome5Pro` Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro
-- `Plugin.Glypher.FontAwesome5Free` Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free
+- `Plugin.Glypher` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher/) Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher
+- `Plugin.Glypher.FontAwesome5Pro` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/) Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro
+- `Plugin.Glypher.FontAwesome5Free` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/) Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free
 
 `Plugin.Glypher` is not required to be reference if using any other package.
 - Install selected nuget(s) into any .NET Standard 2.0 projects required for your app. Do not install in platform-specific projects
