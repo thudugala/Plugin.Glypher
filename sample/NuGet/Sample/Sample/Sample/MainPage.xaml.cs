@@ -22,7 +22,9 @@ namespace Sample
 
         private void Redo_Tapped(object sender, EventArgs e)
         {
-            ToolbarItemLabel.TextColor = ToolbarItemLabel.TextColor == Color.White ? Color.GreenYellow : Color.White;
+            var toolbarItemLabelColor = Device.RuntimePlatform == Device.Android ? Color.White : Color.Black;
+
+            ToolbarItemLabel.TextColor = ToolbarItemLabel.TextColor == toolbarItemLabelColor ? Color.GreenYellow : toolbarItemLabelColor;
 
             var oldValueLabel1 = FontGlyph.GetGlyph(Label1);
             FontGlyph.SetGlyph(Label1, oldValueLabel1 == GlyphList.Fab_Bluetooth ? GlyphList.Fab_Adobe : GlyphList.Fab_Bluetooth);

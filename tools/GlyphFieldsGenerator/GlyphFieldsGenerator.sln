@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlyphFieldsFontAwesome5Pro"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlyphFieldsGenerator", "GlyphFieldsGenerator\GlyphFieldsGenerator.csproj", "{43B8F38B-3653-4E83-88CB-08E616EA406B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlyphFieldsFontAwesome5Free", "GlyphFieldsFontAwesome5Free\GlyphFieldsFontAwesome5Free.csproj", "{7628D620-D87B-416D-9675-02D1C67516D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlyphFieldsFontAwesome5Free", "GlyphFieldsFontAwesome5Free\GlyphFieldsFontAwesome5Free.csproj", "{7628D620-D87B-416D-9675-02D1C67516D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlyphFieldsWeatherIcons", "GlyphFieldsWeatherIcons\GlyphFieldsWeatherIcons.csproj", "{D2301884-884D-4645-AAEB-3B2372A7BA51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7628D620-D87B-416D-9675-02D1C67516D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7628D620-D87B-416D-9675-02D1C67516D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7628D620-D87B-416D-9675-02D1C67516D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2301884-884D-4645-AAEB-3B2372A7BA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2301884-884D-4645-AAEB-3B2372A7BA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2301884-884D-4645-AAEB-3B2372A7BA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2301884-884D-4645-AAEB-3B2372A7BA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="weathericons.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="weathericons.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GlyphFieldsGenerator\GlyphFieldsGenerator.csproj" />
+  </ItemGroup>
+
+</Project>

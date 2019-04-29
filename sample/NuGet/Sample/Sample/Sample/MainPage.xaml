@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:Sample"
              xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
              xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
              x:Class="Sample.MainPage">
 
     <NavigationPage.TitleView>
@@ -13,7 +15,7 @@
                     <Style x:Key="ToolbarTitle" TargetType="Label">
                         <Setter Property="VerticalTextAlignment" Value="Center" />
                         <Setter Property="HorizontalTextAlignment" Value="{x:OnPlatform iOS=Center}" />
-                        <Setter Property="TextColor" Value="White" />
+                        <Setter Property="TextColor" Value="{x:OnPlatform Android=White}" />
                         <Setter Property="FontAttributes" Value="Bold" />
                         <Setter Property="FontSize" Value="18" />
                     </Style>
