@@ -20,7 +20,7 @@ namespace Plugin.Glypher.FontAwesome5Free
                         return "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
 
                     case Device.iOS:
-                        return "FontAwesome5Brand-Regular";
+                        return "FontAwesome5Brands-Regular";
 
                     default:
                         return "";
@@ -38,10 +38,10 @@ namespace Plugin.Glypher.FontAwesome5Free
                 switch (Device.RuntimePlatform)
                 {
                     case Device.Android:
-                        return "Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Pro Regular";
+                        return "Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular";
 
                     case Device.iOS:
-                        return "FontAwesome5Pro-Regular";
+                        return "FontAwesome5Free-Regular";
 
                     default:
                         return "";
@@ -59,10 +59,10 @@ namespace Plugin.Glypher.FontAwesome5Free
                 switch (Device.RuntimePlatform)
                 {
                     case Device.Android:
-                        return "Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Pro Solid";
+                        return "Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid";
 
                     case Device.iOS:
-                        return "FontAwesome5Pro-Solid";
+                        return "FontAwesome5Free-Solid";
 
                     default:
                         return "";

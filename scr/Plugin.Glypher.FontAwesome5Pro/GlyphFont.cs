@@ -20,7 +20,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
                         return "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
 
                     case Device.iOS:
-                        return "FontAwesome5Brand-Regular";
+                        return "FontAwesome5Brands-Regular";
 
                     default:
                         return "";

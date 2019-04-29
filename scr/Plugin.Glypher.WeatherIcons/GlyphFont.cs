@@ -17,10 +17,10 @@ namespace Plugin.Glypher.WeatherIcons
                 switch (Device.RuntimePlatform)
                 {
                     case Device.Android:
-                        return "weathericons-regular-webfont.woff2#Weather Icons";
+                        return "weathericons-regular-webfont.ttf#Weather Icons Regular";
 
                     case Device.iOS:
-                        return "Weather Icons";
+                        return "WeatherIconsRegular";
 
                     default:
                         return "";
