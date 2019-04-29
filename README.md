@@ -13,7 +13,7 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 
 <Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
        FontSize="Large"
-       extColor="CornflowerBlue" />
+       TextColor="CornflowerBlue" />
        
 <Button glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
         FontSize="Large"
