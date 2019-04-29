@@ -329,3 +329,4 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /nuget/Plugin.Glypher/Temp
+/nuget/Plugin.Glypher.FontAwesome5Pro/Temp

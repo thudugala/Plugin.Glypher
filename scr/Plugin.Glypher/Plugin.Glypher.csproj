@@ -17,7 +17,7 @@
     <RepositoryUrl>https://github.com/thudugala/Plugin.Glypher</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>This plugin extend support for font-glyphs (font-icons) for Xamarin.Forms applications.</Description>
+    <Description>This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applications.</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/icon.png</PackageIconUrl>
     <Copyright>Copyright © Elvin (Tharindu) Thudugala</Copyright>
     <Version>1.0.0</Version>
