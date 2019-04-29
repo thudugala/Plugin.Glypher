@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sample"
+             xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
+             xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
+             x:Class="Sample.MainPage">
+
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="ToolbarTitle" TargetType="Label">
+                        <Setter Property="VerticalTextAlignment" Value="Center" />
+                        <Setter Property="HorizontalTextAlignment" Value="{x:OnPlatform iOS=Center}" />
+                        <Setter Property="TextColor" Value="White" />
+                        <Setter Property="FontAttributes" Value="Bold" />
+                        <Setter Property="FontSize" Value="18" />
+                    </Style>
+                </ResourceDictionary>
+            </Grid.Resources>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Style="{StaticResource ToolbarTitle}" Text="Title" />
+            <StackLayout Grid.Column="1" Orientation="Horizontal">
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="Label" BasedOn="{StaticResource ToolbarTitle}">
+                            <Setter Property="Margin" Value="5,0" />
+                            <Setter Property="FontSize" Value="Large" />
+                        </Style>
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+
+                <Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fas_Redo}">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Redo_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label x:Name="Label1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
+               FontSize="36"
+               TextColor="CornflowerBlue"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"  />
+        <Label x:Name="Label2" glypher:FontGlyph.Glyph="far-angry"
+               FontSize="48"
+               TextColor="LightSeaGreen"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"  />
+    </StackLayout>
+
+</ContentPage>

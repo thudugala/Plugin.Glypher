@@ -38,7 +38,7 @@ namespace Plugin.Glypher.FontAwesome5Free
                 switch (Device.RuntimePlatform)
                 {
                     case Device.Android:
-                        return "Font Awesome 5 Free-Regular-400#Font Awesome 5 Pro Regular";
+                        return "Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Pro Regular";
 
                     case Device.iOS:
                         return "FontAwesome5Pro-Regular";
