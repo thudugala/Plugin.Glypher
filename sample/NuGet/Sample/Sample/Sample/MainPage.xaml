@@ -36,7 +36,7 @@
                     </ResourceDictionary>
                 </StackLayout.Resources>
 
-                <Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fas_Redo}">
+                <Label x:Name="ToolbarItemLabel" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fas_Redo}">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Redo_Tapped" />
                     </Label.GestureRecognizers>
@@ -46,8 +46,7 @@
     </NavigationPage.TitleView>
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Welcome to Plugin Glypher!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
@@ -57,8 +56,14 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"  />
         <Label x:Name="Label2" glypher:FontGlyph.Glyph="far-angry"
-               FontSize="48"
-               TextColor="LightSeaGreen"
+                FontSize="48"
+                TextColor="LightSeaGreen"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"  />
+
+        <Button x:Name="Button1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
+               FontSize="Large"
+               TextColor="IndianRed"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"  />
     </StackLayout>
