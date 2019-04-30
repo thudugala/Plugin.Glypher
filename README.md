@@ -42,7 +42,7 @@ https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink
 
 # Limitations
 
-`Plugin.Glypher.FontAwesome5Pro`, `Plugin.Glypher.FontAwesome5Free` Only support iOS and Android for the moment. 
+`Plugin.Glypher.FontAwesome5Pro`, `Plugin.Glypher.FontAwesome5Free`, `Plugin.Glypher.WeatherIcons` Only support iOS and Android for the moment. 
 
 # Contributing
 
