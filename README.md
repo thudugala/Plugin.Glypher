@@ -46,14 +46,10 @@ Also, Turn off "Just My Code" since, well, this isn't your code.
 
 https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink
 
-# Limitations
-
-`Plugin.Glypher.FontAwesome5Pro`, `Plugin.Glypher.FontAwesome5Free`, `Plugin.Glypher.WeatherIcons` Only support iOS and Android for the moment. 
-
 # Contributing
 
 Contributions are welcome.  Feel free to file issues and pull requests on the repo and they'll be reviewed as time permits.
 
 ## Icon
 
-Thank you for the Icon by Yannick Lung (https://www.iconfinder.com/icons/314770/document_font_icon)
+Thank you for the Icons by [Yannick Lung](https://www.iconfinder.com/icons/314770/document_font_icon), [Stephen Hutchings](https://www.iconfinder.com/icons/216467/partly_sunny_weather_icon)
