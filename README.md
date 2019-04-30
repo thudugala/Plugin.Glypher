@@ -27,88 +27,11 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 `Plugin.Glypher` is not required to be reference if using any other package.
 - Install selected nuget(s) into any .NET Standard 2.0 projects required for your app. Do not install in platform-specific projects
 
-# Plugin.Glypher.FontAwesome5Free
-
-- Download Fonts from https://fontawesome.com/
-
-## .NET Standard Projest
-
-- Reference `Plugin.Glypher.FontAwesome5Free` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)
-
-```csharp
-public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-
-            GlyphRegister.Current.Init(typeof(GlyphList));
-
-            MainPage = new NavigationPage(new MainPage());
-        }
-    }
-```
-
-## Android Project
-
-- Add fonts to `Assets` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Free-Regular-400.otf" and "Font Awesome 5 Free-Solid-900.otf"
-
-## iOS Project
-
-- Add fonts to `Resources` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Free-Regular-400.otf" and "Font Awesome 5 Free-Solid-900.otf"
-
-- Modify `Info.plist` by add below code.
-
-```XML
-<key>UIAppFonts</key>
-<array>
-  <string>Font Awesome 5 Brands-Regular-400.otf</string>
-  <string>Font Awesome 5 Free-Regular-400.otf</string>
-  <string>Font Awesome 5 Free-Solid-900.otf</string>
-</array>
-```
-
-# Plugin.Glypher.FontAwesome5Pro
-
-- Download Fonts from https://fontawesome.com/
-
-## .NET Standard Projest
-
-- Reference `Plugin.Glypher.FontAwesome5Pro` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)
-
-```csharp
-public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-
-            GlyphRegister.Current.Init(typeof(GlyphList));
-
-            MainPage = new NavigationPage(new MainPage());
-        }
-    }
-```
-
-## Android Project
-
-- Add fonts to `Assets` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Pro-Light-300.otf", "Font Awesome 5 Pro-Regular-400.otf", "Font Awesome 5 Pro-Solid-900.otf"
-
-## iOS Project
-
-- Add fonts to `Resources` folder, font names must be "Font Awesome 5 Brands-Regular-400.otf", "Font Awesome 5 Pro-Light-300.otf", "Font Awesome 5 Pro-Regular-400.otf", "Font Awesome 5 Pro-Solid-900.otf"
-
-- Modify `Info.plist` by add below code.
-
-```XML
-<key>UIAppFonts</key>
-<array>
-  <string>Font Awesome 5 Brands-Regular-400.otf</string>
-  <string>Font Awesome 5 Pro-Light-300.otf</string>
-  <string>Font Awesome 5 Pro-Regular-400.otf</string>
-  <string>Font Awesome 5 Pro-Solid-900.otf</string>
-</array>
-```
+|Package|Wiki|Nuget|
+| ------------------- | :-----------: | :------------------: | 
+|`Plugin.Glypher.FontAwesome5Free`|[Font Awesome 5 Free](../../wiki/Font-Awesome-5-Free)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)|
+|`Plugin.Glypher.FontAwesome5Pro`|[Font Awesome 5 Pro](../../wiki/Font-Awesome-5-Pro)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)|
+|`Plugin.Glypher.WeatherIcons`|[Weather Icons](../../wiki/Weather-Icons)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.WeatherIcons.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.WeatherIcons/)|
 
 # SourceLink Support
 
@@ -119,7 +42,7 @@ https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink
 
 # Limitations
 
-`Plugin.Glypher.FontAwesome5Pro`, `Plugin.Glypher.FontAwesome5Free` Only support iOS and Android for the moment. 
+`Plugin.Glypher.FontAwesome5Pro`, `Plugin.Glypher.FontAwesome5Free`, `Plugin.Glypher.WeatherIcons` Only support iOS and Android for the moment. 
 
 # Contributing
 
