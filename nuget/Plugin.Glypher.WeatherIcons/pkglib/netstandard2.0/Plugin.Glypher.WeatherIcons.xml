@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Glypher.WeatherIcons</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Glypher.WeatherIcons.GlyphFont">
+            <summary>
+            Font Awesome 5 Pro fonts
+            </summary>
+        </member>
+        <member name="P:Plugin.Glypher.WeatherIcons.GlyphFont.WI">
+            <summary>
+            WI font.
+            </summary>
+        </member>
+        <member name="T:Plugin.Glypher.WeatherIcons.GlyphList">
+            <summary>
+            Weather Icons 2.0.10
+            </summary>
+        </member>
+    </members>
+</doc>
