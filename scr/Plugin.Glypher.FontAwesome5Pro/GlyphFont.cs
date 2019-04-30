@@ -42,7 +42,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         /// <summary>
         /// Solid font.
         /// </summary>
-        public static string Solid { get; set; }
+        public string Solid { get; set; }
 
         /// <summary>
         /// Brand font.
