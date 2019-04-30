@@ -52,6 +52,8 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
+        <!--<Label Text="&#xf01e;" FontFamily="FontAwesome5Free-Solid" TextColor="Aquamarine" FontSize="Large" />-->
+
         <Label x:Name="Label1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
                FontSize="36"
                TextColor="CornflowerBlue"

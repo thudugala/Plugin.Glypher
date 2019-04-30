@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 using Foundation;
@@ -24,6 +25,14 @@ namespace Sample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            //foreach (var sName in UIFont.FamilyNames)
+            //{
+            //    foreach (var sFontName in UIFont.FontNamesForFamilyName(sName))
+            //    {
+            //        Debug.WriteLine($"FamilyName:{sName} FontName:{sFontName}");
+            //    }
+            //}
 
             return base.FinishedLaunching(app, options);
         }

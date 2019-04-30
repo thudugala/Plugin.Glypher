@@ -12,6 +12,11 @@ namespace Sample
         {
             InitializeComponent();
 
+            GlyphList.Fas_Redo.FontFamily = "FontAwesome5Free-Solid";
+            GlyphList.Fab_Bluetooth.FontFamily = "FontAwesome5Brands-Regular";
+            GlyphList.Far_Angry.FontFamily = "FontAwesome5Free-Regular";
+            GlyphList.Fab_Bitcoin.FontFamily = "FontAwesome5Brands-Regular";
+
             GlyphRegister.Current.Init(typeof(GlyphList));
 
             MainPage = new NavigationPage(new MainPage());

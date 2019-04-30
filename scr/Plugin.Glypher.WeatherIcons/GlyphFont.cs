@@ -20,7 +20,7 @@ namespace Plugin.Glypher.WeatherIcons
                         return "weathericons-regular-webfont.ttf#Weather Icons Regular";
 
                     case Device.iOS:
-                        return "WeatherIconsRegular";
+                        return "WeatherIcons-Regular";
 
                     default:
                         return "";
