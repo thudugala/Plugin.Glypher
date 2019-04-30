@@ -29,9 +29,9 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 
 |Package|Wiki|Nuget|
 | ------------------- | :-----------: | :------------------: | 
-|`Plugin.Glypher.FontAwesome5Free`|[Font Awesome 5 Free](Font-Awesome-5-Free)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)|
-|`Plugin.Glypher.FontAwesome5Pro`|[Font Awesome 5 Pro](Font-Awesome-5-Pro)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)|
-|`Plugin.Glypher.WeatherIcons`|[Weather Icons](Weather-Icons)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.WeatherIcons.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.WeatherIcons/)|
+|`Plugin.Glypher.FontAwesome5Free`|[Font Awesome 5 Free](../../wiki/Font-Awesome-5-Free)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)|
+|`Plugin.Glypher.FontAwesome5Pro`|[Font Awesome 5 Pro](../../wiki/Font-Awesome-5-Pro)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)|
+|`Plugin.Glypher.WeatherIcons`|[Weather Icons](../../wiki/Weather-Icons)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.WeatherIcons.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.WeatherIcons/)|
 
 # SourceLink Support
 
