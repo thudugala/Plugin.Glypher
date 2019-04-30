@@ -27,11 +27,17 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 `Plugin.Glypher` is not required to be reference if using any other package.
 - Install selected nuget(s) into any .NET Standard 2.0 projects required for your app. Do not install in platform-specific projects
 
-|Package|Wiki|Nuget|
-| ------------------- | :-----------: | :------------------: | 
-|`Plugin.Glypher.FontAwesome5Free`|[Font Awesome 5 Free](../../wiki/Font-Awesome-5-Free)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)|
-|`Plugin.Glypher.FontAwesome5Pro`|[Font Awesome 5 Pro](../../wiki/Font-Awesome-5-Pro)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)|
-|`Plugin.Glypher.WeatherIcons`|[Weather Icons](../../wiki/Weather-Icons)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.WeatherIcons.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.WeatherIcons/)|
+|Package|Wiki|Nuget|Android|iOS|
+|-------|----|-----|-------|---| 
+|`Plugin.Glypher.FontAwesome5Free`|[Font Awesome 5 Free](../../wiki/Font-Awesome-5-Free)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Free.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Free/)|Yes|Yes|
+|`Plugin.Glypher.FontAwesome5Pro`|[Font Awesome 5 Pro](../../wiki/Font-Awesome-5-Pro)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.FontAwesome5Pro.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.FontAwesome5Pro/)|Yes|Yes|
+|`Plugin.Glypher.WeatherIcons`|[Weather Icons](../../wiki/Weather-Icons)|[![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.WeatherIcons.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher.WeatherIcons/)|Yes|Yes|
+
+# Screenshots
+
+|Android|iOS|
+|-------|---| 
+|<img src="screenshots/android.png" alt="android" width="512px" >|<img src="screenshots/iOS.png" alt="ios" width="512px" >|
 
 # SourceLink Support
 
