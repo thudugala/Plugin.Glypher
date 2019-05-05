@@ -19,13 +19,13 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
         FontSize="Large"
         TextColor="IndianRed" />
 
- <Image>
-     <Image.Source>
-         <FontImageSource Size="32" 
-                          Color="Orange" 
-                          glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
-     </Image.Source>
- </Image>
+<Image>
+    <Image.Source>
+        <FontImageSource Size="32" 
+                         Color="Orange" 
+                         glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+    </Image.Source>
+</Image>
 ```       
 
 # Setup
