@@ -3,7 +3,7 @@
 namespace Plugin.Glypher
 {
     /// <summary>
-    /// Has the Attached Property Glyph for Labels and Buttons 
+    /// Has the Attached Property Glyph for Labels and Buttons
     /// </summary>
     public static class FontGlyph
     {
@@ -24,16 +24,6 @@ namespace Plugin.Glypher
         }
 
         /// <summary>
-        /// get Glyph
-        /// </summary>
-        /// <param name="bindable"></param>
-        /// <param name="value"></param>
-        public static void SetGlyph(BindableObject bindable, GlyphInfo value)
-        {
-            bindable.SetValue(GlyphProperty, value);
-        }
-
-        /// <summary>
         /// Internal use only
         /// </summary>
         /// <param name="bindable"></param>
@@ -49,6 +39,16 @@ namespace Plugin.Glypher
             SetControl(bindable, newGlyphInfo);
         }
 
+        /// <summary>
+        /// get Glyph
+        /// </summary>
+        /// <param name="bindable"></param>
+        /// <param name="value"></param>
+        public static void SetGlyph(BindableObject bindable, GlyphInfo value)
+        {
+            bindable.SetValue(GlyphProperty, value);
+        }
+
         private static void SetControl(BindableObject bindable, GlyphInfo newGlyphInfo)
         {
             switch (bindable)
@@ -61,6 +61,11 @@ namespace Plugin.Glypher
                 case Button button:
                     button.FontFamily = newGlyphInfo?.FontFamily;
                     button.Text = newGlyphInfo?.Glyph;
+                    break;
+
+                case FontImageSource fontImageSource:
+                    fontImageSource.FontFamily = newGlyphInfo?.FontFamily;
+                    fontImageSource.Glyph = newGlyphInfo?.Glyph;
                     break;
             }
         }
