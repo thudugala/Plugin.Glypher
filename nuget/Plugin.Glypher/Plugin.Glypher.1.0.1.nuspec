@@ -14,7 +14,7 @@
     <copyright>Copyright © Elvin (Tharindu) Thudugala</copyright>
     <tags>android, ios, xamarin, xamarin.forms, font, icon, glyph</tags>
 	<title>Xamarin.Forms font-glyphs (font-icons)</title>
-    <repository type="git" url="https://github.com/thudugala/Plugin.Glypher" commit="97355590462a789e542243267f22e116c132d738" />	
+    <repository type="git" url="https://github.com/thudugala/Plugin.Glypher" commit="0ba13137f4eec677ec5b7ef76f8ccba3f550ee6d" />	
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Xamarin.Forms" version="3.6.0.344457" exclude="Build,Analyzers" />

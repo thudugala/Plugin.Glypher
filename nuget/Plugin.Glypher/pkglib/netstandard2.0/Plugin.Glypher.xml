@@ -6,7 +6,7 @@
     <members>
         <member name="T:Plugin.Glypher.FontGlyph">
             <summary>
-            Has the Attached Property Glyph for Labels and Buttons 
+            Has the Attached Property Glyph for Labels and Buttons
             </summary>
         </member>
         <member name="F:Plugin.Glypher.FontGlyph.GlyphProperty">
@@ -21,13 +21,6 @@
             <param name="bindable"></param>
             <returns></returns>
         </member>
-        <member name="M:Plugin.Glypher.FontGlyph.SetGlyph(Xamarin.Forms.BindableObject,Plugin.Glypher.GlyphInfo)">
-            <summary>
-            get Glyph
-            </summary>
-            <param name="bindable"></param>
-            <param name="value"></param>
-        </member>
         <member name="M:Plugin.Glypher.FontGlyph.OnGlyphChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
             <summary>
             Internal use only
@@ -35,6 +28,13 @@
             <param name="bindable"></param>
             <param name="oldValue"></param>
             <param name="newValue"></param>
+        </member>
+        <member name="M:Plugin.Glypher.FontGlyph.SetGlyph(Xamarin.Forms.BindableObject,Plugin.Glypher.GlyphInfo)">
+            <summary>
+            get Glyph
+            </summary>
+            <param name="bindable"></param>
+            <param name="value"></param>
         </member>
         <member name="T:Plugin.Glypher.GlyphInfo">
             <summary>
