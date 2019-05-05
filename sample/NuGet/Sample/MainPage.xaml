@@ -75,6 +75,13 @@
                TextColor="IndianRed"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"  />
+
+        <Image HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand">
+            <Image.Source>
+                <FontImageSource Size="48" Color="Orange" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+            </Image.Source>
+        </Image>
     </StackLayout>
 
 </ContentPage>

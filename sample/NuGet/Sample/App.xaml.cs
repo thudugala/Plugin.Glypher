@@ -10,11 +10,30 @@ namespace Sample
         public App()
         {
             InitializeComponent();
-            
+
+            //If you want to change Font Name
+            //ChangeFontName();
+
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphList));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.WeatherIcons.GlyphList));
 
             MainPage = new NavigationPage(new MainPage());
+        }
+
+        /// <summary>
+        /// If you want to change Font Name
+        /// </summary>
+        private void ChangeFontName()
+        {
+            var glyphFont = Plugin.Glypher.FontAwesome5Free.GlyphFont.Current;
+            switch (Device.RuntimePlatform)
+            {
+                case Device.Android:
+                    glyphFont.Brand = "fontAwesomeBrands.ttf#Font Awesome 5 Brands Regular";
+                    glyphFont.Regular = "fontAwesomeRegular.ttf#Font Awesome 5 Free Regular";
+                    glyphFont.Solid = "fontAwesomeSolid.ttf#Font Awesome 5 Free Solid";
+                    break;
+            };
         }
 
         protected override void OnStart()
