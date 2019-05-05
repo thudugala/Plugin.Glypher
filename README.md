@@ -18,6 +18,12 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 <Button glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
         FontSize="Large"
         TextColor="IndianRed" />
+
+ <Image>
+     <Image.Source>
+         <FontImageSource Size="32" Color="Orange" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+     </Image.Source>
+ </Image>
 ```       
 
 # Setup
@@ -25,7 +31,7 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 - `Plugin.Glypher` [![NuGet](https://img.shields.io/nuget/v/Plugin.Glypher.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Glypher/) Available on NuGet: https://www.nuget.org/packages/Plugin.Glypher
 
 `Plugin.Glypher` is not required to be reference if using any other package.
-- Install selected nuget(s) into any .NET Standard 2.0 projects required for your app. Do not install in platform-specific projects
+- Install selected nuget(s) into any .NET Standard 2.0 projects required for your app. No need to install it in your platform specific projects.
 
 |Package|Wiki|Nuget|Android|iOS|
 |-------|----|-----|-------|---| 
