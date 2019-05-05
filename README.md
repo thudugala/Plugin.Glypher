@@ -21,7 +21,9 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 
  <Image>
      <Image.Source>
-         <FontImageSource Size="32" Color="Orange" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+         <FontImageSource Size="32" 
+                          Color="Orange" 
+                          glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
      </Image.Source>
  </Image>
 ```       
