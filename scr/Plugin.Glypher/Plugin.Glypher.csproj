@@ -5,11 +5,11 @@
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Elvin (Tharindu) Thudugala</Authors>
     <PackageTags>android, ios, xamarin, xamarin.forms, font, icon, glyph</PackageTags>

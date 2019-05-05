@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Plugin.Glypher</id>
+    <version>1.0.1</version>
+	<authors>Elvin (Tharindu) Thudugala</authors>
+    <owners>ththlk</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/thudugala/Plugin.Glypher</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/icon.png</iconUrl>
+    <description>This plugin extend support for font-glyphs (font-icons) for Xamarin.Forms applications.</description>
+    <releaseNotes>Check: https://github.com/thudugala/Plugin.Glypher/releases</releaseNotes>
+    <copyright>Copyright © Elvin (Tharindu) Thudugala</copyright>
+    <tags>android, ios, xamarin, xamarin.forms, font, icon, glyph</tags>
+	<title>Xamarin.Forms font-glyphs (font-icons)</title>
+    <repository type="git" url="https://github.com/thudugala/Plugin.Glypher" commit="97355590462a789e542243267f22e116c132d738" />	
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="3.6.0.344457" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>	
+  </metadata>
+  <files>
+    <file src="pkglib\**" target="lib" />
+  </files>
+</package>
