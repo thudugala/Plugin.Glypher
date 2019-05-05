@@ -9,6 +9,16 @@
             Font Awesome 5 Pro fonts
             </summary>
         </member>
+        <member name="M:Plugin.Glypher.WeatherIcons.GlyphFont.#ctor">
+            <summary>
+            Internal use only
+            </summary>
+        </member>
+        <member name="P:Plugin.Glypher.WeatherIcons.GlyphFont.Current">
+            <summary>
+            Gets the lazily initialized value of the current instance.
+            </summary>
+        </member>
         <member name="P:Plugin.Glypher.WeatherIcons.GlyphFont.WI">
             <summary>
             WI font.
