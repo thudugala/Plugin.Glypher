@@ -168,6 +168,7 @@
         public static readonly GlyphInfo Fab_Gg = new GlyphInfo { Name = "fab-gg", Glyph = "\uf260", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Gg_Circle = new GlyphInfo { Name = "fab-gg-circle", Glyph = "\uf261", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Git = new GlyphInfo { Name = "fab-git", Glyph = "\uf1d3", FontFamily = GlyphFont.Current.Brand };
+        public static readonly GlyphInfo Fab_Git_Alt = new GlyphInfo { Name = "fab-git-alt", Glyph = "\uf841", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Git_Square = new GlyphInfo { Name = "fab-git-square", Glyph = "\uf1d2", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Github = new GlyphInfo { Name = "fab-github", Glyph = "\uf09b", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Github_Alt = new GlyphInfo { Name = "fab-github-alt", Glyph = "\uf113", FontFamily = GlyphFont.Current.Brand };
@@ -349,6 +350,7 @@
         public static readonly GlyphInfo Fab_Squarespace = new GlyphInfo { Name = "fab-squarespace", Glyph = "\uf5be", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Stack_Exchange = new GlyphInfo { Name = "fab-stack-exchange", Glyph = "\uf18d", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Stack_Overflow = new GlyphInfo { Name = "fab-stack-overflow", Glyph = "\uf16c", FontFamily = GlyphFont.Current.Brand };
+        public static readonly GlyphInfo Fab_Stackpath = new GlyphInfo { Name = "fab-stackpath", Glyph = "\uf842", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Staylinked = new GlyphInfo { Name = "fab-staylinked", Glyph = "\uf3f5", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Steam = new GlyphInfo { Name = "fab-steam", Glyph = "\uf1b6", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Steam_Square = new GlyphInfo { Name = "fab-steam-square", Glyph = "\uf1b7", FontFamily = GlyphFont.Current.Brand };

@@ -7,7 +7,7 @@ namespace GlyphFieldsWeatherIcons
 {
     internal class Icon : GlyphField
     {
-        protected override string FontFamily => "GlyphFont.WI";
+        protected override string FontFamily => "GlyphFont.Current.WI";
         
         public override string Unicode
         {

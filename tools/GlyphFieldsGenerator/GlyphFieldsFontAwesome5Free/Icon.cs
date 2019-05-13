@@ -34,13 +34,13 @@ namespace GlyphFieldsFontAwesome5Free
                 switch (IconType)
                 {
                     case Free.Brands:
-                        return "GlyphFont.Brand";
+                        return "GlyphFont.Current.Brand";
                         
                     case Free.Regular:
-                        return "GlyphFont.Regular";
+                        return "GlyphFont.Current.Regular";
 
                     case Free.Solid:
-                        return "GlyphFont.Solid";
+                        return "GlyphFont.Current.Solid";
 
                     default:
                         return null;
