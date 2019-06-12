@@ -88,7 +88,7 @@ namespace GlyphFieldsFontAwesome5Free
         public string Path { get; set; }
     }
 
-    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The580, The581, The582 };
+    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The580, The581, The582, The590 };
 
     public enum Free { Brands, Regular, Solid };
 
@@ -210,6 +210,8 @@ namespace GlyphFieldsFontAwesome5Free
                             return new ChangeElement { Enum = ChangeEnum.The581 };
                         case "5.8.2":
                             return new ChangeElement { Enum = ChangeEnum.The582 };
+                        case "5.9.0":
+                            return new ChangeElement { Enum = ChangeEnum.The590 };
                     }
                     long l;
                     if (Int64.TryParse(stringValue, out l))
@@ -333,6 +335,9 @@ namespace GlyphFieldsFontAwesome5Free
                     case ChangeEnum.The582:
                         serializer.Serialize(writer, "5.8.2");
                         return;
+                    case ChangeEnum.The590:
+                        serializer.Serialize(writer, "5.9.0");
+                        return;
                 }
             }
             if (value.Integer != null)
@@ -426,6 +431,8 @@ namespace GlyphFieldsFontAwesome5Free
                     return ChangeEnum.The581;
                 case "5.8.2":
                     return ChangeEnum.The582;
+                case "5.9.0":
+                    return ChangeEnum.The590;
             }
             throw new Exception("Cannot unmarshal type ChangeEnum");
         }
@@ -544,6 +551,9 @@ namespace GlyphFieldsFontAwesome5Free
                     return;
                 case ChangeEnum.The582:
                     serializer.Serialize(writer, "5.8.2");
+                    return;
+                case ChangeEnum.The590:
+                    serializer.Serialize(writer, "5.9.0");
                     return;
             }
             throw new Exception("Cannot marshal type ChangeEnum");
