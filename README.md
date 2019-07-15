@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/t28ovdlfdb1hmoys?svg=true)](https://ci.appveyor.com/project/tmt242001/plugin-glypher)
 
 # Plugin.Glypher
-This plugin extend support for font-glyphs (font-icons) in Xamarin.Forms applications.
+This plugin extend support for font glyphs (font icons) in Xamarin.Forms applications.
 
 # Usage
 
