@@ -1,7 +1,7 @@
 ﻿namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.8.1
+    /// Font Awesome Pro 5.9.0
     /// </summary>
     public static class GlyphList
     {
