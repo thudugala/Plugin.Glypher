@@ -9,14 +9,15 @@ namespace Sample
     {
         public App()
         {
-            InitializeComponent();
-
             //If you want to change Font Name
             //ChangeFontName();
 
+            //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphList));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphList));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.WeatherIcons.GlyphList));
 
+            InitializeComponent();
+              
             MainPage = new NavigationPage(new MainPage());
         }
 
