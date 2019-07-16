@@ -11,11 +11,11 @@ This plugin extend support for font glyphs (font icons) in Xamarin.Forms applica
 xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
 xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
 
-<Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
+<Label glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bluetooth}"
        FontSize="Large"
        TextColor="CornflowerBlue" />
        
-<Button glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
+<Button glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bitcoin}"
         FontSize="Large"
         TextColor="IndianRed" />
 
@@ -23,7 +23,7 @@ xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
     <Image.Source>
         <FontImageSource Size="32" 
                          Color="Orange" 
-                         glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+                         glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListRegular.Far_Bell_Slash}" />
     </Image.Source>
 </Image>
 ```       
