@@ -332,3 +332,4 @@ ASALocalRun/
 /nuget/Plugin.Glypher.FontAwesome5Pro/Temp
 /nuget/Plugin.Glypher.FontAwesome5Free/Temp
 /nuget/Plugin.Glypher.WeatherIcons/Temp
+/sample/Direct/Sample.Android/Resources/Resource.designer.cs

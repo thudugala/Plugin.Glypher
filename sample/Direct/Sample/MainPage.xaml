@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sample"
+             xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
+             xmlns:weatherIcons="clr-namespace:Plugin.Glypher.WeatherIcons;assembly=Plugin.Glypher.WeatherIcons"
+             xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             x:Class="Sample.MainPage">
+
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="ToolbarTitle" TargetType="Label">
+                        <Setter Property="VerticalTextAlignment" Value="Center" />
+                        <Setter Property="HorizontalTextAlignment" Value="{x:OnPlatform iOS=Center}" />
+                        <Setter Property="TextColor" Value="{x:OnPlatform Android=White}" />
+                        <Setter Property="FontAttributes" Value="Bold" />
+                        <Setter Property="FontSize" Value="18" />
+                    </Style>
+                </ResourceDictionary>
+            </Grid.Resources>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Style="{StaticResource ToolbarTitle}" Text="Title" />
+            <StackLayout Grid.Column="1" Orientation="Horizontal">
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="Label" BasedOn="{StaticResource ToolbarTitle}">
+                            <Setter Property="Margin" Value="5,0" />
+                            <Setter Property="FontSize" Value="Large" />
+                        </Style>
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+
+                <Label x:Name="ToolbarItemLabel" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fas_Redo}">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Redo_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <StackLayout>
+        <Label Text="Welcome to Plugin Glypher!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label glypher:FontGlyph.Glyph="{x:Static weatherIcons:GlyphList.Wi_Cloudy}" 
+               TextColor="Purple" 
+               FontSize="48"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Label x:Name="Label1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
+               FontSize="48"
+               TextColor="CornflowerBlue"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"  />
+        <Label x:Name="Label2" glypher:FontGlyph.Glyph="far-angry"
+                FontSize="48"
+                TextColor="LightSeaGreen"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"  />
+
+        <Button x:Name="Button1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
+               FontSize="48"
+               TextColor="IndianRed"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"  />
+
+        <Image HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand">
+            <Image.Source>
+                <FontImageSource Size="48" Color="Orange" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+            </Image.Source>
+        </Image>
+    </StackLayout>
+
+</ContentPage>
