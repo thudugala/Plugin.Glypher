@@ -16,7 +16,9 @@ namespace Sample
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListLight));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListRegular));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListSolid));
-            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphList));
+            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListBrand));
+            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListRegular));
+            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListSolid));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.WeatherIcons.GlyphList));
 
             InitializeComponent();

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>   
+  <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <DefaultLanguage>en-US</DefaultLanguage>
@@ -20,7 +20,7 @@
     <Description>This plugin extend support for font glyphs (font icons) using FontAwesomeFree in Xamarin.Forms applications.</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/fontAwesomeIcon.png</PackageIconUrl>
     <Copyright>Copyright © Elvin (Tharindu) Thudugala</Copyright>
-    <Version>5.9.0</Version>
+    <Version>5.9.0.1</Version>
     <PackageReleaseNotes>Check: https://github.com/thudugala/Plugin.Glypher/releases </PackageReleaseNotes>
     <owners>ththlk</owners>
 
@@ -39,5 +39,4 @@
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19351-01" PrivateAssets="All" />
     <PackageReference Include="Plugin.Glypher" Version="1.0.1" />
   </ItemGroup>
-
 </Project>

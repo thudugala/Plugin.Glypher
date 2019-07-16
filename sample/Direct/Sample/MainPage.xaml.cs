@@ -27,10 +27,10 @@ namespace Sample
             ToolbarItemLabel.TextColor = ToolbarItemLabel.TextColor == toolbarItemLabelColor ? Color.GreenYellow : toolbarItemLabelColor;
 
             var oldValueLabel1 = FontGlyph.GetGlyph(Label1);
-            FontGlyph.SetGlyph(Label1, oldValueLabel1 == GlyphList.Fab_Bluetooth ? GlyphList.Fab_Adobe : GlyphList.Fab_Bluetooth);
+            FontGlyph.SetGlyph(Label1, oldValueLabel1 == GlyphListBrand.Fab_Bluetooth ? GlyphListBrand.Fab_Adobe : GlyphListBrand.Fab_Bluetooth);
 
             var oldValueLabel2 = FontGlyph.GetGlyph(Label2);
-            FontGlyph.SetGlyph(Label2, oldValueLabel2 == GlyphList.Far_Angry ? GlyphList.Far_Address_Book : GlyphList.Far_Angry);
+            FontGlyph.SetGlyph(Label2, oldValueLabel2 == GlyphListRegular.Far_Angry ? GlyphListRegular.Far_Address_Book : GlyphListRegular.Far_Angry);
         }
     }
 }
