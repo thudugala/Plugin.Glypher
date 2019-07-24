@@ -9,7 +9,7 @@ namespace Plugin.Glypher.FontAwesome5Free
     /// </summary>
     public class GlyphFont
     {
-        private static readonly Lazy<GlyphFont> _mySingleton = new Lazy<GlyphFont>(() => new GlyphFont(), LazyThreadSafetyMode.PublicationOnly);
+        private static readonly Lazy<GlyphFont> MySingleton = new Lazy<GlyphFont>(() => new GlyphFont(), LazyThreadSafetyMode.PublicationOnly);
 
         /// <summary>
         /// Internal use only
@@ -35,7 +35,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         /// <summary>
         /// Gets the lazily initialized value of the current instance.
         /// </summary>
-        public static GlyphFont Current => _mySingleton.Value;
+        public static GlyphFont Current => MySingleton.Value;
 
         /// <summary>
         /// Brand font.
