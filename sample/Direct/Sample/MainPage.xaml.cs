@@ -8,7 +8,7 @@ using Plugin.Glypher;
 using Plugin.Glypher.FontAwesome5Free;
 using Xamarin.Forms;
 
-namespace Sample
+namespace Plugin.Glypher.Sample
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer

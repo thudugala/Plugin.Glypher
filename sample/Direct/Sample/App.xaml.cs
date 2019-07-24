@@ -3,7 +3,7 @@ using Plugin.Glypher;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Sample
+namespace Plugin.Glypher.Sample
 {
     public partial class App : Application
     {
