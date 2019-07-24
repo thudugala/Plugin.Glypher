@@ -20,7 +20,7 @@ namespace Plugin.Glypher
         /// <returns></returns>
         public static GlyphInfo GetGlyph(BindableObject bindable)
         {
-            return (GlyphInfo)bindable.GetValue(GlyphProperty);
+            return (GlyphInfo)bindable?.GetValue(GlyphProperty);
         }
 
         /// <summary>
@@ -44,10 +44,7 @@ namespace Plugin.Glypher
         /// </summary>
         /// <param name="bindable"></param>
         /// <param name="value"></param>
-        public static void SetGlyph(BindableObject bindable, GlyphInfo value)
-        {
-            bindable.SetValue(GlyphProperty, value);
-        }
+        public static void SetGlyph(BindableObject bindable, GlyphInfo value) => bindable?.SetValue(GlyphProperty, value);
 
         private static void SetControl(BindableObject bindable, GlyphInfo newGlyphInfo)
         {

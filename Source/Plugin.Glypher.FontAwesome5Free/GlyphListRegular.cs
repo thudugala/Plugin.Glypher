@@ -6,6 +6,7 @@
     public static class GlyphListRegular
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Far_Address_Book = new GlyphInfo { Name = "far-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Address_Card = new GlyphInfo { Name = "far-address-card", Glyph = "\uf2bb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Angry = new GlyphInfo { Name = "far-angry", Glyph = "\uf556", FontFamily = GlyphFont.Current.Regular };
@@ -160,5 +161,6 @@
         public static readonly GlyphInfo Far_Window_Restore = new GlyphInfo { Name = "far-window-restore", Glyph = "\uf2d2", FontFamily = GlyphFont.Current.Regular };
 
 #pragma warning restore 1591
+#pragma warning restore CA1707
     }
 }

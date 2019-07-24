@@ -6,6 +6,7 @@
     public static class GlyphListBrand
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Fab_500Px = new GlyphInfo { Name = "fab-500px", Glyph = "\uf26e", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Accessible_Icon = new GlyphInfo { Name = "fab-accessible-icon", Glyph = "\uf368", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Accusoft = new GlyphInfo { Name = "fab-accusoft", Glyph = "\uf369", FontFamily = GlyphFont.Current.Brand };
@@ -435,5 +436,6 @@
         public static readonly GlyphInfo Fab_Youtube_Square = new GlyphInfo { Name = "fab-youtube-square", Glyph = "\uf431", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Zhihu = new GlyphInfo { Name = "fab-zhihu", Glyph = "\uf63f", FontFamily = GlyphFont.Current.Brand };
 #pragma warning restore 1591
+#pragma warning restore CA1707
     }
 }

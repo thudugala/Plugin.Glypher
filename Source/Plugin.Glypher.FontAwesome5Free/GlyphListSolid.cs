@@ -6,6 +6,7 @@
     public static class GlyphListSolid
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Fas_Ad = new GlyphInfo { Name = "fas-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Address_Book = new GlyphInfo { Name = "fas-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Address_Card = new GlyphInfo { Name = "fas-address-card", Glyph = "\uf2bb", FontFamily = GlyphFont.Current.Solid };
@@ -965,5 +966,6 @@
         public static readonly GlyphInfo Fas_Yin_Yang = new GlyphInfo { Name = "fas-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Solid };
 
 #pragma warning restore 1591
+#pragma warning restore CA1707
     }
 }
