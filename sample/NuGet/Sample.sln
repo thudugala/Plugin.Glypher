@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Android", "Sample.Android\Sample.Android.csproj", "{8BF71070-5F82-4B1A-AA7D-AB87ABB7E24F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Glypher..Sample.Android", "Sample.Android\Plugin.Glypher..Sample.Android.csproj", "{8BF71070-5F82-4B1A-AA7D-AB87ABB7E24F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.iOS", "Sample.iOS\Sample.iOS.csproj", "{704C360B-129D-4187-8776-A50D2209A132}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Glypher..Sample.iOS", "Sample.iOS\Plugin.Glypher..Sample.iOS.csproj", "{704C360B-129D-4187-8776-A50D2209A132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{CEED78F8-F9ED-4E2B-B6A6-86ECC095790E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Glypher..Sample", "Sample\Plugin.Glypher..Sample.csproj", "{CEED78F8-F9ED-4E2B-B6A6-86ECC095790E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

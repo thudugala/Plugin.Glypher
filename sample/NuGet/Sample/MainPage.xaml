@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Sample"
-             xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
-             xmlns:weatherIcons="clr-namespace:Plugin.Glypher.WeatherIcons;assembly=Plugin.Glypher.WeatherIcons"
-             xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
-             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-             ios:Page.UseSafeArea="True"
-             x:Class="Sample.MainPage">
+<ContentPage
+    x:Class="Plugin.Glypher.Sample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fontAwesome5Free="clr-namespace:Plugin.Glypher.FontAwesome5Free;assembly=Plugin.Glypher.FontAwesome5Free"
+    xmlns:glypher="clr-namespace:Plugin.Glypher;assembly=Plugin.Glypher"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:Sample"
+    xmlns:weatherIcons="clr-namespace:Plugin.Glypher.WeatherIcons;assembly=Plugin.Glypher.WeatherIcons"
+    ios:Page.UseSafeArea="True">
 
     <NavigationPage.TitleView>
         <Grid>
@@ -24,22 +25,25 @@
             </Grid.Resources>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Label Grid.Column="0" Style="{StaticResource ToolbarTitle}" Text="Title" />
+            <Label
+                Grid.Column="0"
+                Style="{StaticResource ToolbarTitle}"
+                Text="Title" />
             <StackLayout Grid.Column="1" Orientation="Horizontal">
                 <StackLayout.Resources>
                     <ResourceDictionary>
-                        <Style TargetType="Label" BasedOn="{StaticResource ToolbarTitle}">
+                        <Style BasedOn="{StaticResource ToolbarTitle}" TargetType="Label">
                             <Setter Property="Margin" Value="5,0" />
                             <Setter Property="FontSize" Value="Large" />
                         </Style>
                     </ResourceDictionary>
                 </StackLayout.Resources>
 
-                <Label x:Name="ToolbarItemLabel" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fas_Redo}">
+                <Label x:Name="ToolbarItemLabel" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListSolid.Fas_Redo}">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Redo_Tapped" />
                     </Label.GestureRecognizers>
@@ -49,39 +53,48 @@
     </NavigationPage.TitleView>
 
     <StackLayout>
-        <Label Text="Welcome to Plugin Glypher!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to Plugin Glypher!"
+            VerticalOptions="CenterAndExpand" />
 
-        <Label glypher:FontGlyph.Glyph="{x:Static weatherIcons:GlyphList.Wi_Cloudy}" 
-               TextColor="Purple" 
-               FontSize="48"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+        <Label
+            glypher:FontGlyph.Glyph="{x:Static weatherIcons:GlyphList.Wi_Cloudy}"
+            FontSize="48"
+            HorizontalOptions="Center"
+            TextColor="Purple"
+            VerticalOptions="CenterAndExpand" />
 
-        <Label x:Name="Label1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bluetooth}"
-               FontSize="48"
-               TextColor="CornflowerBlue"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"  />
-        <Label x:Name="Label2" glypher:FontGlyph.Glyph="far-angry"
-                FontSize="48"
-                TextColor="LightSeaGreen"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"  />
+        <Label
+            x:Name="Label1"
+            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bluetooth}"
+            FontSize="48"
+            HorizontalOptions="Center"
+            TextColor="CornflowerBlue"
+            VerticalOptions="CenterAndExpand" />
+        <Label
+            x:Name="Label2"
+            glypher:FontGlyph.Glyph="far-angry"
+            FontSize="48"
+            HorizontalOptions="Center"
+            TextColor="LightSeaGreen"
+            VerticalOptions="CenterAndExpand" />
 
-        <Button x:Name="Button1" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Fab_Bitcoin}"
-               FontSize="48"
-               TextColor="IndianRed"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"  />
+        <Button
+            x:Name="Button1"
+            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bitcoin}"
+            FontSize="48"
+            HorizontalOptions="Center"
+            TextColor="IndianRed"
+            VerticalOptions="CenterAndExpand" />
 
-        <Image HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand">
+        <Image HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Image.Source>
-                <FontImageSource Size="48" Color="Orange" glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphList.Far_Bell_Slash}" />
+                <FontImageSource
+                    glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListRegular.Far_Bell_Slash}"
+                    Size="48"
+                    Color="Orange" />
             </Image.Source>
         </Image>
     </StackLayout>
-
 </ContentPage>
