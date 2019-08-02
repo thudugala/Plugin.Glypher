@@ -70,6 +70,9 @@ namespace GlyphFieldsFontAwesome5Pro
 
         [JsonProperty("light", NullValueHandling = NullValueHandling.Ignore)]
         public Brands Light { get; set; }
+
+        [JsonProperty("duotone", NullValueHandling = NullValueHandling.Ignore)]
+        public Duotone Duotone { get; set; }
     }
 
     public partial class Brands
@@ -94,9 +97,31 @@ namespace GlyphFieldsFontAwesome5Pro
         public string Path { get; set; }
     }
 
-    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The571, The580, The581, The582, The590 };
+    public partial class Duotone
+    {
+        [JsonProperty("last_modified")]
+        public long LastModified { get; set; }
 
-    public enum Free { Brands, Light, Regular, Solid };
+        [JsonProperty("raw")]
+        public string Raw { get; set; }
+
+        [JsonProperty("viewBox")]
+        [JsonConverter(typeof(DecodeArrayConverter))]
+        public long[] ViewBox { get; set; }
+
+        [JsonProperty("width")]
+        public long Width { get; set; }
+
+        [JsonProperty("height")]
+        public long Height { get; set; }
+
+        [JsonProperty("path")]
+        public Path Path { get; set; }
+    }
+
+    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The5100, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The571, The580, The581, The582, The590 };
+
+    public enum Free { Brands, Duotone, Light, Regular, Solid };
 
     public partial struct ChangeElement
     {
@@ -105,6 +130,15 @@ namespace GlyphFieldsFontAwesome5Pro
 
         public static implicit operator ChangeElement(ChangeEnum Enum) => new ChangeElement { Enum = Enum };
         public static implicit operator ChangeElement(long Integer) => new ChangeElement { Integer = Integer };
+    }
+
+    public partial struct Path
+    {
+        public string String;
+        public string[] StringArray;
+
+        public static implicit operator Path(string String) => new Path { String = String };
+        public static implicit operator Path(string[] StringArray) => new Path { StringArray = StringArray };
     }
 
     public partial class IconJson
@@ -128,6 +162,7 @@ namespace GlyphFieldsFontAwesome5Pro
                 ChangeElementConverter.Singleton,
                 ChangeEnumConverter.Singleton,
                 FreeConverter.Singleton,
+                PathConverter.Singleton,
                 new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
             },
         };
@@ -190,6 +225,8 @@ namespace GlyphFieldsFontAwesome5Pro
                             return new ChangeElement { Enum = ChangeEnum.The510 };
                         case "5.1.1":
                             return new ChangeElement { Enum = ChangeEnum.The511 };
+                        case "5.10.0":
+                            return new ChangeElement { Enum = ChangeEnum.The5100 };
                         case "5.2.0":
                             return new ChangeElement { Enum = ChangeEnum.The520 };
                         case "5.3.0":
@@ -304,6 +341,9 @@ namespace GlyphFieldsFontAwesome5Pro
                     case ChangeEnum.The511:
                         serializer.Serialize(writer, "5.1.1");
                         return;
+                    case ChangeEnum.The5100:
+                        serializer.Serialize(writer, "5.10.0");
+                        return;
                     case ChangeEnum.The520:
                         serializer.Serialize(writer, "5.2.0");
                         return;
@@ -416,6 +456,8 @@ namespace GlyphFieldsFontAwesome5Pro
                     return ChangeEnum.The510;
                 case "5.1.1":
                     return ChangeEnum.The511;
+                case "5.10.0":
+                    return ChangeEnum.The5100;
                 case "5.2.0":
                     return ChangeEnum.The520;
                 case "5.3.0":
@@ -526,6 +568,9 @@ namespace GlyphFieldsFontAwesome5Pro
                 case ChangeEnum.The511:
                     serializer.Serialize(writer, "5.1.1");
                     return;
+                case ChangeEnum.The5100:
+                    serializer.Serialize(writer, "5.10.0");
+                    return;
                 case ChangeEnum.The520:
                     serializer.Serialize(writer, "5.2.0");
                     return;
@@ -590,6 +635,8 @@ namespace GlyphFieldsFontAwesome5Pro
             {
                 case "brands":
                     return Free.Brands;
+                case "duotone":
+                    return Free.Duotone;
                 case "light":
                     return Free.Light;
                 case "regular":
@@ -612,6 +659,9 @@ namespace GlyphFieldsFontAwesome5Pro
             {
                 case Free.Brands:
                     serializer.Serialize(writer, "brands");
+                    return;
+                case Free.Duotone:
+                    serializer.Serialize(writer, "duotone");
                     return;
                 case Free.Light:
                     serializer.Serialize(writer, "light");
@@ -692,5 +742,43 @@ namespace GlyphFieldsFontAwesome5Pro
         }
 
         public static readonly ParseStringConverter Singleton = new ParseStringConverter();
+    }
+
+    internal class PathConverter : JsonConverter
+    {
+        public override bool CanConvert(Type t) => t == typeof(Path) || t == typeof(Path?);
+
+        public override object ReadJson(JsonReader reader, Type t, object existingValue, JsonSerializer serializer)
+        {
+            switch (reader.TokenType)
+            {
+                case JsonToken.String:
+                case JsonToken.Date:
+                    var stringValue = serializer.Deserialize<string>(reader);
+                    return new Path { String = stringValue };
+                case JsonToken.StartArray:
+                    var arrayValue = serializer.Deserialize<string[]>(reader);
+                    return new Path { StringArray = arrayValue };
+            }
+            throw new Exception("Cannot unmarshal type Path");
+        }
+
+        public override void WriteJson(JsonWriter writer, object untypedValue, JsonSerializer serializer)
+        {
+            var value = (Path)untypedValue;
+            if (value.String != null)
+            {
+                serializer.Serialize(writer, value.String);
+                return;
+            }
+            if (value.StringArray != null)
+            {
+                serializer.Serialize(writer, value.StringArray);
+                return;
+            }
+            throw new Exception("Cannot marshal type Path");
+        }
+
+        public static readonly PathConverter Singleton = new PathConverter();
     }
 }

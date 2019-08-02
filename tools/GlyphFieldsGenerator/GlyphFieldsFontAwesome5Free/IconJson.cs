@@ -88,7 +88,7 @@ namespace GlyphFieldsFontAwesome5Free
         public string Path { get; set; }
     }
 
-    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The580, The581, The582, The590 };
+    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The5100, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The580, The581, The582, The590 };
 
     public enum Free { Brands, Regular, Solid };
 
@@ -184,6 +184,8 @@ namespace GlyphFieldsFontAwesome5Free
                             return new ChangeElement { Enum = ChangeEnum.The510 };
                         case "5.1.1":
                             return new ChangeElement { Enum = ChangeEnum.The511 };
+                        case "5.10.0":
+                            return new ChangeElement { Enum = ChangeEnum.The5100 };
                         case "5.2.0":
                             return new ChangeElement { Enum = ChangeEnum.The520 };
                         case "5.3.0":
@@ -296,6 +298,9 @@ namespace GlyphFieldsFontAwesome5Free
                     case ChangeEnum.The511:
                         serializer.Serialize(writer, "5.1.1");
                         return;
+                    case ChangeEnum.The5100:
+                        serializer.Serialize(writer, "5.10.0");
+                        return;
                     case ChangeEnum.The520:
                         serializer.Serialize(writer, "5.2.0");
                         return;
@@ -405,6 +410,8 @@ namespace GlyphFieldsFontAwesome5Free
                     return ChangeEnum.The510;
                 case "5.1.1":
                     return ChangeEnum.The511;
+                case "5.10.0":
+                    return ChangeEnum.The5100;
                 case "5.2.0":
                     return ChangeEnum.The520;
                 case "5.3.0":
@@ -512,6 +519,9 @@ namespace GlyphFieldsFontAwesome5Free
                     return;
                 case ChangeEnum.The511:
                     serializer.Serialize(writer, "5.1.1");
+                    return;
+                case ChangeEnum.The5100:
+                    serializer.Serialize(writer, "5.10.0");
                     return;
                 case ChangeEnum.The520:
                     serializer.Serialize(writer, "5.2.0");
