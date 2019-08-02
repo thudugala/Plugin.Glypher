@@ -1,13 +1,12 @@
 ﻿namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.9.0
+    /// Font Awesome Pro 5.10.0
     /// </summary>
     public static class GlyphListLight
     {
 #pragma warning disable 1591
         public static readonly GlyphInfo Fal_Abacus = new GlyphInfo { Name = "fal-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Light };
-
         public static readonly GlyphInfo Fal_Acorn = new GlyphInfo { Name = "fal-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ad = new GlyphInfo { Name = "fal-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Address_Book = new GlyphInfo { Name = "fal-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Light };
@@ -182,6 +181,8 @@
         public static readonly GlyphInfo Fal_Booth_Curtain = new GlyphInfo { Name = "fal-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_All = new GlyphInfo { Name = "fal-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_Bottom = new GlyphInfo { Name = "fal-border-bottom", Glyph = "\uf84d", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Border_Center_H = new GlyphInfo { Name = "fal-border-center-h", Glyph = "\uf89c", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Border_Center_V = new GlyphInfo { Name = "fal-border-center-v", Glyph = "\uf89d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_Inner = new GlyphInfo { Name = "fal-border-inner", Glyph = "\uf84e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_Left = new GlyphInfo { Name = "fal-border-left", Glyph = "\uf84f", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_None = new GlyphInfo { Name = "fal-border-none", Glyph = "\uf850", FontFamily = GlyphFont.Current.Light };

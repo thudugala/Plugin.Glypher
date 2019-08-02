@@ -1,7 +1,7 @@
 ﻿namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.9.0
+    /// Font Awesome Pro 5.10.0
     /// </summary>
     public static class GlyphListBrand
     {
@@ -79,6 +79,7 @@
         public static readonly GlyphInfo Fab_Confluence = new GlyphInfo { Name = "fab-confluence", Glyph = "\uf78d", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Connectdevelop = new GlyphInfo { Name = "fab-connectdevelop", Glyph = "\uf20e", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Contao = new GlyphInfo { Name = "fab-contao", Glyph = "\uf26d", FontFamily = GlyphFont.Current.Brand };
+        public static readonly GlyphInfo Fab_Cotton_Bureau = new GlyphInfo { Name = "fab-cotton-bureau", Glyph = "\uf89e", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Cpanel = new GlyphInfo { Name = "fab-cpanel", Glyph = "\uf388", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Creative_Commons = new GlyphInfo { Name = "fab-creative-commons", Glyph = "\uf25e", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Creative_Commons_By = new GlyphInfo { Name = "fab-creative-commons-by", Glyph = "\uf4e7", FontFamily = GlyphFont.Current.Brand };

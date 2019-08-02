@@ -23,6 +23,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
                     Light = "Font Awesome 5 Pro-Light-300.otf#Font Awesome 5 Pro Light";
                     Regular = "Font Awesome 5 Pro-Regular-400.otf#Font Awesome 5 Pro Regular";
                     Solid = "Font Awesome 5 Pro-Solid-900.otf#Font Awesome 5 Pro Solid";
+                    Duotone = "Font Awesome 5 Duotone-Solid-900.otf#Font Awesome 5 Duotone-Solid";
                     break;
 
                 case Device.iOS:
@@ -30,6 +31,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
                     Light = "FontAwesome5Pro-Light";
                     Regular = "FontAwesome5Pro-Regular";
                     Solid = "FontAwesome5Pro-Solid";
+                    Duotone = "FontAwesome5Duotone-Solid";
                     break;
             };
         }
@@ -40,14 +42,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static GlyphFont Current => _mySingleton.Value;
 
         /// <summary>
-        /// Solid font.
-        /// </summary>
-        public string Solid { get; set; }
-
-        /// <summary>
         /// Brand font.
         /// </summary>
         public string Brand { get; set; }
+
+        /// <summary>
+        /// Duotone font.
+        /// </summary>
+        public string Duotone { get; set; }
 
         /// <summary>
         /// Light font
@@ -58,5 +60,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         /// Regular font.
         /// </summary>
         public string Regular { get; set; }
+
+        /// <summary>
+        /// Solid font.
+        /// </summary>
+        public string Solid { get; set; }
     }
 }

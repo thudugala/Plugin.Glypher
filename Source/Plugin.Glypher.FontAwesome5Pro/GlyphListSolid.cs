@@ -1,13 +1,12 @@
 ﻿namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.9.0
+    /// Font Awesome Pro 5.10.0
     /// </summary>
     public static class GlyphListSolid
     {
 #pragma warning disable 1591
         public static readonly GlyphInfo Fas_Abacus = new GlyphInfo { Name = "fas-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Solid };
-
         public static readonly GlyphInfo Fas_Acorn = new GlyphInfo { Name = "fas-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ad = new GlyphInfo { Name = "fas-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Address_Book = new GlyphInfo { Name = "fas-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Solid };
@@ -182,6 +181,8 @@
         public static readonly GlyphInfo Fas_Booth_Curtain = new GlyphInfo { Name = "fas-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_All = new GlyphInfo { Name = "fas-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_Bottom = new GlyphInfo { Name = "fas-border-bottom", Glyph = "\uf84d", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Border_Center_H = new GlyphInfo { Name = "fas-border-center-h", Glyph = "\uf89c", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Border_Center_V = new GlyphInfo { Name = "fas-border-center-v", Glyph = "\uf89d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_Inner = new GlyphInfo { Name = "fas-border-inner", Glyph = "\uf84e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_Left = new GlyphInfo { Name = "fas-border-left", Glyph = "\uf84f", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_None = new GlyphInfo { Name = "fas-border-none", Glyph = "\uf850", FontFamily = GlyphFont.Current.Solid };
@@ -1654,7 +1655,6 @@
         public static readonly GlyphInfo Fas_X_Ray = new GlyphInfo { Name = "fas-x-ray", Glyph = "\uf497", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yen_Sign = new GlyphInfo { Name = "fas-yen-sign", Glyph = "\uf157", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yin_Yang = new GlyphInfo { Name = "fas-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Solid };
-
 #pragma warning restore 1591
     }
 }

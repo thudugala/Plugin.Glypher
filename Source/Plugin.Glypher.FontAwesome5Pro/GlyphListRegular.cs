@@ -1,13 +1,12 @@
 ﻿namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.9.0
+    /// Font Awesome Pro 5.10.0
     /// </summary>
     public static class GlyphListRegular
     {
 #pragma warning disable 1591
-         public static readonly GlyphInfo Far_Abacus = new GlyphInfo { Name = "far-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Regular };
-
+        public static readonly GlyphInfo Far_Abacus = new GlyphInfo { Name = "far-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Acorn = new GlyphInfo { Name = "far-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ad = new GlyphInfo { Name = "far-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Address_Book = new GlyphInfo { Name = "far-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Regular };
@@ -182,6 +181,8 @@
         public static readonly GlyphInfo Far_Booth_Curtain = new GlyphInfo { Name = "far-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_All = new GlyphInfo { Name = "far-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_Bottom = new GlyphInfo { Name = "far-border-bottom", Glyph = "\uf84d", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Border_Center_H = new GlyphInfo { Name = "far-border-center-h", Glyph = "\uf89c", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Border_Center_V = new GlyphInfo { Name = "far-border-center-v", Glyph = "\uf89d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_Inner = new GlyphInfo { Name = "far-border-inner", Glyph = "\uf84e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_Left = new GlyphInfo { Name = "far-border-left", Glyph = "\uf84f", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_None = new GlyphInfo { Name = "far-border-none", Glyph = "\uf850", FontFamily = GlyphFont.Current.Regular };

@@ -18,15 +18,22 @@ namespace GlyphFieldsFontAwesome5Free
                 iconList.AddRange(icon.Value.Styles.Select(styles => new Icon { IconType = styles, Label = icon.Key, Unicode = icon.Value.Unicode }));
             }
 
-            using (var file = new StreamWriter(@"icons.text"))
+            using (var file = new StreamWriter(@"iconsBrands.text"))
             {
-                FieldGenerator.Current.WriteDisable1591(file);
+                FieldGenerator.Current.WriteLine(file, "Brands",
+                    iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
+            }
 
-                FieldGenerator.Current.WriteLine(file, "Brands", iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
-                FieldGenerator.Current.WriteLine(file, "Regular", iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
-                FieldGenerator.Current.WriteLine(file, "Solid", iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
+            using (var file = new StreamWriter(@"iconsRegular.text"))
+            {
+                FieldGenerator.Current.WriteLine(file, "Regular",
+                    iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
+            }
 
-                FieldGenerator.Current.WriteRestore1591(file);
+            using (var file = new StreamWriter(@"iconsSolid.text"))
+            {
+                FieldGenerator.Current.WriteLine(file, "Solid",
+                    iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
             }
         }
     }
