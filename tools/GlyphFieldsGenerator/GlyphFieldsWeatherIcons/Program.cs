@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
@@ -7,28 +6,26 @@ using GlyphFieldsGenerator;
 
 namespace GlyphFieldsWeatherIcons
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            var reader = new StreamReader(@"weathericons.xml");
-
-            var serializer = new XmlSerializer(typeof(IconXmlResources));
-            var iconXml = (IconXmlResources)serializer.Deserialize(reader);
-           
-            var iconList = new List<Icon>();
-            foreach (var icon in iconXml.IconXmlList)
+            using (var reader = new StreamReader(@"weathericons.xml"))
             {
-                iconList.Add(new Icon { Label = icon.Name, Unicode = icon.Text });
-            }
+                var serializer = new XmlSerializer(typeof(IconXmlResources));
+                var iconXml = (IconXmlResources)serializer.Deserialize(reader);
 
-            using (var file = new StreamWriter(@"icons.text"))
-            {
-                FieldGenerator.Current.WriteDisable1591(file);
+                var iconList = new List<Icon>();
+                foreach (var icon in iconXml.IconXmlList)
+                {
+                    iconList.Add(new Icon { Label = icon.Name, Unicode = icon.Text });
+                }
 
-                FieldGenerator.Current.WriteLine(file, null, iconList.Cast<GlyphField>().ToList());
-
-                FieldGenerator.Current.WriteRestore1591(file);
+                FieldGenerator.Write(@"..\..\..\..\..\..\Source\Plugin.Glypher.WeatherIcons",
+                    null,
+                    "Weather Icons 2.0.10",
+                    "WeatherIcons",
+                    iconList.Cast<GlyphField>().ToList());
             }
         }
     }

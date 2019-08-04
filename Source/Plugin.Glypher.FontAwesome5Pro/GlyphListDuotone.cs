@@ -1,16 +1,13 @@
-﻿namespace Plugin.Glypher.FontAwesome5Pro
+namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
     /// Font Awesome Pro 5.10.0
     /// </summary>
-
-    public class GlyphListDuotone
+    public static class GlyphListDuotone
     {
 #pragma warning disable 1591
-
-        // Duotone
+#pragma warning disable CA1707
         public static readonly GlyphInfo Fad_Abacus = new GlyphInfo { Name = "fad-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Duotone };
-
         public static readonly GlyphInfo Fad_Acorn = new GlyphInfo { Name = "fad-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ad = new GlyphInfo { Name = "fad-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Address_Book = new GlyphInfo { Name = "fad-address-book", Glyph = "\uf2b9", FontFamily = GlyphFont.Current.Duotone };
@@ -1655,6 +1652,8 @@
         public static readonly GlyphInfo Fad_X_Ray = new GlyphInfo { Name = "fad-x-ray", Glyph = "\uf497", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Yen_Sign = new GlyphInfo { Name = "fad-yen-sign", Glyph = "\uf157", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Yin_Yang = new GlyphInfo { Name = "fad-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Duotone };
+
+#pragma warning restore CA1707
 #pragma warning restore 1591
     }
 }

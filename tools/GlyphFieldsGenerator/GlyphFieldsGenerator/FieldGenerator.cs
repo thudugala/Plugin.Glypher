@@ -1,38 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading;
 
 namespace GlyphFieldsGenerator
 {
-    public class FieldGenerator
+    public static class FieldGenerator
     {
-        private static readonly Lazy<FieldGenerator> _mySingleton = new Lazy<FieldGenerator>(() => new FieldGenerator(), LazyThreadSafetyMode.PublicationOnly);
-
-        public static FieldGenerator Current => _mySingleton.Value;
-
-        public void WriteDisable1591(StreamWriter file)
+        public static void Write(string folderPath, string glyphListName, string libName, string libNamespace, List<GlyphField> iconList)
         {
-            file.WriteLine($"#pragma warning disable 1591");
+            using (var file = new StreamWriter($"{folderPath}\\GlyphList{glyphListName}.cs"))
+            {
+                WriteHeader(file, glyphListName, libName, libNamespace);
+                WriteLine(file, iconList);
+                WriteFooter(file);
+            }
         }
 
-        public void WriteRestore1591(StreamWriter file)
+        private static void WriteFooter(StreamWriter file)
         {
+            file.WriteLine($"#pragma warning restore CA1707");
             file.WriteLine($"#pragma warning restore 1591");
+            file.WriteLine($"    }}");
+            file.WriteLine($"}}");
         }
 
-        public void WriteLine(StreamWriter file, string listName, List<GlyphField> list)
+        private static void WriteHeader(StreamWriter file, string glyphListName, string libName, string libNamespace)
+        {
+            file.WriteLine($"namespace Plugin.Glypher.{libNamespace}");
+            file.WriteLine($"{{");
+            file.WriteLine($"    /// <summary>");
+            file.WriteLine($"    /// {libName}");
+            file.WriteLine($"    /// </summary>");
+            file.WriteLine($"    public static class GlyphList{glyphListName}");
+            file.WriteLine($"    {{");
+            file.WriteLine($"#pragma warning disable 1591");
+            file.WriteLine($"#pragma warning disable CA1707");
+        }
+
+        private static void WriteLine(StreamWriter file, List<GlyphField> list)
         {
             if (list is null || list.Any() == false)
             {
                 return;
-            }
-            
-            if (string.IsNullOrWhiteSpace(listName) == false)
-            {
-                file.WriteLine($"// {listName}");
             }
 
             foreach (var item in list)

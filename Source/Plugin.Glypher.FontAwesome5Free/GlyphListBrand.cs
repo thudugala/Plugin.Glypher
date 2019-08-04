@@ -1,7 +1,7 @@
-﻿namespace Plugin.Glypher.FontAwesome5Free
+namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.0
+    /// Font Awesome Free 5.10.0
     /// </summary>
     public static class GlyphListBrand
     {
@@ -436,7 +436,8 @@
         public static readonly GlyphInfo Fab_Youtube = new GlyphInfo { Name = "fab-youtube", Glyph = "\uf167", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Youtube_Square = new GlyphInfo { Name = "fab-youtube-square", Glyph = "\uf431", FontFamily = GlyphFont.Current.Brand };
         public static readonly GlyphInfo Fab_Zhihu = new GlyphInfo { Name = "fab-zhihu", Glyph = "\uf63f", FontFamily = GlyphFont.Current.Brand };
-#pragma warning restore 1591
+
 #pragma warning restore CA1707
+#pragma warning restore 1591
     }
 }

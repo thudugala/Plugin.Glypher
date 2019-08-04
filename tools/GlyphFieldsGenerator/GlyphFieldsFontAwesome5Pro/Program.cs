@@ -9,44 +9,54 @@ namespace GlyphFieldsFontAwesome5Pro
     {
         private static void Main(string[] args)
         {
-            var reader = new StreamReader(@"icons.json");
-
-            var iconJson = IconJson.FromJson(reader.ReadToEnd());
-            var iconList = new List<Icon>();
-            foreach (var icon in iconJson)
+            using (var reader = new StreamReader(@"icons.json"))
             {
-                iconList.AddRange(icon.Value.Styles.Select(styles =>
-                    new Icon { IconType = styles, Label = icon.Key, Unicode = icon.Value.Unicode }));
-            }
+                var iconJson = IconJson.FromJson(reader.ReadToEnd());
+                var iconList = new List<Icon>();
+                foreach (var icon in iconJson)
+                {
+                    iconList.AddRange(icon.Value.Styles.Select(styles =>
+                        new Icon { IconType = styles, Label = icon.Key, Unicode = icon.Value.Unicode }));
+                }
 
-            using (var file = new StreamWriter(@"iconsBrands.text"))
-            {
-                FieldGenerator.Current.WriteLine(file, "Brands",
+                const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Pro";
+                const string libName = @"Font Awesome Pro 5.10.0";
+                const string libNamespace = @"FontAwesome5Pro";
+
+                FieldGenerator.Write(
+                    folderPath,
+                    "Brand",
+                    libName,
+                    libNamespace,
                     iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
-            }
 
-            using (var file = new StreamWriter(@"iconsLight.text"))
-            {
-                FieldGenerator.Current.WriteLine(file, "Light",
-                    iconList.Where(i => i.IconType == Free.Light).Cast<GlyphField>().ToList());
-            }
-
-            using (var file = new StreamWriter(@"iconsRegular.text"))
-            {
-                FieldGenerator.Current.WriteLine(file, "Regular",
-                    iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
-            }
-
-            using (var file = new StreamWriter(@"iconsSolid.text"))
-            {
-                FieldGenerator.Current.WriteLine(file, "Solid",
-                    iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
-            }
-
-            using (var file = new StreamWriter(@"iconsDuotone.text"))
-            {
-                FieldGenerator.Current.WriteLine(file, "Duotone",
+                FieldGenerator.Write(
+                    folderPath,
+                    "Duotone",
+                    libName,
+                    libNamespace,
                     iconList.Where(i => i.IconType == Free.Duotone).Cast<GlyphField>().ToList());
+
+                FieldGenerator.Write(
+                    folderPath,
+                    "Light",
+                    libName,
+                    libNamespace,
+                    iconList.Where(i => i.IconType == Free.Light).Cast<GlyphField>().ToList());
+
+                FieldGenerator.Write(
+                    folderPath,
+                    "Regular",
+                    libName,
+                    libNamespace,
+                    iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
+
+                FieldGenerator.Write(
+                    folderPath,
+                    "Solid",
+                    libName,
+                    libNamespace,
+                    iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
             }
         }
     }

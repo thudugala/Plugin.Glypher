@@ -1,4 +1,4 @@
-﻿namespace Plugin.Glypher.FontAwesome5Pro
+namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
     /// Font Awesome Pro 5.10.0
@@ -6,6 +6,7 @@
     public static class GlyphListRegular
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Far_Abacus = new GlyphInfo { Name = "far-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Acorn = new GlyphInfo { Name = "far-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ad = new GlyphInfo { Name = "far-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Regular };
@@ -1655,6 +1656,8 @@
         public static readonly GlyphInfo Far_X_Ray = new GlyphInfo { Name = "far-x-ray", Glyph = "\uf497", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Yen_Sign = new GlyphInfo { Name = "far-yen-sign", Glyph = "\uf157", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Yin_Yang = new GlyphInfo { Name = "far-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Regular };
+
+#pragma warning restore CA1707
 #pragma warning restore 1591
     }
 }

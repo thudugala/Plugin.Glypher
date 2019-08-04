@@ -1,7 +1,7 @@
-﻿namespace Plugin.Glypher.FontAwesome5Free
+namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.0
+    /// Font Awesome Free 5.10.0
     /// </summary>
     public static class GlyphListSolid
     {
@@ -964,7 +964,8 @@
         public static readonly GlyphInfo Fas_X_Ray = new GlyphInfo { Name = "fas-x-ray", Glyph = "\uf497", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yen_Sign = new GlyphInfo { Name = "fas-yen-sign", Glyph = "\uf157", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yin_Yang = new GlyphInfo { Name = "fas-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Solid };
-#pragma warning restore 1591
+
 #pragma warning restore CA1707
+#pragma warning restore 1591
     }
 }

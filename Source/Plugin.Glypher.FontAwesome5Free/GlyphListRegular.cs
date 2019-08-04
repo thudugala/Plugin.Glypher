@@ -1,7 +1,7 @@
-﻿namespace Plugin.Glypher.FontAwesome5Free
+namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.0
+    /// Font Awesome Free 5.10.0
     /// </summary>
     public static class GlyphListRegular
     {
@@ -159,7 +159,8 @@
         public static readonly GlyphInfo Far_Window_Maximize = new GlyphInfo { Name = "far-window-maximize", Glyph = "\uf2d0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Window_Minimize = new GlyphInfo { Name = "far-window-minimize", Glyph = "\uf2d1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Window_Restore = new GlyphInfo { Name = "far-window-restore", Glyph = "\uf2d2", FontFamily = GlyphFont.Current.Regular };
-#pragma warning restore 1591
+
 #pragma warning restore CA1707
+#pragma warning restore 1591
     }
 }

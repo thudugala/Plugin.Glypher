@@ -1,4 +1,4 @@
-﻿namespace Plugin.Glypher.FontAwesome5Pro
+namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
     /// Font Awesome Pro 5.10.0
@@ -6,6 +6,7 @@
     public static class GlyphListSolid
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Fas_Abacus = new GlyphInfo { Name = "fas-abacus", Glyph = "\uf640", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Acorn = new GlyphInfo { Name = "fas-acorn", Glyph = "\uf6ae", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ad = new GlyphInfo { Name = "fas-ad", Glyph = "\uf641", FontFamily = GlyphFont.Current.Solid };
@@ -1655,6 +1656,8 @@
         public static readonly GlyphInfo Fas_X_Ray = new GlyphInfo { Name = "fas-x-ray", Glyph = "\uf497", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yen_Sign = new GlyphInfo { Name = "fas-yen-sign", Glyph = "\uf157", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Yin_Yang = new GlyphInfo { Name = "fas-yin-yang", Glyph = "\uf6ad", FontFamily = GlyphFont.Current.Solid };
+
+#pragma warning restore CA1707
 #pragma warning restore 1591
     }
 }

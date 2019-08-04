@@ -1,4 +1,4 @@
-﻿namespace Plugin.Glypher.WeatherIcons
+namespace Plugin.Glypher.WeatherIcons
 {
     /// <summary>
     /// Weather Icons 2.0.10
@@ -6,6 +6,7 @@
     public static class GlyphList
     {
 #pragma warning disable 1591
+#pragma warning disable CA1707
         public static readonly GlyphInfo Wi_Day_Sunny = new GlyphInfo { Name = "wi-day-sunny", Glyph = "\uf00d", FontFamily = GlyphFont.Current.WI };
         public static readonly GlyphInfo Wi_Day_Cloudy = new GlyphInfo { Name = "wi-day-cloudy", Glyph = "\uf002", FontFamily = GlyphFont.Current.WI };
         public static readonly GlyphInfo Wi_Day_Cloudy_Gusts = new GlyphInfo { Name = "wi-day-cloudy-gusts", Glyph = "\uf000", FontFamily = GlyphFont.Current.WI };
@@ -603,6 +604,7 @@
         public static readonly GlyphInfo Wi_Wu_Tstorms = new GlyphInfo { Name = "wi-wu-tstorms", Glyph = "\uf01e", FontFamily = GlyphFont.Current.WI };
         public static readonly GlyphInfo Wi_Wu_Unknown = new GlyphInfo { Name = "wi-wu-unknown", Glyph = "\uf00d", FontFamily = GlyphFont.Current.WI };
 
+#pragma warning restore CA1707
 #pragma warning restore 1591
     }
 }

@@ -8,10 +8,8 @@ namespace GlyphFieldsGenerator
 
         public virtual string Unicode { get; set; }
 
-        protected virtual string Prefix { get; }
-
         protected virtual string FontFamily { get; }
-        
+
         protected virtual string Glyph => $"\"\\u{Unicode}\"";
 
         protected virtual string GlyphName => string.IsNullOrWhiteSpace(Prefix) ? $"\"{Label}\"" : $"\"{Prefix}-{Label}\"";
@@ -31,9 +29,11 @@ namespace GlyphFieldsGenerator
             }
         }
 
+        protected virtual string Prefix { get; }
+
         public override string ToString()
         {
-            return $"public static readonly GlyphInfo {GlyphPropertyName} = new GlyphInfo {{ Name = {GlyphName}, Glyph = {Glyph}, FontFamily = {FontFamily}}};";
+            return $"        public static readonly GlyphInfo {GlyphPropertyName} = new GlyphInfo {{ Name = {GlyphName}, Glyph = {Glyph}, FontFamily = {FontFamily} }};";
         }
     }
 }
