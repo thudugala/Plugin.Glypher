@@ -20,18 +20,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
             {
                 case Device.Android:
                     Brand = "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
+                    Duotone = "Font Awesome 5 Duotone-Solid-900.otf#Font Awesome 5 Duotone-Solid";
                     Light = "Font Awesome 5 Pro-Light-300.otf#Font Awesome 5 Pro Light";
                     Regular = "Font Awesome 5 Pro-Regular-400.otf#Font Awesome 5 Pro Regular";
                     Solid = "Font Awesome 5 Pro-Solid-900.otf#Font Awesome 5 Pro Solid";
-                    Duotone = "Font Awesome 5 Duotone-Solid-900.otf#Font Awesome 5 Duotone-Solid";
                     break;
 
                 case Device.iOS:
                     Brand = "FontAwesome5Brands-Regular";
+                    Duotone = "FontAwesome5Duotone-Solid";
                     Light = "FontAwesome5Pro-Light";
                     Regular = "FontAwesome5Pro-Regular";
                     Solid = "FontAwesome5Pro-Solid";
-                    Duotone = "FontAwesome5Duotone-Solid";
                     break;
             };
         }

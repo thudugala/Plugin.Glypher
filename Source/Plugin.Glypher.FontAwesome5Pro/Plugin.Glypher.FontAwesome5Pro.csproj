@@ -20,16 +20,12 @@
     <Description>This plugin extend support for font glyphs (font icons) using FontAwesomePro in Xamarin.Forms applications.</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/fontAwesomeIcon.png</PackageIconUrl>
     <Copyright>Copyright © Elvin (Tharindu) Thudugala</Copyright>
-    <Version>5.9.0.1</Version>
+    <Version>5.10.0</Version>
     <PackageReleaseNotes>Check: https://github.com/thudugala/Plugin.Glypher/releases </PackageReleaseNotes>
     <owners>ththlk</owners>
 
-    <!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <!-- Optional: Embed source files that are not tracked by the source control manager in the PDB -->
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-
-    <!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
