@@ -182,6 +182,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Booth_Curtain = new GlyphInfo { Name = "fad-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_All = new GlyphInfo { Name = "fad-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_Bottom = new GlyphInfo { Name = "fad-border-bottom", Glyph = "\uf84d", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Border_Center_H = new GlyphInfo { Name = "fad-border-center-h", Glyph = "\uf89c", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Border_Center_V = new GlyphInfo { Name = "fad-border-center-v", Glyph = "\uf89d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_Inner = new GlyphInfo { Name = "fad-border-inner", Glyph = "\uf84e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_Left = new GlyphInfo { Name = "fad-border-left", Glyph = "\uf84f", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_None = new GlyphInfo { Name = "fad-border-none", Glyph = "\uf850", FontFamily = GlyphFont.Current.Duotone };
@@ -1078,11 +1080,13 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Person_Dolly_Empty = new GlyphInfo { Name = "fad-person-dolly-empty", Glyph = "\uf4d1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Person_Sign = new GlyphInfo { Name = "fad-person-sign", Glyph = "\uf757", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone = new GlyphInfo { Name = "fad-phone", Glyph = "\uf095", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Phone_Alt = new GlyphInfo { Name = "fad-phone-alt", Glyph = "\uf879", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Laptop = new GlyphInfo { Name = "fad-phone-laptop", Glyph = "\uf87a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Office = new GlyphInfo { Name = "fad-phone-office", Glyph = "\uf67d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Plus = new GlyphInfo { Name = "fad-phone-plus", Glyph = "\uf4d2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Slash = new GlyphInfo { Name = "fad-phone-slash", Glyph = "\uf3dd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Square = new GlyphInfo { Name = "fad-phone-square", Glyph = "\uf098", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Phone_Square_Alt = new GlyphInfo { Name = "fad-phone-square-alt", Glyph = "\uf87b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Volume = new GlyphInfo { Name = "fad-phone-volume", Glyph = "\uf2a0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Photo_Video = new GlyphInfo { Name = "fad-photo-video", Glyph = "\uf87c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pi = new GlyphInfo { Name = "fad-pi", Glyph = "\uf67e", FontFamily = GlyphFont.Current.Duotone };

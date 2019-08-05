@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace GlyphFieldsFontAwesome5Free
 {
@@ -11,7 +12,7 @@ namespace GlyphFieldsFontAwesome5Free
         {
             using (var reader = new StreamReader(@"icons.json"))
             {
-                var iconJson = IconJson.FromJson(reader.ReadToEnd());
+                var iconJson = JsonConvert.DeserializeObject<Dictionary<string, IconJson>>(reader.ReadToEnd(), Converter.Settings);
                 var iconList = new List<Icon>();
                 foreach (var icon in iconJson)
                 {
