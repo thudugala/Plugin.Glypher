@@ -12,49 +12,72 @@ namespace GlyphFieldsFontAwesome5Pro
         {
             using (var reader = new StreamReader(@"icons.json"))
             {
-                var iconJson = JsonConvert.DeserializeObject<Dictionary<string, IconJson>>(reader.ReadToEnd(), Converter.Settings);
+                var iconJsonDictionary = JsonConvert.DeserializeObject<Dictionary<string, IconJson>>(reader.ReadToEnd(), Converter.Settings);
                 var iconList = new List<Icon>();
-                foreach (var icon in iconJson)
+                foreach (var (name, iconJson) in iconJsonDictionary)
                 {
-                    iconList.AddRange(icon.Value.Styles.Select(styles =>
-                        new Icon { IconType = styles, Label = icon.Key, Unicode = icon.Value.Unicode }));
+                    iconList.AddRange(iconJson.Styles.Select(styles =>
+                        new Icon
+                        {
+                            IconType = styles,
+                            Label = name,
+                            Unicode = iconJson.Unicode
+                        }));
                 }
 
+                var iconDuotoneList = iconList.Where(i => i.IconType == Free.Duotone);
+                var iconDuotoneSecondaryList = new List<Icon>();
+                foreach (var iconDuotone in iconDuotoneList)
+                {
+                    var originalLabel = iconDuotone.Label;
+                    iconDuotone.Label = $"{originalLabel}-primary";
+
+                    iconDuotoneSecondaryList.Add(
+                        new Icon
+                        {
+                            IconType = iconDuotone.IconType,
+                            Label = $"{originalLabel}-secondary",
+                            Unicode = $"10{iconDuotone.Unicode}"
+                        });
+                }
+
+                iconList.AddRange(iconDuotoneSecondaryList);
+
                 const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Pro";
-                const string libName = @"Font Awesome Pro 5.10.0";
+                const string libName = @"Font Awesome Pro 5.10.1";
                 const string libNamespace = @"FontAwesome5Pro";
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Brand",
+                    nameof(Free.Brands),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Duotone",
+                    nameof(Free.Duotone),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Duotone).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Light",
+                    nameof(Free.Light),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Light).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Regular",
+                    nameof(Free.Regular),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Solid",
+                    nameof(Free.Solid),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());

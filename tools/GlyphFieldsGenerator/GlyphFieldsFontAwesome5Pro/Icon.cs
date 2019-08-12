@@ -13,19 +13,19 @@ namespace GlyphFieldsFontAwesome5Pro
                 switch (IconType)
                 {
                     case Free.Brands:
-                        return "GlyphFont.Current.Brand";
+                        return $"GlyphFont.Current.{nameof(Free.Brands)}";
 
                     case Free.Light:
-                        return "GlyphFont.Current.Light";
+                        return $"GlyphFont.Current.{nameof(Free.Light)}";
 
                     case Free.Regular:
-                        return "GlyphFont.Current.Regular";
+                        return $"GlyphFont.Current.{nameof(Free.Regular)}";
 
                     case Free.Solid:
-                        return "GlyphFont.Current.Solid";
+                        return $"GlyphFont.Current.{nameof(Free.Solid)}";
 
                     case Free.Duotone:
-                        return "GlyphFont.Current.Duotone";
+                        return $"GlyphFont.Current.{nameof(Free.Duotone)}";
 
                     default:
                         return null;

@@ -12,11 +12,11 @@ namespace Plugin.Glypher.Sample
             //If you want to change Font Name
             //ChangeFontName();
 
-            //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListBrand));
+            //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListBrands));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListLight));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListRegular));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListSolid));
-            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListBrand));
+            GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListBrands));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListRegular));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Free.GlyphListSolid));
             GlyphRegister.Current.Init(typeof(Plugin.Glypher.WeatherIcons.GlyphList));
@@ -50,7 +50,7 @@ namespace Plugin.Glypher.Sample
             switch (Device.RuntimePlatform)
             {
                 case Device.Android:
-                    glyphFont.Brand = "fontAwesomeBrands.ttf#Font Awesome 5 Brands Regular";
+                    glyphFont.Brands = "fontAwesomeBrands.ttf#Font Awesome 5 Brands Regular";
                     glyphFont.Regular = "fontAwesomeRegular.ttf#Font Awesome 5 Free Regular";
                     glyphFont.Solid = "fontAwesomeSolid.ttf#Font Awesome 5 Free Solid";
                     break;

@@ -67,7 +67,7 @@
 
         <Label
             x:Name="Label1"
-            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bluetooth}"
+            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrands.Fab_Bluetooth}"
             FontSize="48"
             HorizontalOptions="Center"
             TextColor="CornflowerBlue"
@@ -82,7 +82,7 @@
 
         <Button
             x:Name="Button1"
-            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrand.Fab_Bitcoin}"
+            glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrands.Fab_Bitcoin}"
             FontSize="48"
             HorizontalOptions="Center"
             TextColor="IndianRed"

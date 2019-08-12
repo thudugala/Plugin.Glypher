@@ -21,26 +21,26 @@ namespace GlyphFieldsFontAwesome5Free
                 }
 
                 const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Free";
-                const string libName = @"Font Awesome Free 5.10.0";
+                const string libName = @"Font Awesome Free 5.10.1";
                 const string libNamespace = @"FontAwesome5Free";
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Brand",
+                    nameof(Free.Brands),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Regular",
+                    nameof(Free.Regular),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
                     folderPath,
-                    "Solid",
+                    nameof(Free.Solid),
                     libName,
                     libNamespace,
                     iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());

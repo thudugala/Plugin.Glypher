@@ -19,13 +19,13 @@ namespace Plugin.Glypher.FontAwesome5Free
             switch (Device.RuntimePlatform)
             {
                 case Device.Android:
-                    Brand = "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
+                    Brands = "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
                     Regular = "Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular";
                     Solid = "Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid";
                     break;
 
                 case Device.iOS:
-                    Brand = "FontAwesome5Brands-Regular";
+                    Brands = "FontAwesome5Brands-Regular";
                     Regular = "FontAwesome5Free-Regular";
                     Solid = "FontAwesome5Free-Solid";
                     break;
@@ -40,7 +40,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         /// <summary>
         /// Brand font.
         /// </summary>
-        public string Brand { get; set; }
+        public string Brands { get; set; }
 
         /// <summary>
         /// Regular font.

@@ -1,9 +1,9 @@
 namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.0
+    /// Font Awesome Pro 5.10.1
     /// </summary>
-    public static class GlyphListBrand
+    public static class GlyphListBrands
     {
 #pragma warning disable 1591
 #pragma warning disable CA1707

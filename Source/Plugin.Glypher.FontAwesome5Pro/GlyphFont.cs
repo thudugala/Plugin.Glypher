@@ -19,7 +19,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
             switch (Device.RuntimePlatform)
             {
                 case Device.Android:
-                    Brand = "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
+                    Brands = "Font Awesome 5 Brands-Regular-400.otf#Font Awesome 5 Brands Regular";
                     Duotone = "Font Awesome 5 Duotone-Solid-900.otf#Font Awesome 5 Duotone-Solid";
                     Light = "Font Awesome 5 Pro-Light-300.otf#Font Awesome 5 Pro Light";
                     Regular = "Font Awesome 5 Pro-Regular-400.otf#Font Awesome 5 Pro Regular";
@@ -27,7 +27,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
                     break;
 
                 case Device.iOS:
-                    Brand = "FontAwesome5Brands-Regular";
+                    Brands = "FontAwesome5Brands-Regular";
                     Duotone = "FontAwesome5Duotone-Solid";
                     Light = "FontAwesome5Pro-Light";
                     Regular = "FontAwesome5Pro-Regular";
@@ -44,7 +44,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         /// <summary>
         /// Brand font.
         /// </summary>
-        public string Brand { get; set; }
+        public string Brands { get; set; }
 
         /// <summary>
         /// Duotone font.

@@ -20,7 +20,7 @@
     <Description>This plugin extend support for font glyphs (font icons) using FontAwesomePro in Xamarin.Forms applications.</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/thudugala/Plugin.Glypher/master/screenshots/fontAwesomeIcon.png</PackageIconUrl>
     <Copyright>Copyright © Elvin (Tharindu) Thudugala</Copyright>
-    <Version>5.10.1</Version>
+    <Version>5.10.1.1</Version>
     <PackageReleaseNotes>Check: https://github.com/thudugala/Plugin.Glypher/releases </PackageReleaseNotes>
     <owners>ththlk</owners>
 
