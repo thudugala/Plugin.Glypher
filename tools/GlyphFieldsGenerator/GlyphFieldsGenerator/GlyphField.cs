@@ -8,6 +8,8 @@ namespace GlyphFieldsGenerator
 
         public virtual string Unicode { get; set; }
 
+        public int? UnicodeNumber { get; set; }
+
         protected virtual string FontFamily { get; }
 
         protected virtual string Glyph => $"\"\\u{Unicode}\"";
@@ -33,7 +35,9 @@ namespace GlyphFieldsGenerator
 
         public override string ToString()
         {
-            return $"        public static readonly GlyphInfo {GlyphPropertyName} = new GlyphInfo {{ Name = {GlyphName}, Glyph = {Glyph}, FontFamily = {FontFamily} }};";
+            return UnicodeNumber.HasValue
+                ? $"        public static readonly GlyphInfo {GlyphPropertyName} = new GlyphInfo {{ Name = {GlyphName}, UnicodeNumber = {UnicodeNumber}, FontFamily = {FontFamily} }};"
+                : $"        public static readonly GlyphInfo {GlyphPropertyName} = new GlyphInfo {{ Name = {GlyphName}, Glyph = {Glyph}, FontFamily = {FontFamily} }};";
         }
     }
 }

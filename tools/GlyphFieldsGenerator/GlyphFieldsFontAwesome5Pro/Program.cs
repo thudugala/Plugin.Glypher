@@ -32,13 +32,13 @@ namespace GlyphFieldsFontAwesome5Pro
                     var originalLabel = iconDuotone.Label;
                     iconDuotone.Label = $"{originalLabel}-primary";
 
-                    iconDuotoneSecondaryList.Add(
-                        new Icon
-                        {
-                            IconType = iconDuotone.IconType,
-                            Label = $"{originalLabel}-secondary",
-                            Unicode = $"10{iconDuotone.Unicode}"
-                        });
+                    iconDuotoneSecondaryList.Add(new Icon
+                    {
+                        IconType = iconDuotone.IconType,
+                        Label = $"{originalLabel}-secondary",
+                        UnicodeNumber = int.Parse($"0010{iconDuotone.Unicode}",
+                            System.Globalization.NumberStyles.HexNumber),
+                    });
                 }
 
                 iconList.AddRange(iconDuotoneSecondaryList);
