@@ -13,6 +13,7 @@ namespace Plugin.Glypher.Sample
             //ChangeFontName();
 
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListBrands));
+            //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListDuotone));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListLight));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListRegular));
             //GlyphRegister.Current.Init(typeof(Plugin.Glypher.FontAwesome5Pro.GlyphListSolid));

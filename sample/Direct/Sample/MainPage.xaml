@@ -65,6 +65,19 @@
             TextColor="Purple"
             VerticalOptions="CenterAndExpand" />
 
+        <!--<Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label
+                glypher:FontGlyph.Glyph="{x:Static fontAwesome5Pro:GlyphListDuotone.Fad_Crow_Primary}"
+                FontSize="48"
+                HorizontalTextAlignment="Center"
+                TextColor="CornflowerBlue" />
+            <Label
+                glypher:FontGlyph.Glyph="{x:Static fontAwesome5Pro:GlyphListDuotone.Fad_Crow_Secondary}"
+                FontSize="48"
+                HorizontalTextAlignment="Center"
+                TextColor="Goldenrod" />
+        </Grid>-->
+
         <Label
             x:Name="Label1"
             glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListBrands.Fab_Bluetooth}"
@@ -91,7 +104,7 @@
         <Image HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Image.Source>
                 <FontImageSource
-                    glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListRegular.Far_Bell_Slash}"
+                    glypher:FontGlyph.Glyph="{x:Static fontAwesome5Free:GlyphListRegular.Far_Address_Book}"
                     Size="48"
                     Color="Orange" />
             </Image.Source>
