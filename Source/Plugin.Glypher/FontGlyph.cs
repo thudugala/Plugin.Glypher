@@ -55,6 +55,11 @@ namespace Plugin.Glypher
                     label.Text = newGlyphInfo?.Glyph;
                     break;
 
+                case Span span:
+                    span.FontFamily = newGlyphInfo?.FontFamily;
+                    span.Text = newGlyphInfo?.Glyph;
+                    break;
+
                 case Button button:
                     button.FontFamily = newGlyphInfo?.FontFamily;
                     button.Text = newGlyphInfo?.Glyph;
