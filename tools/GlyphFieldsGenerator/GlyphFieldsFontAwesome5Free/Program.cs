@@ -21,7 +21,7 @@ namespace GlyphFieldsFontAwesome5Free
                 }
 
                 const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Free";
-                const string libName = @"Font Awesome Free 5.10.1";
+                const string libName = @"Font Awesome Free 5.10.2";
                 const string libNamespace = @"FontAwesome5Free";
 
                 FieldGenerator.Write(

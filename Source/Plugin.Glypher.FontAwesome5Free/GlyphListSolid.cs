@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Free 5.10.0
+    /// Font Awesome Free 5.10.2
     /// </summary>
     public static class GlyphListSolid
     {

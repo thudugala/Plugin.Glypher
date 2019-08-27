@@ -44,7 +44,7 @@ namespace GlyphFieldsFontAwesome5Pro
                 iconList.AddRange(iconDuotoneSecondaryList);
 
                 const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Pro";
-                const string libName = @"Font Awesome Pro 5.10.1";
+                const string libName = @"Font Awesome Pro 5.10.2";
                 const string libNamespace = @"FontAwesome5Pro";
 
                 FieldGenerator.Write(
