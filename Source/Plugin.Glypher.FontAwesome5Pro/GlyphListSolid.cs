@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.2
+    /// Font Awesome Pro 5.11.2
     /// </summary>
     public static class GlyphListSolid
     {
@@ -18,6 +18,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Alarm_Exclamation = new GlyphInfo { Name = "fas-alarm-exclamation", Glyph = "\uf843", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Alarm_Plus = new GlyphInfo { Name = "fas-alarm-plus", Glyph = "\uf844", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Alarm_Snooze = new GlyphInfo { Name = "fas-alarm-snooze", Glyph = "\uf845", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Album = new GlyphInfo { Name = "fas-album", Glyph = "\uf89f", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Album_Collection = new GlyphInfo { Name = "fas-album-collection", Glyph = "\uf8a0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Alicorn = new GlyphInfo { Name = "fas-alicorn", Glyph = "\uf6b0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Align_Center = new GlyphInfo { Name = "fas-align-center", Glyph = "\uf037", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Align_Justify = new GlyphInfo { Name = "fas-align-justify", Glyph = "\uf039", FontFamily = GlyphFont.Current.Solid };
@@ -27,6 +29,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Allergies = new GlyphInfo { Name = "fas-allergies", Glyph = "\uf461", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ambulance = new GlyphInfo { Name = "fas-ambulance", Glyph = "\uf0f9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_American_Sign_Language_Interpreting = new GlyphInfo { Name = "fas-american-sign-language-interpreting", Glyph = "\uf2a3", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Amp_Guitar = new GlyphInfo { Name = "fas-amp-guitar", Glyph = "\uf8a1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Analytics = new GlyphInfo { Name = "fas-analytics", Glyph = "\uf643", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Anchor = new GlyphInfo { Name = "fas-anchor", Glyph = "\uf13d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Angel = new GlyphInfo { Name = "fas-angel", Glyph = "\uf779", FontFamily = GlyphFont.Current.Solid };
@@ -110,6 +113,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Badge_Check = new GlyphInfo { Name = "fas-badge-check", Glyph = "\uf336", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Badge_Dollar = new GlyphInfo { Name = "fas-badge-dollar", Glyph = "\uf645", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Badge_Percent = new GlyphInfo { Name = "fas-badge-percent", Glyph = "\uf646", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Badge_Sheriff = new GlyphInfo { Name = "fas-badge-sheriff", Glyph = "\uf8a2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Badger_Honey = new GlyphInfo { Name = "fas-badger-honey", Glyph = "\uf6b4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bags_Shopping = new GlyphInfo { Name = "fas-bags-shopping", Glyph = "\uf847", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Balance_Scale = new GlyphInfo { Name = "fas-balance-scale", Glyph = "\uf24e", FontFamily = GlyphFont.Current.Solid };
@@ -120,6 +124,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Ballot_Check = new GlyphInfo { Name = "fas-ballot-check", Glyph = "\uf733", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ban = new GlyphInfo { Name = "fas-ban", Glyph = "\uf05e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Band_Aid = new GlyphInfo { Name = "fas-band-aid", Glyph = "\uf462", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Banjo = new GlyphInfo { Name = "fas-banjo", Glyph = "\uf8a3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Barcode = new GlyphInfo { Name = "fas-barcode", Glyph = "\uf02a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Barcode_Alt = new GlyphInfo { Name = "fas-barcode-alt", Glyph = "\uf463", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Barcode_Read = new GlyphInfo { Name = "fas-barcode-read", Glyph = "\uf464", FontFamily = GlyphFont.Current.Solid };
@@ -147,6 +152,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Bell_School_Slash = new GlyphInfo { Name = "fas-bell-school-slash", Glyph = "\uf5d6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bell_Slash = new GlyphInfo { Name = "fas-bell-slash", Glyph = "\uf1f6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bells = new GlyphInfo { Name = "fas-bells", Glyph = "\uf77f", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Betamax = new GlyphInfo { Name = "fas-betamax", Glyph = "\uf8a4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bezier_Curve = new GlyphInfo { Name = "fas-bezier-curve", Glyph = "\uf55b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bible = new GlyphInfo { Name = "fas-bible", Glyph = "\uf647", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Bicycle = new GlyphInfo { Name = "fas-bicycle", Glyph = "\uf206", FontFamily = GlyphFont.Current.Solid };
@@ -178,6 +184,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Bookmark = new GlyphInfo { Name = "fas-bookmark", Glyph = "\uf02e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Books = new GlyphInfo { Name = "fas-books", Glyph = "\uf5db", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Books_Medical = new GlyphInfo { Name = "fas-books-medical", Glyph = "\uf7e8", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Boombox = new GlyphInfo { Name = "fas-boombox", Glyph = "\uf8a5", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Boot = new GlyphInfo { Name = "fas-boot", Glyph = "\uf782", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Booth_Curtain = new GlyphInfo { Name = "fas-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Border_All = new GlyphInfo { Name = "fas-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Solid };
@@ -236,6 +243,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Bus_School = new GlyphInfo { Name = "fas-bus-school", Glyph = "\uf5dd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Business_Time = new GlyphInfo { Name = "fas-business-time", Glyph = "\uf64a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cabinet_Filing = new GlyphInfo { Name = "fas-cabinet-filing", Glyph = "\uf64b", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cactus = new GlyphInfo { Name = "fas-cactus", Glyph = "\uf8a7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Calculator = new GlyphInfo { Name = "fas-calculator", Glyph = "\uf1ec", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Calculator_Alt = new GlyphInfo { Name = "fas-calculator-alt", Glyph = "\uf64c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Calendar = new GlyphInfo { Name = "fas-calendar", Glyph = "\uf133", FontFamily = GlyphFont.Current.Solid };
@@ -249,8 +257,11 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Calendar_Star = new GlyphInfo { Name = "fas-calendar-star", Glyph = "\uf736", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Calendar_Times = new GlyphInfo { Name = "fas-calendar-times", Glyph = "\uf273", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Calendar_Week = new GlyphInfo { Name = "fas-calendar-week", Glyph = "\uf784", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Camcorder = new GlyphInfo { Name = "fas-camcorder", Glyph = "\uf8a8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Camera = new GlyphInfo { Name = "fas-camera", Glyph = "\uf030", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Camera_Alt = new GlyphInfo { Name = "fas-camera-alt", Glyph = "\uf332", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Camera_Movie = new GlyphInfo { Name = "fas-camera-movie", Glyph = "\uf8a9", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Camera_Polaroid = new GlyphInfo { Name = "fas-camera-polaroid", Glyph = "\uf8aa", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Camera_Retro = new GlyphInfo { Name = "fas-camera-retro", Glyph = "\uf083", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Campfire = new GlyphInfo { Name = "fas-campfire", Glyph = "\uf6ba", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Campground = new GlyphInfo { Name = "fas-campground", Glyph = "\uf6bb", FontFamily = GlyphFont.Current.Solid };
@@ -288,8 +299,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Cart_Arrow_Down = new GlyphInfo { Name = "fas-cart-arrow-down", Glyph = "\uf218", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cart_Plus = new GlyphInfo { Name = "fas-cart-plus", Glyph = "\uf217", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cash_Register = new GlyphInfo { Name = "fas-cash-register", Glyph = "\uf788", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cassette_Tape = new GlyphInfo { Name = "fas-cassette-tape", Glyph = "\uf8ab", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cat = new GlyphInfo { Name = "fas-cat", Glyph = "\uf6be", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cauldron = new GlyphInfo { Name = "fas-cauldron", Glyph = "\uf6bf", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cctv = new GlyphInfo { Name = "fas-cctv", Glyph = "\uf8ac", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Certificate = new GlyphInfo { Name = "fas-certificate", Glyph = "\uf0a3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Chair = new GlyphInfo { Name = "fas-chair", Glyph = "\uf6c0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Chair_Office = new GlyphInfo { Name = "fas-chair-office", Glyph = "\uf6c1", FontFamily = GlyphFont.Current.Solid };
@@ -349,6 +362,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Circle = new GlyphInfo { Name = "fas-circle", Glyph = "\uf111", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Circle_Notch = new GlyphInfo { Name = "fas-circle-notch", Glyph = "\uf1ce", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_City = new GlyphInfo { Name = "fas-city", Glyph = "\uf64f", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Clarinet = new GlyphInfo { Name = "fas-clarinet", Glyph = "\uf8ad", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Claw_Marks = new GlyphInfo { Name = "fas-claw-marks", Glyph = "\uf6c2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Clinic_Medical = new GlyphInfo { Name = "fas-clinic-medical", Glyph = "\uf7f2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Clipboard = new GlyphInfo { Name = "fas-clipboard", Glyph = "\uf328", FontFamily = GlyphFont.Current.Solid };
@@ -369,6 +383,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Cloud_Meatball = new GlyphInfo { Name = "fas-cloud-meatball", Glyph = "\uf73b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cloud_Moon = new GlyphInfo { Name = "fas-cloud-moon", Glyph = "\uf6c3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cloud_Moon_Rain = new GlyphInfo { Name = "fas-cloud-moon-rain", Glyph = "\uf73c", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cloud_Music = new GlyphInfo { Name = "fas-cloud-music", Glyph = "\uf8ae", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cloud_Rain = new GlyphInfo { Name = "fas-cloud-rain", Glyph = "\uf73d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cloud_Rainbow = new GlyphInfo { Name = "fas-cloud-rainbow", Glyph = "\uf73e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cloud_Showers = new GlyphInfo { Name = "fas-cloud-showers", Glyph = "\uf73f", FontFamily = GlyphFont.Current.Solid };
@@ -406,6 +421,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Comment_Alt_Lines = new GlyphInfo { Name = "fas-comment-alt-lines", Glyph = "\uf4a6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Alt_Medical = new GlyphInfo { Name = "fas-comment-alt-medical", Glyph = "\uf7f4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Alt_Minus = new GlyphInfo { Name = "fas-comment-alt-minus", Glyph = "\uf4a7", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Comment_Alt_Music = new GlyphInfo { Name = "fas-comment-alt-music", Glyph = "\uf8af", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Alt_Plus = new GlyphInfo { Name = "fas-comment-alt-plus", Glyph = "\uf4a8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Alt_Slash = new GlyphInfo { Name = "fas-comment-alt-slash", Glyph = "\uf4a9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Alt_Smile = new GlyphInfo { Name = "fas-comment-alt-smile", Glyph = "\uf4aa", FontFamily = GlyphFont.Current.Solid };
@@ -418,6 +434,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Comment_Lines = new GlyphInfo { Name = "fas-comment-lines", Glyph = "\uf4b0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Medical = new GlyphInfo { Name = "fas-comment-medical", Glyph = "\uf7f5", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Minus = new GlyphInfo { Name = "fas-comment-minus", Glyph = "\uf4b1", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Comment_Music = new GlyphInfo { Name = "fas-comment-music", Glyph = "\uf8b0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Plus = new GlyphInfo { Name = "fas-comment-plus", Glyph = "\uf4b2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Slash = new GlyphInfo { Name = "fas-comment-slash", Glyph = "\uf4b3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Comment_Smile = new GlyphInfo { Name = "fas-comment-smile", Glyph = "\uf4b4", FontFamily = GlyphFont.Current.Solid };
@@ -433,6 +450,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Compress_Alt = new GlyphInfo { Name = "fas-compress-alt", Glyph = "\uf422", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Compress_Arrows_Alt = new GlyphInfo { Name = "fas-compress-arrows-alt", Glyph = "\uf78c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Compress_Wide = new GlyphInfo { Name = "fas-compress-wide", Glyph = "\uf326", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Computer_Classic = new GlyphInfo { Name = "fas-computer-classic", Glyph = "\uf8b1", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Computer_Speaker = new GlyphInfo { Name = "fas-computer-speaker", Glyph = "\uf8b2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Concierge_Bell = new GlyphInfo { Name = "fas-concierge-bell", Glyph = "\uf562", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Construction = new GlyphInfo { Name = "fas-construction", Glyph = "\uf85d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Container_Storage = new GlyphInfo { Name = "fas-container-storage", Glyph = "\uf4b7", FontFamily = GlyphFont.Current.Solid };
@@ -445,6 +464,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Corn = new GlyphInfo { Name = "fas-corn", Glyph = "\uf6c7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Couch = new GlyphInfo { Name = "fas-couch", Glyph = "\uf4b8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Cow = new GlyphInfo { Name = "fas-cow", Glyph = "\uf6c8", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cowbell = new GlyphInfo { Name = "fas-cowbell", Glyph = "\uf8b3", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Cowbell_More = new GlyphInfo { Name = "fas-cowbell-more", Glyph = "\uf8b4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Credit_Card = new GlyphInfo { Name = "fas-credit-card", Glyph = "\uf09d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Credit_Card_Blank = new GlyphInfo { Name = "fas-credit-card-blank", Glyph = "\uf389", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Credit_Card_Front = new GlyphInfo { Name = "fas-credit-card-front", Glyph = "\uf38a", FontFamily = GlyphFont.Current.Solid };
@@ -492,6 +513,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Digital_Tachograph = new GlyphInfo { Name = "fas-digital-tachograph", Glyph = "\uf566", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Diploma = new GlyphInfo { Name = "fas-diploma", Glyph = "\uf5ea", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Directions = new GlyphInfo { Name = "fas-directions", Glyph = "\uf5eb", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Disc_Drive = new GlyphInfo { Name = "fas-disc-drive", Glyph = "\uf8b5", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Disease = new GlyphInfo { Name = "fas-disease", Glyph = "\uf7fa", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Divide = new GlyphInfo { Name = "fas-divide", Glyph = "\uf529", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Dizzy = new GlyphInfo { Name = "fas-dizzy", Glyph = "\uf567", FontFamily = GlyphFont.Current.Solid };
@@ -606,6 +628,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_File_Medical = new GlyphInfo { Name = "fas-file-medical", Glyph = "\uf477", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_File_Medical_Alt = new GlyphInfo { Name = "fas-file-medical-alt", Glyph = "\uf478", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_File_Minus = new GlyphInfo { Name = "fas-file-minus", Glyph = "\uf318", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_File_Music = new GlyphInfo { Name = "fas-file-music", Glyph = "\uf8b6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_File_Pdf = new GlyphInfo { Name = "fas-file-pdf", Glyph = "\uf1c1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_File_Plus = new GlyphInfo { Name = "fas-file-plus", Glyph = "\uf319", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_File_Powerpoint = new GlyphInfo { Name = "fas-file-powerpoint", Glyph = "\uf1c4", FontFamily = GlyphFont.Current.Solid };
@@ -623,6 +646,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Fill_Drip = new GlyphInfo { Name = "fas-fill-drip", Glyph = "\uf576", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Film = new GlyphInfo { Name = "fas-film", Glyph = "\uf008", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Film_Alt = new GlyphInfo { Name = "fas-film-alt", Glyph = "\uf3a0", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Film_Canister = new GlyphInfo { Name = "fas-film-canister", Glyph = "\uf8b7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Filter = new GlyphInfo { Name = "fas-filter", Glyph = "\uf0b0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Fingerprint = new GlyphInfo { Name = "fas-fingerprint", Glyph = "\uf577", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Fire = new GlyphInfo { Name = "fas-fire", Glyph = "\uf06d", FontFamily = GlyphFont.Current.Solid };
@@ -639,6 +663,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Flag_Checkered = new GlyphInfo { Name = "fas-flag-checkered", Glyph = "\uf11e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flag_Usa = new GlyphInfo { Name = "fas-flag-usa", Glyph = "\uf74d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flame = new GlyphInfo { Name = "fas-flame", Glyph = "\uf6df", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Flashlight = new GlyphInfo { Name = "fas-flashlight", Glyph = "\uf8b8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flask = new GlyphInfo { Name = "fas-flask", Glyph = "\uf0c3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flask_Poison = new GlyphInfo { Name = "fas-flask-poison", Glyph = "\uf6e0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flask_Potion = new GlyphInfo { Name = "fas-flask-potion", Glyph = "\uf6e1", FontFamily = GlyphFont.Current.Solid };
@@ -646,6 +671,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Flower_Daffodil = new GlyphInfo { Name = "fas-flower-daffodil", Glyph = "\uf800", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flower_Tulip = new GlyphInfo { Name = "fas-flower-tulip", Glyph = "\uf801", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Flushed = new GlyphInfo { Name = "fas-flushed", Glyph = "\uf579", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Flute = new GlyphInfo { Name = "fas-flute", Glyph = "\uf8b9", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Flux_Capacitor = new GlyphInfo { Name = "fas-flux-capacitor", Glyph = "\uf8ba", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Fog = new GlyphInfo { Name = "fas-fog", Glyph = "\uf74e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Folder = new GlyphInfo { Name = "fas-folder", Glyph = "\uf07b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Folder_Minus = new GlyphInfo { Name = "fas-folder-minus", Glyph = "\uf65d", FontFamily = GlyphFont.Current.Solid };
@@ -672,7 +699,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Futbol = new GlyphInfo { Name = "fas-futbol", Glyph = "\uf1e3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Game_Board = new GlyphInfo { Name = "fas-game-board", Glyph = "\uf867", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Game_Board_Alt = new GlyphInfo { Name = "fas-game-board-alt", Glyph = "\uf868", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Game_Console_Handheld = new GlyphInfo { Name = "fas-game-console-handheld", Glyph = "\uf8bb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Gamepad = new GlyphInfo { Name = "fas-gamepad", Glyph = "\uf11b", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Gamepad_Alt = new GlyphInfo { Name = "fas-gamepad-alt", Glyph = "\uf8bc", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Gas_Pump = new GlyphInfo { Name = "fas-gas-pump", Glyph = "\uf52f", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Gas_Pump_Slash = new GlyphInfo { Name = "fas-gas-pump-slash", Glyph = "\uf5f4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Gavel = new GlyphInfo { Name = "fas-gavel", Glyph = "\uf0e3", FontFamily = GlyphFont.Current.Solid };
@@ -704,6 +733,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Golf_Club = new GlyphInfo { Name = "fas-golf-club", Glyph = "\uf451", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Gopuram = new GlyphInfo { Name = "fas-gopuram", Glyph = "\uf664", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Graduation_Cap = new GlyphInfo { Name = "fas-graduation-cap", Glyph = "\uf19d", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Gramophone = new GlyphInfo { Name = "fas-gramophone", Glyph = "\uf8bd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Greater_Than = new GlyphInfo { Name = "fas-greater-than", Glyph = "\uf531", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Greater_Than_Equal = new GlyphInfo { Name = "fas-greater-than-equal", Glyph = "\uf532", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Grimace = new GlyphInfo { Name = "fas-grimace", Glyph = "\uf57f", FontFamily = GlyphFont.Current.Solid };
@@ -725,6 +755,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Grip_Lines_Vertical = new GlyphInfo { Name = "fas-grip-lines-vertical", Glyph = "\uf7a5", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Grip_Vertical = new GlyphInfo { Name = "fas-grip-vertical", Glyph = "\uf58e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Guitar = new GlyphInfo { Name = "fas-guitar", Glyph = "\uf7a6", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Guitar_Electric = new GlyphInfo { Name = "fas-guitar-electric", Glyph = "\uf8be", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Guitars = new GlyphInfo { Name = "fas-guitars", Glyph = "\uf8bf", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_H_Square = new GlyphInfo { Name = "fas-h-square", Glyph = "\uf0fd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_H1 = new GlyphInfo { Name = "fas-h1", Glyph = "\uf313", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_H2 = new GlyphInfo { Name = "fas-h2", Glyph = "\uf314", FontFamily = GlyphFont.Current.Solid };
@@ -765,6 +797,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Hard_Hat = new GlyphInfo { Name = "fas-hard-hat", Glyph = "\uf807", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hashtag = new GlyphInfo { Name = "fas-hashtag", Glyph = "\uf292", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hat_Chef = new GlyphInfo { Name = "fas-hat-chef", Glyph = "\uf86b", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Hat_Cowboy = new GlyphInfo { Name = "fas-hat-cowboy", Glyph = "\uf8c0", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Hat_Cowboy_Side = new GlyphInfo { Name = "fas-hat-cowboy-side", Glyph = "\uf8c1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hat_Santa = new GlyphInfo { Name = "fas-hat-santa", Glyph = "\uf7a7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hat_Winter = new GlyphInfo { Name = "fas-hat-winter", Glyph = "\uf7a8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hat_Witch = new GlyphInfo { Name = "fas-hat-witch", Glyph = "\uf6e7", FontFamily = GlyphFont.Current.Solid };
@@ -773,6 +807,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Hdd = new GlyphInfo { Name = "fas-hdd", Glyph = "\uf0a0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Head_Side = new GlyphInfo { Name = "fas-head-side", Glyph = "\uf6e9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Head_Side_Brain = new GlyphInfo { Name = "fas-head-side-brain", Glyph = "\uf808", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Head_Side_Headphones = new GlyphInfo { Name = "fas-head-side-headphones", Glyph = "\uf8c2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Head_Side_Medical = new GlyphInfo { Name = "fas-head-side-medical", Glyph = "\uf809", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Head_Vr = new GlyphInfo { Name = "fas-head-vr", Glyph = "\uf6ea", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Heading = new GlyphInfo { Name = "fas-heading", Glyph = "\uf1dc", FontFamily = GlyphFont.Current.Solid };
@@ -805,6 +840,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Horizontal_Rule = new GlyphInfo { Name = "fas-horizontal-rule", Glyph = "\uf86c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Horse = new GlyphInfo { Name = "fas-horse", Glyph = "\uf6f0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Horse_Head = new GlyphInfo { Name = "fas-horse-head", Glyph = "\uf7ab", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Horse_Saddle = new GlyphInfo { Name = "fas-horse-saddle", Glyph = "\uf8c3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hospital = new GlyphInfo { Name = "fas-hospital", Glyph = "\uf0f8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hospital_Alt = new GlyphInfo { Name = "fas-hospital-alt", Glyph = "\uf47d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hospital_Symbol = new GlyphInfo { Name = "fas-hospital-symbol", Glyph = "\uf47e", FontFamily = GlyphFont.Current.Solid };
@@ -833,6 +869,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Id_Card_Alt = new GlyphInfo { Name = "fas-id-card-alt", Glyph = "\uf47f", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Igloo = new GlyphInfo { Name = "fas-igloo", Glyph = "\uf7ae", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Image = new GlyphInfo { Name = "fas-image", Glyph = "\uf03e", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Image_Polaroid = new GlyphInfo { Name = "fas-image-polaroid", Glyph = "\uf8c4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Images = new GlyphInfo { Name = "fas-images", Glyph = "\uf302", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Inbox = new GlyphInfo { Name = "fas-inbox", Glyph = "\uf01c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Inbox_In = new GlyphInfo { Name = "fas-inbox-in", Glyph = "\uf310", FontFamily = GlyphFont.Current.Solid };
@@ -854,7 +891,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Jedi = new GlyphInfo { Name = "fas-jedi", Glyph = "\uf669", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Joint = new GlyphInfo { Name = "fas-joint", Glyph = "\uf595", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Journal_Whills = new GlyphInfo { Name = "fas-journal-whills", Glyph = "\uf66a", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Joystick = new GlyphInfo { Name = "fas-joystick", Glyph = "\uf8c5", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Jug = new GlyphInfo { Name = "fas-jug", Glyph = "\uf8c6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Kaaba = new GlyphInfo { Name = "fas-kaaba", Glyph = "\uf66b", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Kazoo = new GlyphInfo { Name = "fas-kazoo", Glyph = "\uf8c7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Kerning = new GlyphInfo { Name = "fas-kerning", Glyph = "\uf86f", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Key = new GlyphInfo { Name = "fas-key", Glyph = "\uf084", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Key_Skeleton = new GlyphInfo { Name = "fas-key-skeleton", Glyph = "\uf6f3", FontFamily = GlyphFont.Current.Solid };
@@ -876,6 +916,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Laptop = new GlyphInfo { Name = "fas-laptop", Glyph = "\uf109", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Laptop_Code = new GlyphInfo { Name = "fas-laptop-code", Glyph = "\uf5fc", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Laptop_Medical = new GlyphInfo { Name = "fas-laptop-medical", Glyph = "\uf812", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Lasso = new GlyphInfo { Name = "fas-lasso", Glyph = "\uf8c8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Laugh = new GlyphInfo { Name = "fas-laugh", Glyph = "\uf599", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Laugh_Beam = new GlyphInfo { Name = "fas-laugh-beam", Glyph = "\uf59a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Laugh_Squint = new GlyphInfo { Name = "fas-laugh-squint", Glyph = "\uf59b", FontFamily = GlyphFont.Current.Solid };
@@ -908,6 +949,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Lira_Sign = new GlyphInfo { Name = "fas-lira-sign", Glyph = "\uf195", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_List = new GlyphInfo { Name = "fas-list", Glyph = "\uf03a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_List_Alt = new GlyphInfo { Name = "fas-list-alt", Glyph = "\uf022", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_List_Music = new GlyphInfo { Name = "fas-list-music", Glyph = "\uf8c9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_List_Ol = new GlyphInfo { Name = "fas-list-ol", Glyph = "\uf0cb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_List_Ul = new GlyphInfo { Name = "fas-list-ul", Glyph = "\uf0ca", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Location = new GlyphInfo { Name = "fas-location", Glyph = "\uf601", FontFamily = GlyphFont.Current.Solid };
@@ -978,6 +1020,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Microphone_Alt = new GlyphInfo { Name = "fas-microphone-alt", Glyph = "\uf3c9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Microphone_Alt_Slash = new GlyphInfo { Name = "fas-microphone-alt-slash", Glyph = "\uf539", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Microphone_Slash = new GlyphInfo { Name = "fas-microphone-slash", Glyph = "\uf131", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Microphone_Stand = new GlyphInfo { Name = "fas-microphone-stand", Glyph = "\uf8cb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Microscope = new GlyphInfo { Name = "fas-microscope", Glyph = "\uf610", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mind_Share = new GlyphInfo { Name = "fas-mind-share", Glyph = "\uf677", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Minus = new GlyphInfo { Name = "fas-minus", Glyph = "\uf068", FontFamily = GlyphFont.Current.Solid };
@@ -1010,12 +1053,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Motorcycle = new GlyphInfo { Name = "fas-motorcycle", Glyph = "\uf21c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mountain = new GlyphInfo { Name = "fas-mountain", Glyph = "\uf6fc", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mountains = new GlyphInfo { Name = "fas-mountains", Glyph = "\uf6fd", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Mouse = new GlyphInfo { Name = "fas-mouse", Glyph = "\uf8cc", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Mouse_Alt = new GlyphInfo { Name = "fas-mouse-alt", Glyph = "\uf8cd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mouse_Pointer = new GlyphInfo { Name = "fas-mouse-pointer", Glyph = "\uf245", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Mp3_Player = new GlyphInfo { Name = "fas-mp3-player", Glyph = "\uf8ce", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mug = new GlyphInfo { Name = "fas-mug", Glyph = "\uf874", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mug_Hot = new GlyphInfo { Name = "fas-mug-hot", Glyph = "\uf7b6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mug_Marshmallows = new GlyphInfo { Name = "fas-mug-marshmallows", Glyph = "\uf7b7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mug_Tea = new GlyphInfo { Name = "fas-mug-tea", Glyph = "\uf875", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Music = new GlyphInfo { Name = "fas-music", Glyph = "\uf001", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Music_Alt = new GlyphInfo { Name = "fas-music-alt", Glyph = "\uf8cf", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Music_Alt_Slash = new GlyphInfo { Name = "fas-music-alt-slash", Glyph = "\uf8d0", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Music_Slash = new GlyphInfo { Name = "fas-music-slash", Glyph = "\uf8d1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Narwhal = new GlyphInfo { Name = "fas-narwhal", Glyph = "\uf6fe", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Network_Wired = new GlyphInfo { Name = "fas-network-wired", Glyph = "\uf6ff", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Neuter = new GlyphInfo { Name = "fas-neuter", Glyph = "\uf22c", FontFamily = GlyphFont.Current.Solid };
@@ -1084,12 +1133,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Phone_Laptop = new GlyphInfo { Name = "fas-phone-laptop", Glyph = "\uf87a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Office = new GlyphInfo { Name = "fas-phone-office", Glyph = "\uf67d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Plus = new GlyphInfo { Name = "fas-phone-plus", Glyph = "\uf4d2", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Phone_Rotary = new GlyphInfo { Name = "fas-phone-rotary", Glyph = "\uf8d3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Slash = new GlyphInfo { Name = "fas-phone-slash", Glyph = "\uf3dd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Square = new GlyphInfo { Name = "fas-phone-square", Glyph = "\uf098", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Square_Alt = new GlyphInfo { Name = "fas-phone-square-alt", Glyph = "\uf87b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Phone_Volume = new GlyphInfo { Name = "fas-phone-volume", Glyph = "\uf2a0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Photo_Video = new GlyphInfo { Name = "fas-photo-video", Glyph = "\uf87c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Pi = new GlyphInfo { Name = "fas-pi", Glyph = "\uf67e", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Piano = new GlyphInfo { Name = "fas-piano", Glyph = "\uf8d4", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Piano_Keyboard = new GlyphInfo { Name = "fas-piano-keyboard", Glyph = "\uf8d5", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Pie = new GlyphInfo { Name = "fas-pie", Glyph = "\uf705", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Pig = new GlyphInfo { Name = "fas-pig", Glyph = "\uf706", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Piggy_Bank = new GlyphInfo { Name = "fas-piggy-bank", Glyph = "\uf4d3", FontFamily = GlyphFont.Current.Solid };
@@ -1133,6 +1185,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Print_Slash = new GlyphInfo { Name = "fas-print-slash", Glyph = "\uf686", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Procedures = new GlyphInfo { Name = "fas-procedures", Glyph = "\uf487", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Project_Diagram = new GlyphInfo { Name = "fas-project-diagram", Glyph = "\uf542", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Projector = new GlyphInfo { Name = "fas-projector", Glyph = "\uf8d6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Pumpkin = new GlyphInfo { Name = "fas-pumpkin", Glyph = "\uf707", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Puzzle_Piece = new GlyphInfo { Name = "fas-puzzle-piece", Glyph = "\uf12e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Qrcode = new GlyphInfo { Name = "fas-qrcode", Glyph = "\uf029", FontFamily = GlyphFont.Current.Solid };
@@ -1148,12 +1201,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Racquet = new GlyphInfo { Name = "fas-racquet", Glyph = "\uf45a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Radiation = new GlyphInfo { Name = "fas-radiation", Glyph = "\uf7b9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Radiation_Alt = new GlyphInfo { Name = "fas-radiation-alt", Glyph = "\uf7ba", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Radio = new GlyphInfo { Name = "fas-radio", Glyph = "\uf8d7", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Radio_Alt = new GlyphInfo { Name = "fas-radio-alt", Glyph = "\uf8d8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rainbow = new GlyphInfo { Name = "fas-rainbow", Glyph = "\uf75b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Raindrops = new GlyphInfo { Name = "fas-raindrops", Glyph = "\uf75c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ram = new GlyphInfo { Name = "fas-ram", Glyph = "\uf70a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ramp_Loading = new GlyphInfo { Name = "fas-ramp-loading", Glyph = "\uf4d4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Random = new GlyphInfo { Name = "fas-random", Glyph = "\uf074", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Receipt = new GlyphInfo { Name = "fas-receipt", Glyph = "\uf543", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Record_Vinyl = new GlyphInfo { Name = "fas-record-vinyl", Glyph = "\uf8d9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rectangle_Landscape = new GlyphInfo { Name = "fas-rectangle-landscape", Glyph = "\uf2fa", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rectangle_Portrait = new GlyphInfo { Name = "fas-rectangle-portrait", Glyph = "\uf2fb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rectangle_Wide = new GlyphInfo { Name = "fas-rectangle-wide", Glyph = "\uf2fc", FontFamily = GlyphFont.Current.Solid };
@@ -1181,6 +1237,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Route = new GlyphInfo { Name = "fas-route", Glyph = "\uf4d7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Route_Highway = new GlyphInfo { Name = "fas-route-highway", Glyph = "\uf61a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Route_Interstate = new GlyphInfo { Name = "fas-route-interstate", Glyph = "\uf61b", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Router = new GlyphInfo { Name = "fas-router", Glyph = "\uf8da", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rss = new GlyphInfo { Name = "fas-rss", Glyph = "\uf09e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Rss_Square = new GlyphInfo { Name = "fas-rss-square", Glyph = "\uf143", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Ruble_Sign = new GlyphInfo { Name = "fas-ruble-sign", Glyph = "\uf158", FontFamily = GlyphFont.Current.Solid };
@@ -1202,9 +1259,12 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Satellite_Dish = new GlyphInfo { Name = "fas-satellite-dish", Glyph = "\uf7c0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Sausage = new GlyphInfo { Name = "fas-sausage", Glyph = "\uf820", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Save = new GlyphInfo { Name = "fas-save", Glyph = "\uf0c7", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Sax_Hot = new GlyphInfo { Name = "fas-sax-hot", Glyph = "\uf8db", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Saxophone = new GlyphInfo { Name = "fas-saxophone", Glyph = "\uf8dc", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scalpel = new GlyphInfo { Name = "fas-scalpel", Glyph = "\uf61d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scalpel_Path = new GlyphInfo { Name = "fas-scalpel-path", Glyph = "\uf61e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scanner = new GlyphInfo { Name = "fas-scanner", Glyph = "\uf488", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Scanner_Image = new GlyphInfo { Name = "fas-scanner-image", Glyph = "\uf8f3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scanner_Keyboard = new GlyphInfo { Name = "fas-scanner-keyboard", Glyph = "\uf489", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scanner_Touchscreen = new GlyphInfo { Name = "fas-scanner-touchscreen", Glyph = "\uf48a", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Scarecrow = new GlyphInfo { Name = "fas-scarecrow", Glyph = "\uf70d", FontFamily = GlyphFont.Current.Solid };
@@ -1270,6 +1330,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Signal_Alt_3 = new GlyphInfo { Name = "fas-signal-alt-3", Glyph = "\uf693", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Signal_Alt_Slash = new GlyphInfo { Name = "fas-signal-alt-slash", Glyph = "\uf694", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Signal_Slash = new GlyphInfo { Name = "fas-signal-slash", Glyph = "\uf695", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Signal_Stream = new GlyphInfo { Name = "fas-signal-stream", Glyph = "\uf8dd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Signature = new GlyphInfo { Name = "fas-signature", Glyph = "\uf5b7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Sim_Card = new GlyphInfo { Name = "fas-sim-card", Glyph = "\uf7c4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Sitemap = new GlyphInfo { Name = "fas-sitemap", Glyph = "\uf0e8", FontFamily = GlyphFont.Current.Solid };
@@ -1280,6 +1341,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Skiing = new GlyphInfo { Name = "fas-skiing", Glyph = "\uf7c9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Skiing_Nordic = new GlyphInfo { Name = "fas-skiing-nordic", Glyph = "\uf7ca", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Skull = new GlyphInfo { Name = "fas-skull", Glyph = "\uf54c", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Skull_Cow = new GlyphInfo { Name = "fas-skull-cow", Glyph = "\uf8de", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Skull_Crossbones = new GlyphInfo { Name = "fas-skull-crossbones", Glyph = "\uf714", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Slash = new GlyphInfo { Name = "fas-slash", Glyph = "\uf715", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Sledding = new GlyphInfo { Name = "fas-sledding", Glyph = "\uf7cb", FontFamily = GlyphFont.Current.Solid };
@@ -1337,6 +1399,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Space_Shuttle = new GlyphInfo { Name = "fas-space-shuttle", Glyph = "\uf197", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Spade = new GlyphInfo { Name = "fas-spade", Glyph = "\uf2f4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Sparkles = new GlyphInfo { Name = "fas-sparkles", Glyph = "\uf890", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Speaker = new GlyphInfo { Name = "fas-speaker", Glyph = "\uf8df", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Speakers = new GlyphInfo { Name = "fas-speakers", Glyph = "\uf8e0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Spell_Check = new GlyphInfo { Name = "fas-spell-check", Glyph = "\uf891", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Spider = new GlyphInfo { Name = "fas-spider", Glyph = "\uf717", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Spider_Black_Widow = new GlyphInfo { Name = "fas-spider-black-widow", Glyph = "\uf718", FontFamily = GlyphFont.Current.Solid };
@@ -1515,6 +1579,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Tree_Palm = new GlyphInfo { Name = "fas-tree-palm", Glyph = "\uf82b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Trees = new GlyphInfo { Name = "fas-trees", Glyph = "\uf724", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Triangle = new GlyphInfo { Name = "fas-triangle", Glyph = "\uf2ec", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Triangle_Music = new GlyphInfo { Name = "fas-triangle-music", Glyph = "\uf8e2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Trophy = new GlyphInfo { Name = "fas-trophy", Glyph = "\uf091", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Trophy_Alt = new GlyphInfo { Name = "fas-trophy-alt", Glyph = "\uf2eb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Truck = new GlyphInfo { Name = "fas-truck", Glyph = "\uf0d1", FontFamily = GlyphFont.Current.Solid };
@@ -1526,12 +1591,17 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Truck_Pickup = new GlyphInfo { Name = "fas-truck-pickup", Glyph = "\uf63c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Truck_Plow = new GlyphInfo { Name = "fas-truck-plow", Glyph = "\uf7de", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Truck_Ramp = new GlyphInfo { Name = "fas-truck-ramp", Glyph = "\uf4e0", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Trumpet = new GlyphInfo { Name = "fas-trumpet", Glyph = "\uf8e3", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Tshirt = new GlyphInfo { Name = "fas-tshirt", Glyph = "\uf553", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Tty = new GlyphInfo { Name = "fas-tty", Glyph = "\uf1e4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Turkey = new GlyphInfo { Name = "fas-turkey", Glyph = "\uf725", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Turntable = new GlyphInfo { Name = "fas-turntable", Glyph = "\uf8e4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Turtle = new GlyphInfo { Name = "fas-turtle", Glyph = "\uf726", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Tv = new GlyphInfo { Name = "fas-tv", Glyph = "\uf26c", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Tv_Alt = new GlyphInfo { Name = "fas-tv-alt", Glyph = "\uf8e5", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Tv_Music = new GlyphInfo { Name = "fas-tv-music", Glyph = "\uf8e6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Tv_Retro = new GlyphInfo { Name = "fas-tv-retro", Glyph = "\uf401", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Typewriter = new GlyphInfo { Name = "fas-typewriter", Glyph = "\uf8e7", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Umbrella = new GlyphInfo { Name = "fas-umbrella", Glyph = "\uf0e9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Umbrella_Beach = new GlyphInfo { Name = "fas-umbrella-beach", Glyph = "\uf5ca", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Underline = new GlyphInfo { Name = "fas-underline", Glyph = "\uf0cd", FontFamily = GlyphFont.Current.Solid };
@@ -1545,6 +1615,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Unlock = new GlyphInfo { Name = "fas-unlock", Glyph = "\uf09c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Unlock_Alt = new GlyphInfo { Name = "fas-unlock-alt", Glyph = "\uf13e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Upload = new GlyphInfo { Name = "fas-upload", Glyph = "\uf093", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Usb_Drive = new GlyphInfo { Name = "fas-usb-drive", Glyph = "\uf8e9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Usd_Circle = new GlyphInfo { Name = "fas-usd-circle", Glyph = "\uf2e8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Usd_Square = new GlyphInfo { Name = "fas-usd-square", Glyph = "\uf2e9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User = new GlyphInfo { Name = "fas-user", Glyph = "\uf007", FontFamily = GlyphFont.Current.Solid };
@@ -1556,6 +1627,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_User_Circle = new GlyphInfo { Name = "fas-user-circle", Glyph = "\uf2bd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Clock = new GlyphInfo { Name = "fas-user-clock", Glyph = "\uf4fd", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Cog = new GlyphInfo { Name = "fas-user-cog", Glyph = "\uf4fe", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_User_Cowboy = new GlyphInfo { Name = "fas-user-cowboy", Glyph = "\uf8ea", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Crown = new GlyphInfo { Name = "fas-user-crown", Glyph = "\uf6a4", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Edit = new GlyphInfo { Name = "fas-user-edit", Glyph = "\uf4ff", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Friends = new GlyphInfo { Name = "fas-user-friends", Glyph = "\uf500", FontFamily = GlyphFont.Current.Solid };
@@ -1567,6 +1639,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_User_Md = new GlyphInfo { Name = "fas-user-md", Glyph = "\uf0f0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Md_Chat = new GlyphInfo { Name = "fas-user-md-chat", Glyph = "\uf82e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Minus = new GlyphInfo { Name = "fas-user-minus", Glyph = "\uf503", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_User_Music = new GlyphInfo { Name = "fas-user-music", Glyph = "\uf8eb", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Ninja = new GlyphInfo { Name = "fas-user-ninja", Glyph = "\uf504", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Nurse = new GlyphInfo { Name = "fas-user-nurse", Glyph = "\uf82f", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_User_Plus = new GlyphInfo { Name = "fas-user-plus", Glyph = "\uf234", FontFamily = GlyphFont.Current.Solid };
@@ -1591,12 +1664,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Venus = new GlyphInfo { Name = "fas-venus", Glyph = "\uf221", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Venus_Double = new GlyphInfo { Name = "fas-venus-double", Glyph = "\uf226", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Venus_Mars = new GlyphInfo { Name = "fas-venus-mars", Glyph = "\uf228", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Vhs = new GlyphInfo { Name = "fas-vhs", Glyph = "\uf8ec", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Vial = new GlyphInfo { Name = "fas-vial", Glyph = "\uf492", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Vials = new GlyphInfo { Name = "fas-vials", Glyph = "\uf493", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Video = new GlyphInfo { Name = "fas-video", Glyph = "\uf03d", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Video_Plus = new GlyphInfo { Name = "fas-video-plus", Glyph = "\uf4e1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Video_Slash = new GlyphInfo { Name = "fas-video-slash", Glyph = "\uf4e2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Vihara = new GlyphInfo { Name = "fas-vihara", Glyph = "\uf6a7", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Violin = new GlyphInfo { Name = "fas-violin", Glyph = "\uf8ed", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Voicemail = new GlyphInfo { Name = "fas-voicemail", Glyph = "\uf897", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Volcano = new GlyphInfo { Name = "fas-volcano", Glyph = "\uf770", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Volleyball_Ball = new GlyphInfo { Name = "fas-volleyball-ball", Glyph = "\uf45f", FontFamily = GlyphFont.Current.Solid };
@@ -1609,7 +1684,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Vote_Nay = new GlyphInfo { Name = "fas-vote-nay", Glyph = "\uf771", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Vote_Yea = new GlyphInfo { Name = "fas-vote-yea", Glyph = "\uf772", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Vr_Cardboard = new GlyphInfo { Name = "fas-vr-cardboard", Glyph = "\uf729", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Wagon_Covered = new GlyphInfo { Name = "fas-wagon-covered", Glyph = "\uf8ee", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Walker = new GlyphInfo { Name = "fas-walker", Glyph = "\uf831", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Walkie_Talkie = new GlyphInfo { Name = "fas-walkie-talkie", Glyph = "\uf8ef", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Walking = new GlyphInfo { Name = "fas-walking", Glyph = "\uf554", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Wallet = new GlyphInfo { Name = "fas-wallet", Glyph = "\uf555", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Wand = new GlyphInfo { Name = "fas-wand", Glyph = "\uf72a", FontFamily = GlyphFont.Current.Solid };
@@ -1618,6 +1695,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Warehouse_Alt = new GlyphInfo { Name = "fas-warehouse-alt", Glyph = "\uf495", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Washer = new GlyphInfo { Name = "fas-washer", Glyph = "\uf898", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Watch = new GlyphInfo { Name = "fas-watch", Glyph = "\uf2e1", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Watch_Calculator = new GlyphInfo { Name = "fas-watch-calculator", Glyph = "\uf8f0", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Watch_Fitness = new GlyphInfo { Name = "fas-watch-fitness", Glyph = "\uf63e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Water = new GlyphInfo { Name = "fas-water", Glyph = "\uf773", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Water_Lower = new GlyphInfo { Name = "fas-water-lower", Glyph = "\uf774", FontFamily = GlyphFont.Current.Solid };
@@ -1625,6 +1703,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fas_Wave_Sine = new GlyphInfo { Name = "fas-wave-sine", Glyph = "\uf899", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Wave_Square = new GlyphInfo { Name = "fas-wave-square", Glyph = "\uf83e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Wave_Triangle = new GlyphInfo { Name = "fas-wave-triangle", Glyph = "\uf89a", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Waveform = new GlyphInfo { Name = "fas-waveform", Glyph = "\uf8f1", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Waveform_Path = new GlyphInfo { Name = "fas-waveform-path", Glyph = "\uf8f2", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Webcam = new GlyphInfo { Name = "fas-webcam", Glyph = "\uf832", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Webcam_Slash = new GlyphInfo { Name = "fas-webcam-slash", Glyph = "\uf833", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Weight = new GlyphInfo { Name = "fas-weight", Glyph = "\uf496", FontFamily = GlyphFont.Current.Solid };

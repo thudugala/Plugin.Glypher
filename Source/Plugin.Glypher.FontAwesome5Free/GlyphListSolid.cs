@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Free 5.10.2
+    /// Font Awesome Free 5.11.2
     /// </summary>
     public static class GlyphListSolid
     {
@@ -437,6 +437,8 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fas_Hanukiah = new GlyphInfo { Name = "fas-hanukiah", Glyph = "\uf6e6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hard_Hat = new GlyphInfo { Name = "fas-hard-hat", Glyph = "\uf807", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hashtag = new GlyphInfo { Name = "fas-hashtag", Glyph = "\uf292", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Hat_Cowboy = new GlyphInfo { Name = "fas-hat-cowboy", Glyph = "\uf8c0", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Hat_Cowboy_Side = new GlyphInfo { Name = "fas-hat-cowboy-side", Glyph = "\uf8c1", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hat_Wizard = new GlyphInfo { Name = "fas-hat-wizard", Glyph = "\uf6e8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Haykal = new GlyphInfo { Name = "fas-haykal", Glyph = "\uf666", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Hdd = new GlyphInfo { Name = "fas-hdd", Glyph = "\uf0a0", FontFamily = GlyphFont.Current.Solid };
@@ -581,6 +583,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fas_Mosque = new GlyphInfo { Name = "fas-mosque", Glyph = "\uf678", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Motorcycle = new GlyphInfo { Name = "fas-motorcycle", Glyph = "\uf21c", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mountain = new GlyphInfo { Name = "fas-mountain", Glyph = "\uf6fc", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Mouse = new GlyphInfo { Name = "fas-mouse", Glyph = "\uf8cc", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mouse_Pointer = new GlyphInfo { Name = "fas-mouse-pointer", Glyph = "\uf245", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Mug_Hot = new GlyphInfo { Name = "fas-mug-hot", Glyph = "\uf7b6", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Music = new GlyphInfo { Name = "fas-music", Glyph = "\uf001", FontFamily = GlyphFont.Current.Solid };
@@ -674,6 +677,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fas_Rainbow = new GlyphInfo { Name = "fas-rainbow", Glyph = "\uf75b", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Random = new GlyphInfo { Name = "fas-random", Glyph = "\uf074", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Receipt = new GlyphInfo { Name = "fas-receipt", Glyph = "\uf543", FontFamily = GlyphFont.Current.Solid };
+        public static readonly GlyphInfo Fas_Record_Vinyl = new GlyphInfo { Name = "fas-record-vinyl", Glyph = "\uf8d9", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Recycle = new GlyphInfo { Name = "fas-recycle", Glyph = "\uf1b8", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Redo = new GlyphInfo { Name = "fas-redo", Glyph = "\uf01e", FontFamily = GlyphFont.Current.Solid };
         public static readonly GlyphInfo Fas_Redo_Alt = new GlyphInfo { Name = "fas-redo-alt", Glyph = "\uf2f9", FontFamily = GlyphFont.Current.Solid };

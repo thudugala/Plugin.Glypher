@@ -8,6 +8,10 @@ namespace GlyphFieldsFontAwesome5Free
 {
     internal class Program
     {
+        private const string FolderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Free";
+        private const string LibName = @"Font Awesome Free 5.11.2";
+        private const string LibNamespace = @"FontAwesome5Free";
+
         private static void Main(string[] args)
         {
             using (var reader = new StreamReader(@"icons.json"))
@@ -20,29 +24,25 @@ namespace GlyphFieldsFontAwesome5Free
                         new Icon { IconType = styles, Label = icon.Key, Unicode = icon.Value.Unicode }));
                 }
 
-                const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Free";
-                const string libName = @"Font Awesome Free 5.10.2";
-                const string libNamespace = @"FontAwesome5Free";
-
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Brands),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Regular),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Solid),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
             }
         }

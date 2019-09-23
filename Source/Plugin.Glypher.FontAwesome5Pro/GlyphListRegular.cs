@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.2
+    /// Font Awesome Pro 5.11.2
     /// </summary>
     public static class GlyphListRegular
     {
@@ -18,6 +18,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Alarm_Exclamation = new GlyphInfo { Name = "far-alarm-exclamation", Glyph = "\uf843", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Alarm_Plus = new GlyphInfo { Name = "far-alarm-plus", Glyph = "\uf844", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Alarm_Snooze = new GlyphInfo { Name = "far-alarm-snooze", Glyph = "\uf845", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Album = new GlyphInfo { Name = "far-album", Glyph = "\uf89f", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Album_Collection = new GlyphInfo { Name = "far-album-collection", Glyph = "\uf8a0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Alicorn = new GlyphInfo { Name = "far-alicorn", Glyph = "\uf6b0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Align_Center = new GlyphInfo { Name = "far-align-center", Glyph = "\uf037", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Align_Justify = new GlyphInfo { Name = "far-align-justify", Glyph = "\uf039", FontFamily = GlyphFont.Current.Regular };
@@ -27,6 +29,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Allergies = new GlyphInfo { Name = "far-allergies", Glyph = "\uf461", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ambulance = new GlyphInfo { Name = "far-ambulance", Glyph = "\uf0f9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_American_Sign_Language_Interpreting = new GlyphInfo { Name = "far-american-sign-language-interpreting", Glyph = "\uf2a3", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Amp_Guitar = new GlyphInfo { Name = "far-amp-guitar", Glyph = "\uf8a1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Analytics = new GlyphInfo { Name = "far-analytics", Glyph = "\uf643", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Anchor = new GlyphInfo { Name = "far-anchor", Glyph = "\uf13d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Angel = new GlyphInfo { Name = "far-angel", Glyph = "\uf779", FontFamily = GlyphFont.Current.Regular };
@@ -110,6 +113,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Badge_Check = new GlyphInfo { Name = "far-badge-check", Glyph = "\uf336", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Badge_Dollar = new GlyphInfo { Name = "far-badge-dollar", Glyph = "\uf645", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Badge_Percent = new GlyphInfo { Name = "far-badge-percent", Glyph = "\uf646", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Badge_Sheriff = new GlyphInfo { Name = "far-badge-sheriff", Glyph = "\uf8a2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Badger_Honey = new GlyphInfo { Name = "far-badger-honey", Glyph = "\uf6b4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bags_Shopping = new GlyphInfo { Name = "far-bags-shopping", Glyph = "\uf847", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Balance_Scale = new GlyphInfo { Name = "far-balance-scale", Glyph = "\uf24e", FontFamily = GlyphFont.Current.Regular };
@@ -120,6 +124,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Ballot_Check = new GlyphInfo { Name = "far-ballot-check", Glyph = "\uf733", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ban = new GlyphInfo { Name = "far-ban", Glyph = "\uf05e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Band_Aid = new GlyphInfo { Name = "far-band-aid", Glyph = "\uf462", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Banjo = new GlyphInfo { Name = "far-banjo", Glyph = "\uf8a3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Barcode = new GlyphInfo { Name = "far-barcode", Glyph = "\uf02a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Barcode_Alt = new GlyphInfo { Name = "far-barcode-alt", Glyph = "\uf463", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Barcode_Read = new GlyphInfo { Name = "far-barcode-read", Glyph = "\uf464", FontFamily = GlyphFont.Current.Regular };
@@ -147,6 +152,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Bell_School_Slash = new GlyphInfo { Name = "far-bell-school-slash", Glyph = "\uf5d6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bell_Slash = new GlyphInfo { Name = "far-bell-slash", Glyph = "\uf1f6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bells = new GlyphInfo { Name = "far-bells", Glyph = "\uf77f", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Betamax = new GlyphInfo { Name = "far-betamax", Glyph = "\uf8a4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bezier_Curve = new GlyphInfo { Name = "far-bezier-curve", Glyph = "\uf55b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bible = new GlyphInfo { Name = "far-bible", Glyph = "\uf647", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Bicycle = new GlyphInfo { Name = "far-bicycle", Glyph = "\uf206", FontFamily = GlyphFont.Current.Regular };
@@ -178,6 +184,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Bookmark = new GlyphInfo { Name = "far-bookmark", Glyph = "\uf02e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Books = new GlyphInfo { Name = "far-books", Glyph = "\uf5db", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Books_Medical = new GlyphInfo { Name = "far-books-medical", Glyph = "\uf7e8", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Boombox = new GlyphInfo { Name = "far-boombox", Glyph = "\uf8a5", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Boot = new GlyphInfo { Name = "far-boot", Glyph = "\uf782", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Booth_Curtain = new GlyphInfo { Name = "far-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Border_All = new GlyphInfo { Name = "far-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Regular };
@@ -236,6 +243,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Bus_School = new GlyphInfo { Name = "far-bus-school", Glyph = "\uf5dd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Business_Time = new GlyphInfo { Name = "far-business-time", Glyph = "\uf64a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cabinet_Filing = new GlyphInfo { Name = "far-cabinet-filing", Glyph = "\uf64b", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cactus = new GlyphInfo { Name = "far-cactus", Glyph = "\uf8a7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Calculator = new GlyphInfo { Name = "far-calculator", Glyph = "\uf1ec", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Calculator_Alt = new GlyphInfo { Name = "far-calculator-alt", Glyph = "\uf64c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Calendar = new GlyphInfo { Name = "far-calendar", Glyph = "\uf133", FontFamily = GlyphFont.Current.Regular };
@@ -249,8 +257,11 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Calendar_Star = new GlyphInfo { Name = "far-calendar-star", Glyph = "\uf736", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Calendar_Times = new GlyphInfo { Name = "far-calendar-times", Glyph = "\uf273", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Calendar_Week = new GlyphInfo { Name = "far-calendar-week", Glyph = "\uf784", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Camcorder = new GlyphInfo { Name = "far-camcorder", Glyph = "\uf8a8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Camera = new GlyphInfo { Name = "far-camera", Glyph = "\uf030", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Camera_Alt = new GlyphInfo { Name = "far-camera-alt", Glyph = "\uf332", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Camera_Movie = new GlyphInfo { Name = "far-camera-movie", Glyph = "\uf8a9", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Camera_Polaroid = new GlyphInfo { Name = "far-camera-polaroid", Glyph = "\uf8aa", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Camera_Retro = new GlyphInfo { Name = "far-camera-retro", Glyph = "\uf083", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Campfire = new GlyphInfo { Name = "far-campfire", Glyph = "\uf6ba", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Campground = new GlyphInfo { Name = "far-campground", Glyph = "\uf6bb", FontFamily = GlyphFont.Current.Regular };
@@ -288,8 +299,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Cart_Arrow_Down = new GlyphInfo { Name = "far-cart-arrow-down", Glyph = "\uf218", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cart_Plus = new GlyphInfo { Name = "far-cart-plus", Glyph = "\uf217", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cash_Register = new GlyphInfo { Name = "far-cash-register", Glyph = "\uf788", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cassette_Tape = new GlyphInfo { Name = "far-cassette-tape", Glyph = "\uf8ab", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cat = new GlyphInfo { Name = "far-cat", Glyph = "\uf6be", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cauldron = new GlyphInfo { Name = "far-cauldron", Glyph = "\uf6bf", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cctv = new GlyphInfo { Name = "far-cctv", Glyph = "\uf8ac", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Certificate = new GlyphInfo { Name = "far-certificate", Glyph = "\uf0a3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Chair = new GlyphInfo { Name = "far-chair", Glyph = "\uf6c0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Chair_Office = new GlyphInfo { Name = "far-chair-office", Glyph = "\uf6c1", FontFamily = GlyphFont.Current.Regular };
@@ -349,6 +362,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Circle = new GlyphInfo { Name = "far-circle", Glyph = "\uf111", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Circle_Notch = new GlyphInfo { Name = "far-circle-notch", Glyph = "\uf1ce", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_City = new GlyphInfo { Name = "far-city", Glyph = "\uf64f", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Clarinet = new GlyphInfo { Name = "far-clarinet", Glyph = "\uf8ad", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Claw_Marks = new GlyphInfo { Name = "far-claw-marks", Glyph = "\uf6c2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Clinic_Medical = new GlyphInfo { Name = "far-clinic-medical", Glyph = "\uf7f2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Clipboard = new GlyphInfo { Name = "far-clipboard", Glyph = "\uf328", FontFamily = GlyphFont.Current.Regular };
@@ -369,6 +383,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Cloud_Meatball = new GlyphInfo { Name = "far-cloud-meatball", Glyph = "\uf73b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cloud_Moon = new GlyphInfo { Name = "far-cloud-moon", Glyph = "\uf6c3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cloud_Moon_Rain = new GlyphInfo { Name = "far-cloud-moon-rain", Glyph = "\uf73c", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cloud_Music = new GlyphInfo { Name = "far-cloud-music", Glyph = "\uf8ae", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cloud_Rain = new GlyphInfo { Name = "far-cloud-rain", Glyph = "\uf73d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cloud_Rainbow = new GlyphInfo { Name = "far-cloud-rainbow", Glyph = "\uf73e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cloud_Showers = new GlyphInfo { Name = "far-cloud-showers", Glyph = "\uf73f", FontFamily = GlyphFont.Current.Regular };
@@ -406,6 +421,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Comment_Alt_Lines = new GlyphInfo { Name = "far-comment-alt-lines", Glyph = "\uf4a6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Alt_Medical = new GlyphInfo { Name = "far-comment-alt-medical", Glyph = "\uf7f4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Alt_Minus = new GlyphInfo { Name = "far-comment-alt-minus", Glyph = "\uf4a7", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Comment_Alt_Music = new GlyphInfo { Name = "far-comment-alt-music", Glyph = "\uf8af", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Alt_Plus = new GlyphInfo { Name = "far-comment-alt-plus", Glyph = "\uf4a8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Alt_Slash = new GlyphInfo { Name = "far-comment-alt-slash", Glyph = "\uf4a9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Alt_Smile = new GlyphInfo { Name = "far-comment-alt-smile", Glyph = "\uf4aa", FontFamily = GlyphFont.Current.Regular };
@@ -418,6 +434,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Comment_Lines = new GlyphInfo { Name = "far-comment-lines", Glyph = "\uf4b0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Medical = new GlyphInfo { Name = "far-comment-medical", Glyph = "\uf7f5", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Minus = new GlyphInfo { Name = "far-comment-minus", Glyph = "\uf4b1", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Comment_Music = new GlyphInfo { Name = "far-comment-music", Glyph = "\uf8b0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Plus = new GlyphInfo { Name = "far-comment-plus", Glyph = "\uf4b2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Slash = new GlyphInfo { Name = "far-comment-slash", Glyph = "\uf4b3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Comment_Smile = new GlyphInfo { Name = "far-comment-smile", Glyph = "\uf4b4", FontFamily = GlyphFont.Current.Regular };
@@ -433,6 +450,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Compress_Alt = new GlyphInfo { Name = "far-compress-alt", Glyph = "\uf422", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Compress_Arrows_Alt = new GlyphInfo { Name = "far-compress-arrows-alt", Glyph = "\uf78c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Compress_Wide = new GlyphInfo { Name = "far-compress-wide", Glyph = "\uf326", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Computer_Classic = new GlyphInfo { Name = "far-computer-classic", Glyph = "\uf8b1", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Computer_Speaker = new GlyphInfo { Name = "far-computer-speaker", Glyph = "\uf8b2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Concierge_Bell = new GlyphInfo { Name = "far-concierge-bell", Glyph = "\uf562", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Construction = new GlyphInfo { Name = "far-construction", Glyph = "\uf85d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Container_Storage = new GlyphInfo { Name = "far-container-storage", Glyph = "\uf4b7", FontFamily = GlyphFont.Current.Regular };
@@ -445,6 +464,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Corn = new GlyphInfo { Name = "far-corn", Glyph = "\uf6c7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Couch = new GlyphInfo { Name = "far-couch", Glyph = "\uf4b8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Cow = new GlyphInfo { Name = "far-cow", Glyph = "\uf6c8", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cowbell = new GlyphInfo { Name = "far-cowbell", Glyph = "\uf8b3", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Cowbell_More = new GlyphInfo { Name = "far-cowbell-more", Glyph = "\uf8b4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Credit_Card = new GlyphInfo { Name = "far-credit-card", Glyph = "\uf09d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Credit_Card_Blank = new GlyphInfo { Name = "far-credit-card-blank", Glyph = "\uf389", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Credit_Card_Front = new GlyphInfo { Name = "far-credit-card-front", Glyph = "\uf38a", FontFamily = GlyphFont.Current.Regular };
@@ -492,6 +513,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Digital_Tachograph = new GlyphInfo { Name = "far-digital-tachograph", Glyph = "\uf566", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Diploma = new GlyphInfo { Name = "far-diploma", Glyph = "\uf5ea", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Directions = new GlyphInfo { Name = "far-directions", Glyph = "\uf5eb", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Disc_Drive = new GlyphInfo { Name = "far-disc-drive", Glyph = "\uf8b5", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Disease = new GlyphInfo { Name = "far-disease", Glyph = "\uf7fa", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Divide = new GlyphInfo { Name = "far-divide", Glyph = "\uf529", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Dizzy = new GlyphInfo { Name = "far-dizzy", Glyph = "\uf567", FontFamily = GlyphFont.Current.Regular };
@@ -606,6 +628,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_File_Medical = new GlyphInfo { Name = "far-file-medical", Glyph = "\uf477", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_File_Medical_Alt = new GlyphInfo { Name = "far-file-medical-alt", Glyph = "\uf478", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_File_Minus = new GlyphInfo { Name = "far-file-minus", Glyph = "\uf318", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_File_Music = new GlyphInfo { Name = "far-file-music", Glyph = "\uf8b6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_File_Pdf = new GlyphInfo { Name = "far-file-pdf", Glyph = "\uf1c1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_File_Plus = new GlyphInfo { Name = "far-file-plus", Glyph = "\uf319", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_File_Powerpoint = new GlyphInfo { Name = "far-file-powerpoint", Glyph = "\uf1c4", FontFamily = GlyphFont.Current.Regular };
@@ -623,6 +646,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Fill_Drip = new GlyphInfo { Name = "far-fill-drip", Glyph = "\uf576", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Film = new GlyphInfo { Name = "far-film", Glyph = "\uf008", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Film_Alt = new GlyphInfo { Name = "far-film-alt", Glyph = "\uf3a0", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Film_Canister = new GlyphInfo { Name = "far-film-canister", Glyph = "\uf8b7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Filter = new GlyphInfo { Name = "far-filter", Glyph = "\uf0b0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Fingerprint = new GlyphInfo { Name = "far-fingerprint", Glyph = "\uf577", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Fire = new GlyphInfo { Name = "far-fire", Glyph = "\uf06d", FontFamily = GlyphFont.Current.Regular };
@@ -639,6 +663,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Flag_Checkered = new GlyphInfo { Name = "far-flag-checkered", Glyph = "\uf11e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flag_Usa = new GlyphInfo { Name = "far-flag-usa", Glyph = "\uf74d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flame = new GlyphInfo { Name = "far-flame", Glyph = "\uf6df", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Flashlight = new GlyphInfo { Name = "far-flashlight", Glyph = "\uf8b8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flask = new GlyphInfo { Name = "far-flask", Glyph = "\uf0c3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flask_Poison = new GlyphInfo { Name = "far-flask-poison", Glyph = "\uf6e0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flask_Potion = new GlyphInfo { Name = "far-flask-potion", Glyph = "\uf6e1", FontFamily = GlyphFont.Current.Regular };
@@ -646,6 +671,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Flower_Daffodil = new GlyphInfo { Name = "far-flower-daffodil", Glyph = "\uf800", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flower_Tulip = new GlyphInfo { Name = "far-flower-tulip", Glyph = "\uf801", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Flushed = new GlyphInfo { Name = "far-flushed", Glyph = "\uf579", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Flute = new GlyphInfo { Name = "far-flute", Glyph = "\uf8b9", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Flux_Capacitor = new GlyphInfo { Name = "far-flux-capacitor", Glyph = "\uf8ba", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Fog = new GlyphInfo { Name = "far-fog", Glyph = "\uf74e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Folder = new GlyphInfo { Name = "far-folder", Glyph = "\uf07b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Folder_Minus = new GlyphInfo { Name = "far-folder-minus", Glyph = "\uf65d", FontFamily = GlyphFont.Current.Regular };
@@ -672,7 +699,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Futbol = new GlyphInfo { Name = "far-futbol", Glyph = "\uf1e3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Game_Board = new GlyphInfo { Name = "far-game-board", Glyph = "\uf867", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Game_Board_Alt = new GlyphInfo { Name = "far-game-board-alt", Glyph = "\uf868", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Game_Console_Handheld = new GlyphInfo { Name = "far-game-console-handheld", Glyph = "\uf8bb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Gamepad = new GlyphInfo { Name = "far-gamepad", Glyph = "\uf11b", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Gamepad_Alt = new GlyphInfo { Name = "far-gamepad-alt", Glyph = "\uf8bc", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Gas_Pump = new GlyphInfo { Name = "far-gas-pump", Glyph = "\uf52f", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Gas_Pump_Slash = new GlyphInfo { Name = "far-gas-pump-slash", Glyph = "\uf5f4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Gavel = new GlyphInfo { Name = "far-gavel", Glyph = "\uf0e3", FontFamily = GlyphFont.Current.Regular };
@@ -704,6 +733,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Golf_Club = new GlyphInfo { Name = "far-golf-club", Glyph = "\uf451", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Gopuram = new GlyphInfo { Name = "far-gopuram", Glyph = "\uf664", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Graduation_Cap = new GlyphInfo { Name = "far-graduation-cap", Glyph = "\uf19d", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Gramophone = new GlyphInfo { Name = "far-gramophone", Glyph = "\uf8bd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Greater_Than = new GlyphInfo { Name = "far-greater-than", Glyph = "\uf531", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Greater_Than_Equal = new GlyphInfo { Name = "far-greater-than-equal", Glyph = "\uf532", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Grimace = new GlyphInfo { Name = "far-grimace", Glyph = "\uf57f", FontFamily = GlyphFont.Current.Regular };
@@ -725,6 +755,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Grip_Lines_Vertical = new GlyphInfo { Name = "far-grip-lines-vertical", Glyph = "\uf7a5", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Grip_Vertical = new GlyphInfo { Name = "far-grip-vertical", Glyph = "\uf58e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Guitar = new GlyphInfo { Name = "far-guitar", Glyph = "\uf7a6", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Guitar_Electric = new GlyphInfo { Name = "far-guitar-electric", Glyph = "\uf8be", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Guitars = new GlyphInfo { Name = "far-guitars", Glyph = "\uf8bf", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_H_Square = new GlyphInfo { Name = "far-h-square", Glyph = "\uf0fd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_H1 = new GlyphInfo { Name = "far-h1", Glyph = "\uf313", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_H2 = new GlyphInfo { Name = "far-h2", Glyph = "\uf314", FontFamily = GlyphFont.Current.Regular };
@@ -765,6 +797,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Hard_Hat = new GlyphInfo { Name = "far-hard-hat", Glyph = "\uf807", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hashtag = new GlyphInfo { Name = "far-hashtag", Glyph = "\uf292", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hat_Chef = new GlyphInfo { Name = "far-hat-chef", Glyph = "\uf86b", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Hat_Cowboy = new GlyphInfo { Name = "far-hat-cowboy", Glyph = "\uf8c0", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Hat_Cowboy_Side = new GlyphInfo { Name = "far-hat-cowboy-side", Glyph = "\uf8c1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hat_Santa = new GlyphInfo { Name = "far-hat-santa", Glyph = "\uf7a7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hat_Winter = new GlyphInfo { Name = "far-hat-winter", Glyph = "\uf7a8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hat_Witch = new GlyphInfo { Name = "far-hat-witch", Glyph = "\uf6e7", FontFamily = GlyphFont.Current.Regular };
@@ -773,6 +807,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Hdd = new GlyphInfo { Name = "far-hdd", Glyph = "\uf0a0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Head_Side = new GlyphInfo { Name = "far-head-side", Glyph = "\uf6e9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Head_Side_Brain = new GlyphInfo { Name = "far-head-side-brain", Glyph = "\uf808", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Head_Side_Headphones = new GlyphInfo { Name = "far-head-side-headphones", Glyph = "\uf8c2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Head_Side_Medical = new GlyphInfo { Name = "far-head-side-medical", Glyph = "\uf809", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Head_Vr = new GlyphInfo { Name = "far-head-vr", Glyph = "\uf6ea", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Heading = new GlyphInfo { Name = "far-heading", Glyph = "\uf1dc", FontFamily = GlyphFont.Current.Regular };
@@ -805,6 +840,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Horizontal_Rule = new GlyphInfo { Name = "far-horizontal-rule", Glyph = "\uf86c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Horse = new GlyphInfo { Name = "far-horse", Glyph = "\uf6f0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Horse_Head = new GlyphInfo { Name = "far-horse-head", Glyph = "\uf7ab", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Horse_Saddle = new GlyphInfo { Name = "far-horse-saddle", Glyph = "\uf8c3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hospital = new GlyphInfo { Name = "far-hospital", Glyph = "\uf0f8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hospital_Alt = new GlyphInfo { Name = "far-hospital-alt", Glyph = "\uf47d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Hospital_Symbol = new GlyphInfo { Name = "far-hospital-symbol", Glyph = "\uf47e", FontFamily = GlyphFont.Current.Regular };
@@ -833,6 +869,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Id_Card_Alt = new GlyphInfo { Name = "far-id-card-alt", Glyph = "\uf47f", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Igloo = new GlyphInfo { Name = "far-igloo", Glyph = "\uf7ae", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Image = new GlyphInfo { Name = "far-image", Glyph = "\uf03e", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Image_Polaroid = new GlyphInfo { Name = "far-image-polaroid", Glyph = "\uf8c4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Images = new GlyphInfo { Name = "far-images", Glyph = "\uf302", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Inbox = new GlyphInfo { Name = "far-inbox", Glyph = "\uf01c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Inbox_In = new GlyphInfo { Name = "far-inbox-in", Glyph = "\uf310", FontFamily = GlyphFont.Current.Regular };
@@ -854,7 +891,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Jedi = new GlyphInfo { Name = "far-jedi", Glyph = "\uf669", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Joint = new GlyphInfo { Name = "far-joint", Glyph = "\uf595", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Journal_Whills = new GlyphInfo { Name = "far-journal-whills", Glyph = "\uf66a", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Joystick = new GlyphInfo { Name = "far-joystick", Glyph = "\uf8c5", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Jug = new GlyphInfo { Name = "far-jug", Glyph = "\uf8c6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Kaaba = new GlyphInfo { Name = "far-kaaba", Glyph = "\uf66b", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Kazoo = new GlyphInfo { Name = "far-kazoo", Glyph = "\uf8c7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Kerning = new GlyphInfo { Name = "far-kerning", Glyph = "\uf86f", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Key = new GlyphInfo { Name = "far-key", Glyph = "\uf084", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Key_Skeleton = new GlyphInfo { Name = "far-key-skeleton", Glyph = "\uf6f3", FontFamily = GlyphFont.Current.Regular };
@@ -876,6 +916,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Laptop = new GlyphInfo { Name = "far-laptop", Glyph = "\uf109", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Laptop_Code = new GlyphInfo { Name = "far-laptop-code", Glyph = "\uf5fc", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Laptop_Medical = new GlyphInfo { Name = "far-laptop-medical", Glyph = "\uf812", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Lasso = new GlyphInfo { Name = "far-lasso", Glyph = "\uf8c8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Laugh = new GlyphInfo { Name = "far-laugh", Glyph = "\uf599", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Laugh_Beam = new GlyphInfo { Name = "far-laugh-beam", Glyph = "\uf59a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Laugh_Squint = new GlyphInfo { Name = "far-laugh-squint", Glyph = "\uf59b", FontFamily = GlyphFont.Current.Regular };
@@ -908,6 +949,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Lira_Sign = new GlyphInfo { Name = "far-lira-sign", Glyph = "\uf195", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_List = new GlyphInfo { Name = "far-list", Glyph = "\uf03a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_List_Alt = new GlyphInfo { Name = "far-list-alt", Glyph = "\uf022", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_List_Music = new GlyphInfo { Name = "far-list-music", Glyph = "\uf8c9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_List_Ol = new GlyphInfo { Name = "far-list-ol", Glyph = "\uf0cb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_List_Ul = new GlyphInfo { Name = "far-list-ul", Glyph = "\uf0ca", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Location = new GlyphInfo { Name = "far-location", Glyph = "\uf601", FontFamily = GlyphFont.Current.Regular };
@@ -978,6 +1020,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Microphone_Alt = new GlyphInfo { Name = "far-microphone-alt", Glyph = "\uf3c9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Microphone_Alt_Slash = new GlyphInfo { Name = "far-microphone-alt-slash", Glyph = "\uf539", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Microphone_Slash = new GlyphInfo { Name = "far-microphone-slash", Glyph = "\uf131", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Microphone_Stand = new GlyphInfo { Name = "far-microphone-stand", Glyph = "\uf8cb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Microscope = new GlyphInfo { Name = "far-microscope", Glyph = "\uf610", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mind_Share = new GlyphInfo { Name = "far-mind-share", Glyph = "\uf677", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Minus = new GlyphInfo { Name = "far-minus", Glyph = "\uf068", FontFamily = GlyphFont.Current.Regular };
@@ -1010,12 +1053,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Motorcycle = new GlyphInfo { Name = "far-motorcycle", Glyph = "\uf21c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mountain = new GlyphInfo { Name = "far-mountain", Glyph = "\uf6fc", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mountains = new GlyphInfo { Name = "far-mountains", Glyph = "\uf6fd", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Mouse = new GlyphInfo { Name = "far-mouse", Glyph = "\uf8cc", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Mouse_Alt = new GlyphInfo { Name = "far-mouse-alt", Glyph = "\uf8cd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mouse_Pointer = new GlyphInfo { Name = "far-mouse-pointer", Glyph = "\uf245", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Mp3_Player = new GlyphInfo { Name = "far-mp3-player", Glyph = "\uf8ce", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mug = new GlyphInfo { Name = "far-mug", Glyph = "\uf874", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mug_Hot = new GlyphInfo { Name = "far-mug-hot", Glyph = "\uf7b6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mug_Marshmallows = new GlyphInfo { Name = "far-mug-marshmallows", Glyph = "\uf7b7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Mug_Tea = new GlyphInfo { Name = "far-mug-tea", Glyph = "\uf875", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Music = new GlyphInfo { Name = "far-music", Glyph = "\uf001", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Music_Alt = new GlyphInfo { Name = "far-music-alt", Glyph = "\uf8cf", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Music_Alt_Slash = new GlyphInfo { Name = "far-music-alt-slash", Glyph = "\uf8d0", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Music_Slash = new GlyphInfo { Name = "far-music-slash", Glyph = "\uf8d1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Narwhal = new GlyphInfo { Name = "far-narwhal", Glyph = "\uf6fe", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Network_Wired = new GlyphInfo { Name = "far-network-wired", Glyph = "\uf6ff", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Neuter = new GlyphInfo { Name = "far-neuter", Glyph = "\uf22c", FontFamily = GlyphFont.Current.Regular };
@@ -1084,12 +1133,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Phone_Laptop = new GlyphInfo { Name = "far-phone-laptop", Glyph = "\uf87a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Office = new GlyphInfo { Name = "far-phone-office", Glyph = "\uf67d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Plus = new GlyphInfo { Name = "far-phone-plus", Glyph = "\uf4d2", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Phone_Rotary = new GlyphInfo { Name = "far-phone-rotary", Glyph = "\uf8d3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Slash = new GlyphInfo { Name = "far-phone-slash", Glyph = "\uf3dd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Square = new GlyphInfo { Name = "far-phone-square", Glyph = "\uf098", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Square_Alt = new GlyphInfo { Name = "far-phone-square-alt", Glyph = "\uf87b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Phone_Volume = new GlyphInfo { Name = "far-phone-volume", Glyph = "\uf2a0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Photo_Video = new GlyphInfo { Name = "far-photo-video", Glyph = "\uf87c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Pi = new GlyphInfo { Name = "far-pi", Glyph = "\uf67e", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Piano = new GlyphInfo { Name = "far-piano", Glyph = "\uf8d4", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Piano_Keyboard = new GlyphInfo { Name = "far-piano-keyboard", Glyph = "\uf8d5", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Pie = new GlyphInfo { Name = "far-pie", Glyph = "\uf705", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Pig = new GlyphInfo { Name = "far-pig", Glyph = "\uf706", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Piggy_Bank = new GlyphInfo { Name = "far-piggy-bank", Glyph = "\uf4d3", FontFamily = GlyphFont.Current.Regular };
@@ -1133,6 +1185,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Print_Slash = new GlyphInfo { Name = "far-print-slash", Glyph = "\uf686", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Procedures = new GlyphInfo { Name = "far-procedures", Glyph = "\uf487", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Project_Diagram = new GlyphInfo { Name = "far-project-diagram", Glyph = "\uf542", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Projector = new GlyphInfo { Name = "far-projector", Glyph = "\uf8d6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Pumpkin = new GlyphInfo { Name = "far-pumpkin", Glyph = "\uf707", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Puzzle_Piece = new GlyphInfo { Name = "far-puzzle-piece", Glyph = "\uf12e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Qrcode = new GlyphInfo { Name = "far-qrcode", Glyph = "\uf029", FontFamily = GlyphFont.Current.Regular };
@@ -1148,12 +1201,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Racquet = new GlyphInfo { Name = "far-racquet", Glyph = "\uf45a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Radiation = new GlyphInfo { Name = "far-radiation", Glyph = "\uf7b9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Radiation_Alt = new GlyphInfo { Name = "far-radiation-alt", Glyph = "\uf7ba", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Radio = new GlyphInfo { Name = "far-radio", Glyph = "\uf8d7", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Radio_Alt = new GlyphInfo { Name = "far-radio-alt", Glyph = "\uf8d8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rainbow = new GlyphInfo { Name = "far-rainbow", Glyph = "\uf75b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Raindrops = new GlyphInfo { Name = "far-raindrops", Glyph = "\uf75c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ram = new GlyphInfo { Name = "far-ram", Glyph = "\uf70a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ramp_Loading = new GlyphInfo { Name = "far-ramp-loading", Glyph = "\uf4d4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Random = new GlyphInfo { Name = "far-random", Glyph = "\uf074", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Receipt = new GlyphInfo { Name = "far-receipt", Glyph = "\uf543", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Record_Vinyl = new GlyphInfo { Name = "far-record-vinyl", Glyph = "\uf8d9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rectangle_Landscape = new GlyphInfo { Name = "far-rectangle-landscape", Glyph = "\uf2fa", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rectangle_Portrait = new GlyphInfo { Name = "far-rectangle-portrait", Glyph = "\uf2fb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rectangle_Wide = new GlyphInfo { Name = "far-rectangle-wide", Glyph = "\uf2fc", FontFamily = GlyphFont.Current.Regular };
@@ -1181,6 +1237,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Route = new GlyphInfo { Name = "far-route", Glyph = "\uf4d7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Route_Highway = new GlyphInfo { Name = "far-route-highway", Glyph = "\uf61a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Route_Interstate = new GlyphInfo { Name = "far-route-interstate", Glyph = "\uf61b", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Router = new GlyphInfo { Name = "far-router", Glyph = "\uf8da", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rss = new GlyphInfo { Name = "far-rss", Glyph = "\uf09e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Rss_Square = new GlyphInfo { Name = "far-rss-square", Glyph = "\uf143", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Ruble_Sign = new GlyphInfo { Name = "far-ruble-sign", Glyph = "\uf158", FontFamily = GlyphFont.Current.Regular };
@@ -1202,9 +1259,12 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Satellite_Dish = new GlyphInfo { Name = "far-satellite-dish", Glyph = "\uf7c0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Sausage = new GlyphInfo { Name = "far-sausage", Glyph = "\uf820", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Save = new GlyphInfo { Name = "far-save", Glyph = "\uf0c7", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Sax_Hot = new GlyphInfo { Name = "far-sax-hot", Glyph = "\uf8db", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Saxophone = new GlyphInfo { Name = "far-saxophone", Glyph = "\uf8dc", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scalpel = new GlyphInfo { Name = "far-scalpel", Glyph = "\uf61d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scalpel_Path = new GlyphInfo { Name = "far-scalpel-path", Glyph = "\uf61e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scanner = new GlyphInfo { Name = "far-scanner", Glyph = "\uf488", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Scanner_Image = new GlyphInfo { Name = "far-scanner-image", Glyph = "\uf8f3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scanner_Keyboard = new GlyphInfo { Name = "far-scanner-keyboard", Glyph = "\uf489", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scanner_Touchscreen = new GlyphInfo { Name = "far-scanner-touchscreen", Glyph = "\uf48a", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Scarecrow = new GlyphInfo { Name = "far-scarecrow", Glyph = "\uf70d", FontFamily = GlyphFont.Current.Regular };
@@ -1270,6 +1330,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Signal_Alt_3 = new GlyphInfo { Name = "far-signal-alt-3", Glyph = "\uf693", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Signal_Alt_Slash = new GlyphInfo { Name = "far-signal-alt-slash", Glyph = "\uf694", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Signal_Slash = new GlyphInfo { Name = "far-signal-slash", Glyph = "\uf695", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Signal_Stream = new GlyphInfo { Name = "far-signal-stream", Glyph = "\uf8dd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Signature = new GlyphInfo { Name = "far-signature", Glyph = "\uf5b7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Sim_Card = new GlyphInfo { Name = "far-sim-card", Glyph = "\uf7c4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Sitemap = new GlyphInfo { Name = "far-sitemap", Glyph = "\uf0e8", FontFamily = GlyphFont.Current.Regular };
@@ -1280,6 +1341,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Skiing = new GlyphInfo { Name = "far-skiing", Glyph = "\uf7c9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Skiing_Nordic = new GlyphInfo { Name = "far-skiing-nordic", Glyph = "\uf7ca", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Skull = new GlyphInfo { Name = "far-skull", Glyph = "\uf54c", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Skull_Cow = new GlyphInfo { Name = "far-skull-cow", Glyph = "\uf8de", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Skull_Crossbones = new GlyphInfo { Name = "far-skull-crossbones", Glyph = "\uf714", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Slash = new GlyphInfo { Name = "far-slash", Glyph = "\uf715", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Sledding = new GlyphInfo { Name = "far-sledding", Glyph = "\uf7cb", FontFamily = GlyphFont.Current.Regular };
@@ -1337,6 +1399,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Space_Shuttle = new GlyphInfo { Name = "far-space-shuttle", Glyph = "\uf197", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Spade = new GlyphInfo { Name = "far-spade", Glyph = "\uf2f4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Sparkles = new GlyphInfo { Name = "far-sparkles", Glyph = "\uf890", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Speaker = new GlyphInfo { Name = "far-speaker", Glyph = "\uf8df", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Speakers = new GlyphInfo { Name = "far-speakers", Glyph = "\uf8e0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Spell_Check = new GlyphInfo { Name = "far-spell-check", Glyph = "\uf891", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Spider = new GlyphInfo { Name = "far-spider", Glyph = "\uf717", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Spider_Black_Widow = new GlyphInfo { Name = "far-spider-black-widow", Glyph = "\uf718", FontFamily = GlyphFont.Current.Regular };
@@ -1515,6 +1579,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Tree_Palm = new GlyphInfo { Name = "far-tree-palm", Glyph = "\uf82b", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Trees = new GlyphInfo { Name = "far-trees", Glyph = "\uf724", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Triangle = new GlyphInfo { Name = "far-triangle", Glyph = "\uf2ec", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Triangle_Music = new GlyphInfo { Name = "far-triangle-music", Glyph = "\uf8e2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Trophy = new GlyphInfo { Name = "far-trophy", Glyph = "\uf091", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Trophy_Alt = new GlyphInfo { Name = "far-trophy-alt", Glyph = "\uf2eb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Truck = new GlyphInfo { Name = "far-truck", Glyph = "\uf0d1", FontFamily = GlyphFont.Current.Regular };
@@ -1526,12 +1591,17 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Truck_Pickup = new GlyphInfo { Name = "far-truck-pickup", Glyph = "\uf63c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Truck_Plow = new GlyphInfo { Name = "far-truck-plow", Glyph = "\uf7de", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Truck_Ramp = new GlyphInfo { Name = "far-truck-ramp", Glyph = "\uf4e0", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Trumpet = new GlyphInfo { Name = "far-trumpet", Glyph = "\uf8e3", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Tshirt = new GlyphInfo { Name = "far-tshirt", Glyph = "\uf553", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Tty = new GlyphInfo { Name = "far-tty", Glyph = "\uf1e4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Turkey = new GlyphInfo { Name = "far-turkey", Glyph = "\uf725", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Turntable = new GlyphInfo { Name = "far-turntable", Glyph = "\uf8e4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Turtle = new GlyphInfo { Name = "far-turtle", Glyph = "\uf726", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Tv = new GlyphInfo { Name = "far-tv", Glyph = "\uf26c", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Tv_Alt = new GlyphInfo { Name = "far-tv-alt", Glyph = "\uf8e5", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Tv_Music = new GlyphInfo { Name = "far-tv-music", Glyph = "\uf8e6", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Tv_Retro = new GlyphInfo { Name = "far-tv-retro", Glyph = "\uf401", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Typewriter = new GlyphInfo { Name = "far-typewriter", Glyph = "\uf8e7", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Umbrella = new GlyphInfo { Name = "far-umbrella", Glyph = "\uf0e9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Umbrella_Beach = new GlyphInfo { Name = "far-umbrella-beach", Glyph = "\uf5ca", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Underline = new GlyphInfo { Name = "far-underline", Glyph = "\uf0cd", FontFamily = GlyphFont.Current.Regular };
@@ -1545,6 +1615,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Unlock = new GlyphInfo { Name = "far-unlock", Glyph = "\uf09c", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Unlock_Alt = new GlyphInfo { Name = "far-unlock-alt", Glyph = "\uf13e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Upload = new GlyphInfo { Name = "far-upload", Glyph = "\uf093", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Usb_Drive = new GlyphInfo { Name = "far-usb-drive", Glyph = "\uf8e9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Usd_Circle = new GlyphInfo { Name = "far-usd-circle", Glyph = "\uf2e8", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Usd_Square = new GlyphInfo { Name = "far-usd-square", Glyph = "\uf2e9", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User = new GlyphInfo { Name = "far-user", Glyph = "\uf007", FontFamily = GlyphFont.Current.Regular };
@@ -1556,6 +1627,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_User_Circle = new GlyphInfo { Name = "far-user-circle", Glyph = "\uf2bd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Clock = new GlyphInfo { Name = "far-user-clock", Glyph = "\uf4fd", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Cog = new GlyphInfo { Name = "far-user-cog", Glyph = "\uf4fe", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_User_Cowboy = new GlyphInfo { Name = "far-user-cowboy", Glyph = "\uf8ea", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Crown = new GlyphInfo { Name = "far-user-crown", Glyph = "\uf6a4", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Edit = new GlyphInfo { Name = "far-user-edit", Glyph = "\uf4ff", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Friends = new GlyphInfo { Name = "far-user-friends", Glyph = "\uf500", FontFamily = GlyphFont.Current.Regular };
@@ -1567,6 +1639,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_User_Md = new GlyphInfo { Name = "far-user-md", Glyph = "\uf0f0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Md_Chat = new GlyphInfo { Name = "far-user-md-chat", Glyph = "\uf82e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Minus = new GlyphInfo { Name = "far-user-minus", Glyph = "\uf503", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_User_Music = new GlyphInfo { Name = "far-user-music", Glyph = "\uf8eb", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Ninja = new GlyphInfo { Name = "far-user-ninja", Glyph = "\uf504", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Nurse = new GlyphInfo { Name = "far-user-nurse", Glyph = "\uf82f", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_User_Plus = new GlyphInfo { Name = "far-user-plus", Glyph = "\uf234", FontFamily = GlyphFont.Current.Regular };
@@ -1591,12 +1664,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Venus = new GlyphInfo { Name = "far-venus", Glyph = "\uf221", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Venus_Double = new GlyphInfo { Name = "far-venus-double", Glyph = "\uf226", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Venus_Mars = new GlyphInfo { Name = "far-venus-mars", Glyph = "\uf228", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Vhs = new GlyphInfo { Name = "far-vhs", Glyph = "\uf8ec", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Vial = new GlyphInfo { Name = "far-vial", Glyph = "\uf492", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Vials = new GlyphInfo { Name = "far-vials", Glyph = "\uf493", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Video = new GlyphInfo { Name = "far-video", Glyph = "\uf03d", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Video_Plus = new GlyphInfo { Name = "far-video-plus", Glyph = "\uf4e1", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Video_Slash = new GlyphInfo { Name = "far-video-slash", Glyph = "\uf4e2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Vihara = new GlyphInfo { Name = "far-vihara", Glyph = "\uf6a7", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Violin = new GlyphInfo { Name = "far-violin", Glyph = "\uf8ed", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Voicemail = new GlyphInfo { Name = "far-voicemail", Glyph = "\uf897", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Volcano = new GlyphInfo { Name = "far-volcano", Glyph = "\uf770", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Volleyball_Ball = new GlyphInfo { Name = "far-volleyball-ball", Glyph = "\uf45f", FontFamily = GlyphFont.Current.Regular };
@@ -1609,7 +1684,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Vote_Nay = new GlyphInfo { Name = "far-vote-nay", Glyph = "\uf771", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Vote_Yea = new GlyphInfo { Name = "far-vote-yea", Glyph = "\uf772", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Vr_Cardboard = new GlyphInfo { Name = "far-vr-cardboard", Glyph = "\uf729", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Wagon_Covered = new GlyphInfo { Name = "far-wagon-covered", Glyph = "\uf8ee", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Walker = new GlyphInfo { Name = "far-walker", Glyph = "\uf831", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Walkie_Talkie = new GlyphInfo { Name = "far-walkie-talkie", Glyph = "\uf8ef", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Walking = new GlyphInfo { Name = "far-walking", Glyph = "\uf554", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Wallet = new GlyphInfo { Name = "far-wallet", Glyph = "\uf555", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Wand = new GlyphInfo { Name = "far-wand", Glyph = "\uf72a", FontFamily = GlyphFont.Current.Regular };
@@ -1618,6 +1695,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Warehouse_Alt = new GlyphInfo { Name = "far-warehouse-alt", Glyph = "\uf495", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Washer = new GlyphInfo { Name = "far-washer", Glyph = "\uf898", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Watch = new GlyphInfo { Name = "far-watch", Glyph = "\uf2e1", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Watch_Calculator = new GlyphInfo { Name = "far-watch-calculator", Glyph = "\uf8f0", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Watch_Fitness = new GlyphInfo { Name = "far-watch-fitness", Glyph = "\uf63e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Water = new GlyphInfo { Name = "far-water", Glyph = "\uf773", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Water_Lower = new GlyphInfo { Name = "far-water-lower", Glyph = "\uf774", FontFamily = GlyphFont.Current.Regular };
@@ -1625,6 +1703,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Far_Wave_Sine = new GlyphInfo { Name = "far-wave-sine", Glyph = "\uf899", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Wave_Square = new GlyphInfo { Name = "far-wave-square", Glyph = "\uf83e", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Wave_Triangle = new GlyphInfo { Name = "far-wave-triangle", Glyph = "\uf89a", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Waveform = new GlyphInfo { Name = "far-waveform", Glyph = "\uf8f1", FontFamily = GlyphFont.Current.Regular };
+        public static readonly GlyphInfo Far_Waveform_Path = new GlyphInfo { Name = "far-waveform-path", Glyph = "\uf8f2", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Webcam = new GlyphInfo { Name = "far-webcam", Glyph = "\uf832", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Webcam_Slash = new GlyphInfo { Name = "far-webcam-slash", Glyph = "\uf833", FontFamily = GlyphFont.Current.Regular };
         public static readonly GlyphInfo Far_Weight = new GlyphInfo { Name = "far-weight", Glyph = "\uf496", FontFamily = GlyphFont.Current.Regular };

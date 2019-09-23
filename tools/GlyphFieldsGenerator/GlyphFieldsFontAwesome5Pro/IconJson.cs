@@ -7,7 +7,7 @@
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The5100, The5101, The5102, The511, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The571, The580, The581, The582, The590 };
+    public enum ChangeEnum { The31, The32, The41, The42, The43, The44, The45, The46, The47, The500, The501, The5010, The5011, The5012, The5013, The502, The503, The505, The507, The509, The510, The5100, The5101, The5102, The511, The5110, The5111, The5112, The520, The530, The540, The541, The542, The550, The560, The561, The563, The570, The571, The580, The581, The582, The590 };
 
     public enum Free { Brands, Duotone, Light, Regular, Solid };
 
@@ -19,6 +19,16 @@
         public static implicit operator ChangeElement(ChangeEnum Enum) => new ChangeElement { Enum = Enum };
 
         public static implicit operator ChangeElement(long Integer) => new ChangeElement { Integer = Integer };
+    }
+
+    public partial struct Term
+    {
+        public long? Integer;
+        public string String;
+
+        public static implicit operator Term(long Integer) => new Term { Integer = Integer };
+
+        public static implicit operator Term(string String) => new Term { String = String };
     }
 
     public partial class Brands
@@ -91,9 +101,6 @@
         [JsonProperty("svg")]
         public Svg Svg { get; set; }
 
-        [JsonProperty("terms", NullValueHandling = NullValueHandling.Ignore)]
-        public string[] Terms { get; set; }
-
         [JsonProperty("unicode")]
         public string Unicode { get; set; }
 
@@ -104,7 +111,7 @@
     public partial class Search
     {
         [JsonProperty("terms")]
-        public string[] Terms { get; set; }
+        public Term[] Terms { get; set; }
     }
 
     public partial class Svg
@@ -136,6 +143,7 @@
                 ChangeElementConverter.Singleton,
                 ChangeEnumConverter.Singleton,
                 FreeConverter.Singleton,
+                TermConverter.Singleton,
                 new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
             },
         };
@@ -230,6 +238,15 @@
 
                         case "5.10.2":
                             return new ChangeElement { Enum = ChangeEnum.The5102 };
+
+                        case "5.11.0":
+                            return new ChangeElement { Enum = ChangeEnum.The5110 };
+
+                        case "5.11.1":
+                            return new ChangeElement { Enum = ChangeEnum.The5111 };
+
+                        case "5.11.2":
+                            return new ChangeElement { Enum = ChangeEnum.The5112 };
 
                         case "5.2.0":
                             return new ChangeElement { Enum = ChangeEnum.The520 };
@@ -393,6 +410,18 @@
                         serializer.Serialize(writer, "5.10.2");
                         return;
 
+                    case ChangeEnum.The5110:
+                        serializer.Serialize(writer, "5.11.0");
+                        return;
+
+                    case ChangeEnum.The5111:
+                        serializer.Serialize(writer, "5.11.1");
+                        return;
+
+                    case ChangeEnum.The5112:
+                        serializer.Serialize(writer, "5.11.2");
+                        return;
+
                     case ChangeEnum.The520:
                         serializer.Serialize(writer, "5.2.0");
                         return;
@@ -550,6 +579,15 @@
                 case "5.10.2":
                     return ChangeEnum.The5102;
 
+                case "5.11.0":
+                    return ChangeEnum.The5110;
+
+                case "5.11.1":
+                    return ChangeEnum.The5111;
+
+                case "5.11.2":
+                    return ChangeEnum.The5112;
+
                 case "5.2.0":
                     return ChangeEnum.The520;
 
@@ -706,6 +744,18 @@
 
                 case ChangeEnum.The5102:
                     serializer.Serialize(writer, "5.10.2");
+                    return;
+
+                case ChangeEnum.The5110:
+                    serializer.Serialize(writer, "5.11.0");
+                    return;
+
+                case ChangeEnum.The5111:
+                    serializer.Serialize(writer, "5.11.1");
+                    return;
+
+                case ChangeEnum.The5112:
+                    serializer.Serialize(writer, "5.11.2");
                     return;
 
                 case ChangeEnum.The520:
@@ -898,6 +948,45 @@
             var value = (long)untypedValue;
             serializer.Serialize(writer, value.ToString());
             return;
+        }
+    }
+
+    internal class TermConverter : JsonConverter
+    {
+        public static readonly TermConverter Singleton = new TermConverter();
+
+        public override bool CanConvert(Type t) => t == typeof(Term) || t == typeof(Term?);
+
+        public override object ReadJson(JsonReader reader, Type t, object existingValue, JsonSerializer serializer)
+        {
+            switch (reader.TokenType)
+            {
+                case JsonToken.Integer:
+                    var integerValue = serializer.Deserialize<long>(reader);
+                    return new Term { Integer = integerValue };
+
+                case JsonToken.String:
+                case JsonToken.Date:
+                    var stringValue = serializer.Deserialize<string>(reader);
+                    return new Term { String = stringValue };
+            }
+            throw new Exception("Cannot unmarshal type Term");
+        }
+
+        public override void WriteJson(JsonWriter writer, object untypedValue, JsonSerializer serializer)
+        {
+            var value = (Term)untypedValue;
+            if (value.Integer != null)
+            {
+                serializer.Serialize(writer, value.Integer.Value);
+                return;
+            }
+            if (value.String != null)
+            {
+                serializer.Serialize(writer, value.String);
+                return;
+            }
+            throw new Exception("Cannot marshal type Term");
         }
     }
 }

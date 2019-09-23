@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Free
 {
     /// <summary>
-    /// Font Awesome Free 5.10.2
+    /// Font Awesome Free 5.11.2
     /// </summary>
     public static class GlyphListBrands
     {
@@ -56,6 +56,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fab_Btc = new GlyphInfo { Name = "fab-btc", Glyph = "\uf15a", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Buffer = new GlyphInfo { Name = "fab-buffer", Glyph = "\uf837", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Buromobelexperte = new GlyphInfo { Name = "fab-buromobelexperte", Glyph = "\uf37f", FontFamily = GlyphFont.Current.Brands };
+        public static readonly GlyphInfo Fab_Buy_N_Large = new GlyphInfo { Name = "fab-buy-n-large", Glyph = "\uf8a6", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Buysellads = new GlyphInfo { Name = "fab-buysellads", Glyph = "\uf20d", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Canadian_Maple_Leaf = new GlyphInfo { Name = "fab-canadian-maple-leaf", Glyph = "\uf785", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Cc_Amazon_Pay = new GlyphInfo { Name = "fab-cc-amazon-pay", Glyph = "\uf42d", FontFamily = GlyphFont.Current.Brands };
@@ -246,6 +247,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fab_Markdown = new GlyphInfo { Name = "fab-markdown", Glyph = "\uf60f", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Mastodon = new GlyphInfo { Name = "fab-mastodon", Glyph = "\uf4f6", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Maxcdn = new GlyphInfo { Name = "fab-maxcdn", Glyph = "\uf136", FontFamily = GlyphFont.Current.Brands };
+        public static readonly GlyphInfo Fab_Mdb = new GlyphInfo { Name = "fab-mdb", Glyph = "\uf8ca", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Medapps = new GlyphInfo { Name = "fab-medapps", Glyph = "\uf3c6", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Medium = new GlyphInfo { Name = "fab-medium", Glyph = "\uf23a", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Medium_M = new GlyphInfo { Name = "fab-medium-m", Glyph = "\uf3c7", FontFamily = GlyphFont.Current.Brands };
@@ -274,6 +276,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fab_Openid = new GlyphInfo { Name = "fab-openid", Glyph = "\uf19b", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Opera = new GlyphInfo { Name = "fab-opera", Glyph = "\uf26a", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Optin_Monster = new GlyphInfo { Name = "fab-optin-monster", Glyph = "\uf23c", FontFamily = GlyphFont.Current.Brands };
+        public static readonly GlyphInfo Fab_Orcid = new GlyphInfo { Name = "fab-orcid", Glyph = "\uf8d2", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Osi = new GlyphInfo { Name = "fab-osi", Glyph = "\uf41a", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Page4 = new GlyphInfo { Name = "fab-page4", Glyph = "\uf3d7", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Pagelines = new GlyphInfo { Name = "fab-pagelines", Glyph = "\uf18c", FontFamily = GlyphFont.Current.Brands };
@@ -365,6 +368,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fab_Superpowers = new GlyphInfo { Name = "fab-superpowers", Glyph = "\uf2dd", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Supple = new GlyphInfo { Name = "fab-supple", Glyph = "\uf3f9", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Suse = new GlyphInfo { Name = "fab-suse", Glyph = "\uf7d6", FontFamily = GlyphFont.Current.Brands };
+        public static readonly GlyphInfo Fab_Swift = new GlyphInfo { Name = "fab-swift", Glyph = "\uf8e1", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Symfony = new GlyphInfo { Name = "fab-symfony", Glyph = "\uf83d", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Teamspeak = new GlyphInfo { Name = "fab-teamspeak", Glyph = "\uf4f9", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Telegram = new GlyphInfo { Name = "fab-telegram", Glyph = "\uf2c6", FontFamily = GlyphFont.Current.Brands };
@@ -386,6 +390,7 @@ namespace Plugin.Glypher.FontAwesome5Free
         public static readonly GlyphInfo Fab_Uber = new GlyphInfo { Name = "fab-uber", Glyph = "\uf402", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Ubuntu = new GlyphInfo { Name = "fab-ubuntu", Glyph = "\uf7df", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Uikit = new GlyphInfo { Name = "fab-uikit", Glyph = "\uf403", FontFamily = GlyphFont.Current.Brands };
+        public static readonly GlyphInfo Fab_Umbraco = new GlyphInfo { Name = "fab-umbraco", Glyph = "\uf8e8", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Uniregistry = new GlyphInfo { Name = "fab-uniregistry", Glyph = "\uf404", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Untappd = new GlyphInfo { Name = "fab-untappd", Glyph = "\uf405", FontFamily = GlyphFont.Current.Brands };
         public static readonly GlyphInfo Fab_Ups = new GlyphInfo { Name = "fab-ups", Glyph = "\uf7e0", FontFamily = GlyphFont.Current.Brands };

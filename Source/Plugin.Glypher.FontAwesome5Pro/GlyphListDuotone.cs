@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.2
+    /// Font Awesome Pro 5.11.2
     /// </summary>
     public static class GlyphListDuotone
     {
@@ -18,6 +18,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Alarm_Exclamation_Primary = new GlyphInfo { Name = "fad-alarm-exclamation-primary", Glyph = "\uf843", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alarm_Plus_Primary = new GlyphInfo { Name = "fad-alarm-plus-primary", Glyph = "\uf844", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alarm_Snooze_Primary = new GlyphInfo { Name = "fad-alarm-snooze-primary", Glyph = "\uf845", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Album_Primary = new GlyphInfo { Name = "fad-album-primary", Glyph = "\uf89f", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Album_Collection_Primary = new GlyphInfo { Name = "fad-album-collection-primary", Glyph = "\uf8a0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alicorn_Primary = new GlyphInfo { Name = "fad-alicorn-primary", Glyph = "\uf6b0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Align_Center_Primary = new GlyphInfo { Name = "fad-align-center-primary", Glyph = "\uf037", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Align_Justify_Primary = new GlyphInfo { Name = "fad-align-justify-primary", Glyph = "\uf039", FontFamily = GlyphFont.Current.Duotone };
@@ -27,6 +29,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Allergies_Primary = new GlyphInfo { Name = "fad-allergies-primary", Glyph = "\uf461", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ambulance_Primary = new GlyphInfo { Name = "fad-ambulance-primary", Glyph = "\uf0f9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_American_Sign_Language_Interpreting_Primary = new GlyphInfo { Name = "fad-american-sign-language-interpreting-primary", Glyph = "\uf2a3", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Amp_Guitar_Primary = new GlyphInfo { Name = "fad-amp-guitar-primary", Glyph = "\uf8a1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Analytics_Primary = new GlyphInfo { Name = "fad-analytics-primary", Glyph = "\uf643", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Anchor_Primary = new GlyphInfo { Name = "fad-anchor-primary", Glyph = "\uf13d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Angel_Primary = new GlyphInfo { Name = "fad-angel-primary", Glyph = "\uf779", FontFamily = GlyphFont.Current.Duotone };
@@ -110,6 +113,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Badge_Check_Primary = new GlyphInfo { Name = "fad-badge-check-primary", Glyph = "\uf336", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badge_Dollar_Primary = new GlyphInfo { Name = "fad-badge-dollar-primary", Glyph = "\uf645", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badge_Percent_Primary = new GlyphInfo { Name = "fad-badge-percent-primary", Glyph = "\uf646", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Badge_Sheriff_Primary = new GlyphInfo { Name = "fad-badge-sheriff-primary", Glyph = "\uf8a2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badger_Honey_Primary = new GlyphInfo { Name = "fad-badger-honey-primary", Glyph = "\uf6b4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bags_Shopping_Primary = new GlyphInfo { Name = "fad-bags-shopping-primary", Glyph = "\uf847", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Balance_Scale_Primary = new GlyphInfo { Name = "fad-balance-scale-primary", Glyph = "\uf24e", FontFamily = GlyphFont.Current.Duotone };
@@ -120,6 +124,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Ballot_Check_Primary = new GlyphInfo { Name = "fad-ballot-check-primary", Glyph = "\uf733", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ban_Primary = new GlyphInfo { Name = "fad-ban-primary", Glyph = "\uf05e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Band_Aid_Primary = new GlyphInfo { Name = "fad-band-aid-primary", Glyph = "\uf462", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Banjo_Primary = new GlyphInfo { Name = "fad-banjo-primary", Glyph = "\uf8a3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Primary = new GlyphInfo { Name = "fad-barcode-primary", Glyph = "\uf02a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Alt_Primary = new GlyphInfo { Name = "fad-barcode-alt-primary", Glyph = "\uf463", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Read_Primary = new GlyphInfo { Name = "fad-barcode-read-primary", Glyph = "\uf464", FontFamily = GlyphFont.Current.Duotone };
@@ -147,6 +152,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bell_School_Slash_Primary = new GlyphInfo { Name = "fad-bell-school-slash-primary", Glyph = "\uf5d6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bell_Slash_Primary = new GlyphInfo { Name = "fad-bell-slash-primary", Glyph = "\uf1f6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bells_Primary = new GlyphInfo { Name = "fad-bells-primary", Glyph = "\uf77f", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Betamax_Primary = new GlyphInfo { Name = "fad-betamax-primary", Glyph = "\uf8a4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bezier_Curve_Primary = new GlyphInfo { Name = "fad-bezier-curve-primary", Glyph = "\uf55b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bible_Primary = new GlyphInfo { Name = "fad-bible-primary", Glyph = "\uf647", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bicycle_Primary = new GlyphInfo { Name = "fad-bicycle-primary", Glyph = "\uf206", FontFamily = GlyphFont.Current.Duotone };
@@ -178,6 +184,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bookmark_Primary = new GlyphInfo { Name = "fad-bookmark-primary", Glyph = "\uf02e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Books_Primary = new GlyphInfo { Name = "fad-books-primary", Glyph = "\uf5db", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Books_Medical_Primary = new GlyphInfo { Name = "fad-books-medical-primary", Glyph = "\uf7e8", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Boombox_Primary = new GlyphInfo { Name = "fad-boombox-primary", Glyph = "\uf8a5", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Boot_Primary = new GlyphInfo { Name = "fad-boot-primary", Glyph = "\uf782", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Booth_Curtain_Primary = new GlyphInfo { Name = "fad-booth-curtain-primary", Glyph = "\uf734", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_All_Primary = new GlyphInfo { Name = "fad-border-all-primary", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Duotone };
@@ -236,6 +243,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bus_School_Primary = new GlyphInfo { Name = "fad-bus-school-primary", Glyph = "\uf5dd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Business_Time_Primary = new GlyphInfo { Name = "fad-business-time-primary", Glyph = "\uf64a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cabinet_Filing_Primary = new GlyphInfo { Name = "fad-cabinet-filing-primary", Glyph = "\uf64b", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cactus_Primary = new GlyphInfo { Name = "fad-cactus-primary", Glyph = "\uf8a7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calculator_Primary = new GlyphInfo { Name = "fad-calculator-primary", Glyph = "\uf1ec", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calculator_Alt_Primary = new GlyphInfo { Name = "fad-calculator-alt-primary", Glyph = "\uf64c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Primary = new GlyphInfo { Name = "fad-calendar-primary", Glyph = "\uf133", FontFamily = GlyphFont.Current.Duotone };
@@ -249,8 +257,11 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Calendar_Star_Primary = new GlyphInfo { Name = "fad-calendar-star-primary", Glyph = "\uf736", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Times_Primary = new GlyphInfo { Name = "fad-calendar-times-primary", Glyph = "\uf273", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Week_Primary = new GlyphInfo { Name = "fad-calendar-week-primary", Glyph = "\uf784", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camcorder_Primary = new GlyphInfo { Name = "fad-camcorder-primary", Glyph = "\uf8a8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Primary = new GlyphInfo { Name = "fad-camera-primary", Glyph = "\uf030", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Alt_Primary = new GlyphInfo { Name = "fad-camera-alt-primary", Glyph = "\uf332", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camera_Movie_Primary = new GlyphInfo { Name = "fad-camera-movie-primary", Glyph = "\uf8a9", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camera_Polaroid_Primary = new GlyphInfo { Name = "fad-camera-polaroid-primary", Glyph = "\uf8aa", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Retro_Primary = new GlyphInfo { Name = "fad-camera-retro-primary", Glyph = "\uf083", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Campfire_Primary = new GlyphInfo { Name = "fad-campfire-primary", Glyph = "\uf6ba", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Campground_Primary = new GlyphInfo { Name = "fad-campground-primary", Glyph = "\uf6bb", FontFamily = GlyphFont.Current.Duotone };
@@ -288,8 +299,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Cart_Arrow_Down_Primary = new GlyphInfo { Name = "fad-cart-arrow-down-primary", Glyph = "\uf218", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cart_Plus_Primary = new GlyphInfo { Name = "fad-cart-plus-primary", Glyph = "\uf217", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cash_Register_Primary = new GlyphInfo { Name = "fad-cash-register-primary", Glyph = "\uf788", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cassette_Tape_Primary = new GlyphInfo { Name = "fad-cassette-tape-primary", Glyph = "\uf8ab", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cat_Primary = new GlyphInfo { Name = "fad-cat-primary", Glyph = "\uf6be", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cauldron_Primary = new GlyphInfo { Name = "fad-cauldron-primary", Glyph = "\uf6bf", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cctv_Primary = new GlyphInfo { Name = "fad-cctv-primary", Glyph = "\uf8ac", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Certificate_Primary = new GlyphInfo { Name = "fad-certificate-primary", Glyph = "\uf0a3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Chair_Primary = new GlyphInfo { Name = "fad-chair-primary", Glyph = "\uf6c0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Chair_Office_Primary = new GlyphInfo { Name = "fad-chair-office-primary", Glyph = "\uf6c1", FontFamily = GlyphFont.Current.Duotone };
@@ -349,6 +362,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Circle_Primary = new GlyphInfo { Name = "fad-circle-primary", Glyph = "\uf111", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Circle_Notch_Primary = new GlyphInfo { Name = "fad-circle-notch-primary", Glyph = "\uf1ce", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_City_Primary = new GlyphInfo { Name = "fad-city-primary", Glyph = "\uf64f", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Clarinet_Primary = new GlyphInfo { Name = "fad-clarinet-primary", Glyph = "\uf8ad", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Claw_Marks_Primary = new GlyphInfo { Name = "fad-claw-marks-primary", Glyph = "\uf6c2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Clinic_Medical_Primary = new GlyphInfo { Name = "fad-clinic-medical-primary", Glyph = "\uf7f2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Clipboard_Primary = new GlyphInfo { Name = "fad-clipboard-primary", Glyph = "\uf328", FontFamily = GlyphFont.Current.Duotone };
@@ -369,6 +383,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Cloud_Meatball_Primary = new GlyphInfo { Name = "fad-cloud-meatball-primary", Glyph = "\uf73b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Moon_Primary = new GlyphInfo { Name = "fad-cloud-moon-primary", Glyph = "\uf6c3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Moon_Rain_Primary = new GlyphInfo { Name = "fad-cloud-moon-rain-primary", Glyph = "\uf73c", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cloud_Music_Primary = new GlyphInfo { Name = "fad-cloud-music-primary", Glyph = "\uf8ae", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Rain_Primary = new GlyphInfo { Name = "fad-cloud-rain-primary", Glyph = "\uf73d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Rainbow_Primary = new GlyphInfo { Name = "fad-cloud-rainbow-primary", Glyph = "\uf73e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Showers_Primary = new GlyphInfo { Name = "fad-cloud-showers-primary", Glyph = "\uf73f", FontFamily = GlyphFont.Current.Duotone };
@@ -406,6 +421,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Comment_Alt_Lines_Primary = new GlyphInfo { Name = "fad-comment-alt-lines-primary", Glyph = "\uf4a6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Medical_Primary = new GlyphInfo { Name = "fad-comment-alt-medical-primary", Glyph = "\uf7f4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Minus_Primary = new GlyphInfo { Name = "fad-comment-alt-minus-primary", Glyph = "\uf4a7", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Comment_Alt_Music_Primary = new GlyphInfo { Name = "fad-comment-alt-music-primary", Glyph = "\uf8af", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Plus_Primary = new GlyphInfo { Name = "fad-comment-alt-plus-primary", Glyph = "\uf4a8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Slash_Primary = new GlyphInfo { Name = "fad-comment-alt-slash-primary", Glyph = "\uf4a9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Smile_Primary = new GlyphInfo { Name = "fad-comment-alt-smile-primary", Glyph = "\uf4aa", FontFamily = GlyphFont.Current.Duotone };
@@ -418,6 +434,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Comment_Lines_Primary = new GlyphInfo { Name = "fad-comment-lines-primary", Glyph = "\uf4b0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Medical_Primary = new GlyphInfo { Name = "fad-comment-medical-primary", Glyph = "\uf7f5", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Minus_Primary = new GlyphInfo { Name = "fad-comment-minus-primary", Glyph = "\uf4b1", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Comment_Music_Primary = new GlyphInfo { Name = "fad-comment-music-primary", Glyph = "\uf8b0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Plus_Primary = new GlyphInfo { Name = "fad-comment-plus-primary", Glyph = "\uf4b2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Slash_Primary = new GlyphInfo { Name = "fad-comment-slash-primary", Glyph = "\uf4b3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Smile_Primary = new GlyphInfo { Name = "fad-comment-smile-primary", Glyph = "\uf4b4", FontFamily = GlyphFont.Current.Duotone };
@@ -433,6 +450,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Compress_Alt_Primary = new GlyphInfo { Name = "fad-compress-alt-primary", Glyph = "\uf422", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Compress_Arrows_Alt_Primary = new GlyphInfo { Name = "fad-compress-arrows-alt-primary", Glyph = "\uf78c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Compress_Wide_Primary = new GlyphInfo { Name = "fad-compress-wide-primary", Glyph = "\uf326", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Computer_Classic_Primary = new GlyphInfo { Name = "fad-computer-classic-primary", Glyph = "\uf8b1", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Computer_Speaker_Primary = new GlyphInfo { Name = "fad-computer-speaker-primary", Glyph = "\uf8b2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Concierge_Bell_Primary = new GlyphInfo { Name = "fad-concierge-bell-primary", Glyph = "\uf562", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Construction_Primary = new GlyphInfo { Name = "fad-construction-primary", Glyph = "\uf85d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Container_Storage_Primary = new GlyphInfo { Name = "fad-container-storage-primary", Glyph = "\uf4b7", FontFamily = GlyphFont.Current.Duotone };
@@ -445,6 +464,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Corn_Primary = new GlyphInfo { Name = "fad-corn-primary", Glyph = "\uf6c7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Couch_Primary = new GlyphInfo { Name = "fad-couch-primary", Glyph = "\uf4b8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cow_Primary = new GlyphInfo { Name = "fad-cow-primary", Glyph = "\uf6c8", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cowbell_Primary = new GlyphInfo { Name = "fad-cowbell-primary", Glyph = "\uf8b3", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cowbell_More_Primary = new GlyphInfo { Name = "fad-cowbell-more-primary", Glyph = "\uf8b4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Primary = new GlyphInfo { Name = "fad-credit-card-primary", Glyph = "\uf09d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Blank_Primary = new GlyphInfo { Name = "fad-credit-card-blank-primary", Glyph = "\uf389", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Front_Primary = new GlyphInfo { Name = "fad-credit-card-front-primary", Glyph = "\uf38a", FontFamily = GlyphFont.Current.Duotone };
@@ -492,6 +513,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Digital_Tachograph_Primary = new GlyphInfo { Name = "fad-digital-tachograph-primary", Glyph = "\uf566", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Diploma_Primary = new GlyphInfo { Name = "fad-diploma-primary", Glyph = "\uf5ea", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Directions_Primary = new GlyphInfo { Name = "fad-directions-primary", Glyph = "\uf5eb", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Disc_Drive_Primary = new GlyphInfo { Name = "fad-disc-drive-primary", Glyph = "\uf8b5", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Disease_Primary = new GlyphInfo { Name = "fad-disease-primary", Glyph = "\uf7fa", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Divide_Primary = new GlyphInfo { Name = "fad-divide-primary", Glyph = "\uf529", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Dizzy_Primary = new GlyphInfo { Name = "fad-dizzy-primary", Glyph = "\uf567", FontFamily = GlyphFont.Current.Duotone };
@@ -606,6 +628,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_File_Medical_Primary = new GlyphInfo { Name = "fad-file-medical-primary", Glyph = "\uf477", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Medical_Alt_Primary = new GlyphInfo { Name = "fad-file-medical-alt-primary", Glyph = "\uf478", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Minus_Primary = new GlyphInfo { Name = "fad-file-minus-primary", Glyph = "\uf318", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_File_Music_Primary = new GlyphInfo { Name = "fad-file-music-primary", Glyph = "\uf8b6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Pdf_Primary = new GlyphInfo { Name = "fad-file-pdf-primary", Glyph = "\uf1c1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Plus_Primary = new GlyphInfo { Name = "fad-file-plus-primary", Glyph = "\uf319", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Powerpoint_Primary = new GlyphInfo { Name = "fad-file-powerpoint-primary", Glyph = "\uf1c4", FontFamily = GlyphFont.Current.Duotone };
@@ -623,6 +646,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Fill_Drip_Primary = new GlyphInfo { Name = "fad-fill-drip-primary", Glyph = "\uf576", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Film_Primary = new GlyphInfo { Name = "fad-film-primary", Glyph = "\uf008", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Film_Alt_Primary = new GlyphInfo { Name = "fad-film-alt-primary", Glyph = "\uf3a0", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Film_Canister_Primary = new GlyphInfo { Name = "fad-film-canister-primary", Glyph = "\uf8b7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Filter_Primary = new GlyphInfo { Name = "fad-filter-primary", Glyph = "\uf0b0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fingerprint_Primary = new GlyphInfo { Name = "fad-fingerprint-primary", Glyph = "\uf577", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fire_Primary = new GlyphInfo { Name = "fad-fire-primary", Glyph = "\uf06d", FontFamily = GlyphFont.Current.Duotone };
@@ -639,6 +663,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Flag_Checkered_Primary = new GlyphInfo { Name = "fad-flag-checkered-primary", Glyph = "\uf11e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flag_Usa_Primary = new GlyphInfo { Name = "fad-flag-usa-primary", Glyph = "\uf74d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flame_Primary = new GlyphInfo { Name = "fad-flame-primary", Glyph = "\uf6df", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flashlight_Primary = new GlyphInfo { Name = "fad-flashlight-primary", Glyph = "\uf8b8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Primary = new GlyphInfo { Name = "fad-flask-primary", Glyph = "\uf0c3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Poison_Primary = new GlyphInfo { Name = "fad-flask-poison-primary", Glyph = "\uf6e0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Potion_Primary = new GlyphInfo { Name = "fad-flask-potion-primary", Glyph = "\uf6e1", FontFamily = GlyphFont.Current.Duotone };
@@ -646,6 +671,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Flower_Daffodil_Primary = new GlyphInfo { Name = "fad-flower-daffodil-primary", Glyph = "\uf800", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flower_Tulip_Primary = new GlyphInfo { Name = "fad-flower-tulip-primary", Glyph = "\uf801", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flushed_Primary = new GlyphInfo { Name = "fad-flushed-primary", Glyph = "\uf579", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flute_Primary = new GlyphInfo { Name = "fad-flute-primary", Glyph = "\uf8b9", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flux_Capacitor_Primary = new GlyphInfo { Name = "fad-flux-capacitor-primary", Glyph = "\uf8ba", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fog_Primary = new GlyphInfo { Name = "fad-fog-primary", Glyph = "\uf74e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Folder_Primary = new GlyphInfo { Name = "fad-folder-primary", Glyph = "\uf07b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Folder_Minus_Primary = new GlyphInfo { Name = "fad-folder-minus-primary", Glyph = "\uf65d", FontFamily = GlyphFont.Current.Duotone };
@@ -672,7 +699,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Futbol_Primary = new GlyphInfo { Name = "fad-futbol-primary", Glyph = "\uf1e3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Game_Board_Primary = new GlyphInfo { Name = "fad-game-board-primary", Glyph = "\uf867", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Game_Board_Alt_Primary = new GlyphInfo { Name = "fad-game-board-alt-primary", Glyph = "\uf868", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Game_Console_Handheld_Primary = new GlyphInfo { Name = "fad-game-console-handheld-primary", Glyph = "\uf8bb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gamepad_Primary = new GlyphInfo { Name = "fad-gamepad-primary", Glyph = "\uf11b", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Gamepad_Alt_Primary = new GlyphInfo { Name = "fad-gamepad-alt-primary", Glyph = "\uf8bc", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gas_Pump_Primary = new GlyphInfo { Name = "fad-gas-pump-primary", Glyph = "\uf52f", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gas_Pump_Slash_Primary = new GlyphInfo { Name = "fad-gas-pump-slash-primary", Glyph = "\uf5f4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gavel_Primary = new GlyphInfo { Name = "fad-gavel-primary", Glyph = "\uf0e3", FontFamily = GlyphFont.Current.Duotone };
@@ -704,6 +733,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Golf_Club_Primary = new GlyphInfo { Name = "fad-golf-club-primary", Glyph = "\uf451", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gopuram_Primary = new GlyphInfo { Name = "fad-gopuram-primary", Glyph = "\uf664", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Graduation_Cap_Primary = new GlyphInfo { Name = "fad-graduation-cap-primary", Glyph = "\uf19d", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Gramophone_Primary = new GlyphInfo { Name = "fad-gramophone-primary", Glyph = "\uf8bd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Greater_Than_Primary = new GlyphInfo { Name = "fad-greater-than-primary", Glyph = "\uf531", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Greater_Than_Equal_Primary = new GlyphInfo { Name = "fad-greater-than-equal-primary", Glyph = "\uf532", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Grimace_Primary = new GlyphInfo { Name = "fad-grimace-primary", Glyph = "\uf57f", FontFamily = GlyphFont.Current.Duotone };
@@ -725,6 +755,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Grip_Lines_Vertical_Primary = new GlyphInfo { Name = "fad-grip-lines-vertical-primary", Glyph = "\uf7a5", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Grip_Vertical_Primary = new GlyphInfo { Name = "fad-grip-vertical-primary", Glyph = "\uf58e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Guitar_Primary = new GlyphInfo { Name = "fad-guitar-primary", Glyph = "\uf7a6", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Guitar_Electric_Primary = new GlyphInfo { Name = "fad-guitar-electric-primary", Glyph = "\uf8be", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Guitars_Primary = new GlyphInfo { Name = "fad-guitars-primary", Glyph = "\uf8bf", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H_Square_Primary = new GlyphInfo { Name = "fad-h-square-primary", Glyph = "\uf0fd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H1_Primary = new GlyphInfo { Name = "fad-h1-primary", Glyph = "\uf313", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H2_Primary = new GlyphInfo { Name = "fad-h2-primary", Glyph = "\uf314", FontFamily = GlyphFont.Current.Duotone };
@@ -765,6 +797,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Hard_Hat_Primary = new GlyphInfo { Name = "fad-hard-hat-primary", Glyph = "\uf807", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hashtag_Primary = new GlyphInfo { Name = "fad-hashtag-primary", Glyph = "\uf292", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Chef_Primary = new GlyphInfo { Name = "fad-hat-chef-primary", Glyph = "\uf86b", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Hat_Cowboy_Primary = new GlyphInfo { Name = "fad-hat-cowboy-primary", Glyph = "\uf8c0", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Hat_Cowboy_Side_Primary = new GlyphInfo { Name = "fad-hat-cowboy-side-primary", Glyph = "\uf8c1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Santa_Primary = new GlyphInfo { Name = "fad-hat-santa-primary", Glyph = "\uf7a7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Winter_Primary = new GlyphInfo { Name = "fad-hat-winter-primary", Glyph = "\uf7a8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Witch_Primary = new GlyphInfo { Name = "fad-hat-witch-primary", Glyph = "\uf6e7", FontFamily = GlyphFont.Current.Duotone };
@@ -773,6 +807,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Hdd_Primary = new GlyphInfo { Name = "fad-hdd-primary", Glyph = "\uf0a0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Primary = new GlyphInfo { Name = "fad-head-side-primary", Glyph = "\uf6e9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Brain_Primary = new GlyphInfo { Name = "fad-head-side-brain-primary", Glyph = "\uf808", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Head_Side_Headphones_Primary = new GlyphInfo { Name = "fad-head-side-headphones-primary", Glyph = "\uf8c2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Medical_Primary = new GlyphInfo { Name = "fad-head-side-medical-primary", Glyph = "\uf809", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Vr_Primary = new GlyphInfo { Name = "fad-head-vr-primary", Glyph = "\uf6ea", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Heading_Primary = new GlyphInfo { Name = "fad-heading-primary", Glyph = "\uf1dc", FontFamily = GlyphFont.Current.Duotone };
@@ -805,6 +840,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Horizontal_Rule_Primary = new GlyphInfo { Name = "fad-horizontal-rule-primary", Glyph = "\uf86c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Horse_Primary = new GlyphInfo { Name = "fad-horse-primary", Glyph = "\uf6f0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Horse_Head_Primary = new GlyphInfo { Name = "fad-horse-head-primary", Glyph = "\uf7ab", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Horse_Saddle_Primary = new GlyphInfo { Name = "fad-horse-saddle-primary", Glyph = "\uf8c3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Primary = new GlyphInfo { Name = "fad-hospital-primary", Glyph = "\uf0f8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Alt_Primary = new GlyphInfo { Name = "fad-hospital-alt-primary", Glyph = "\uf47d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Symbol_Primary = new GlyphInfo { Name = "fad-hospital-symbol-primary", Glyph = "\uf47e", FontFamily = GlyphFont.Current.Duotone };
@@ -833,6 +869,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Id_Card_Alt_Primary = new GlyphInfo { Name = "fad-id-card-alt-primary", Glyph = "\uf47f", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Igloo_Primary = new GlyphInfo { Name = "fad-igloo-primary", Glyph = "\uf7ae", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Image_Primary = new GlyphInfo { Name = "fad-image-primary", Glyph = "\uf03e", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Image_Polaroid_Primary = new GlyphInfo { Name = "fad-image-polaroid-primary", Glyph = "\uf8c4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Images_Primary = new GlyphInfo { Name = "fad-images-primary", Glyph = "\uf302", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Inbox_Primary = new GlyphInfo { Name = "fad-inbox-primary", Glyph = "\uf01c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Inbox_In_Primary = new GlyphInfo { Name = "fad-inbox-in-primary", Glyph = "\uf310", FontFamily = GlyphFont.Current.Duotone };
@@ -854,7 +891,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Jedi_Primary = new GlyphInfo { Name = "fad-jedi-primary", Glyph = "\uf669", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Joint_Primary = new GlyphInfo { Name = "fad-joint-primary", Glyph = "\uf595", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Journal_Whills_Primary = new GlyphInfo { Name = "fad-journal-whills-primary", Glyph = "\uf66a", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Joystick_Primary = new GlyphInfo { Name = "fad-joystick-primary", Glyph = "\uf8c5", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Jug_Primary = new GlyphInfo { Name = "fad-jug-primary", Glyph = "\uf8c6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Kaaba_Primary = new GlyphInfo { Name = "fad-kaaba-primary", Glyph = "\uf66b", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Kazoo_Primary = new GlyphInfo { Name = "fad-kazoo-primary", Glyph = "\uf8c7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Kerning_Primary = new GlyphInfo { Name = "fad-kerning-primary", Glyph = "\uf86f", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Key_Primary = new GlyphInfo { Name = "fad-key-primary", Glyph = "\uf084", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Key_Skeleton_Primary = new GlyphInfo { Name = "fad-key-skeleton-primary", Glyph = "\uf6f3", FontFamily = GlyphFont.Current.Duotone };
@@ -876,6 +916,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Laptop_Primary = new GlyphInfo { Name = "fad-laptop-primary", Glyph = "\uf109", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laptop_Code_Primary = new GlyphInfo { Name = "fad-laptop-code-primary", Glyph = "\uf5fc", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laptop_Medical_Primary = new GlyphInfo { Name = "fad-laptop-medical-primary", Glyph = "\uf812", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Lasso_Primary = new GlyphInfo { Name = "fad-lasso-primary", Glyph = "\uf8c8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Primary = new GlyphInfo { Name = "fad-laugh-primary", Glyph = "\uf599", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Beam_Primary = new GlyphInfo { Name = "fad-laugh-beam-primary", Glyph = "\uf59a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Squint_Primary = new GlyphInfo { Name = "fad-laugh-squint-primary", Glyph = "\uf59b", FontFamily = GlyphFont.Current.Duotone };
@@ -908,6 +949,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Lira_Sign_Primary = new GlyphInfo { Name = "fad-lira-sign-primary", Glyph = "\uf195", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Primary = new GlyphInfo { Name = "fad-list-primary", Glyph = "\uf03a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Alt_Primary = new GlyphInfo { Name = "fad-list-alt-primary", Glyph = "\uf022", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_List_Music_Primary = new GlyphInfo { Name = "fad-list-music-primary", Glyph = "\uf8c9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Ol_Primary = new GlyphInfo { Name = "fad-list-ol-primary", Glyph = "\uf0cb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Ul_Primary = new GlyphInfo { Name = "fad-list-ul-primary", Glyph = "\uf0ca", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Location_Primary = new GlyphInfo { Name = "fad-location-primary", Glyph = "\uf601", FontFamily = GlyphFont.Current.Duotone };
@@ -978,6 +1020,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Microphone_Alt_Primary = new GlyphInfo { Name = "fad-microphone-alt-primary", Glyph = "\uf3c9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microphone_Alt_Slash_Primary = new GlyphInfo { Name = "fad-microphone-alt-slash-primary", Glyph = "\uf539", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microphone_Slash_Primary = new GlyphInfo { Name = "fad-microphone-slash-primary", Glyph = "\uf131", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Microphone_Stand_Primary = new GlyphInfo { Name = "fad-microphone-stand-primary", Glyph = "\uf8cb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microscope_Primary = new GlyphInfo { Name = "fad-microscope-primary", Glyph = "\uf610", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mind_Share_Primary = new GlyphInfo { Name = "fad-mind-share-primary", Glyph = "\uf677", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Minus_Primary = new GlyphInfo { Name = "fad-minus-primary", Glyph = "\uf068", FontFamily = GlyphFont.Current.Duotone };
@@ -1010,12 +1053,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Motorcycle_Primary = new GlyphInfo { Name = "fad-motorcycle-primary", Glyph = "\uf21c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mountain_Primary = new GlyphInfo { Name = "fad-mountain-primary", Glyph = "\uf6fc", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mountains_Primary = new GlyphInfo { Name = "fad-mountains-primary", Glyph = "\uf6fd", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mouse_Primary = new GlyphInfo { Name = "fad-mouse-primary", Glyph = "\uf8cc", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mouse_Alt_Primary = new GlyphInfo { Name = "fad-mouse-alt-primary", Glyph = "\uf8cd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mouse_Pointer_Primary = new GlyphInfo { Name = "fad-mouse-pointer-primary", Glyph = "\uf245", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mp3_Player_Primary = new GlyphInfo { Name = "fad-mp3-player-primary", Glyph = "\uf8ce", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Primary = new GlyphInfo { Name = "fad-mug-primary", Glyph = "\uf874", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Hot_Primary = new GlyphInfo { Name = "fad-mug-hot-primary", Glyph = "\uf7b6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Marshmallows_Primary = new GlyphInfo { Name = "fad-mug-marshmallows-primary", Glyph = "\uf7b7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Tea_Primary = new GlyphInfo { Name = "fad-mug-tea-primary", Glyph = "\uf875", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Music_Primary = new GlyphInfo { Name = "fad-music-primary", Glyph = "\uf001", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Alt_Primary = new GlyphInfo { Name = "fad-music-alt-primary", Glyph = "\uf8cf", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Alt_Slash_Primary = new GlyphInfo { Name = "fad-music-alt-slash-primary", Glyph = "\uf8d0", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Slash_Primary = new GlyphInfo { Name = "fad-music-slash-primary", Glyph = "\uf8d1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Narwhal_Primary = new GlyphInfo { Name = "fad-narwhal-primary", Glyph = "\uf6fe", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Network_Wired_Primary = new GlyphInfo { Name = "fad-network-wired-primary", Glyph = "\uf6ff", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Neuter_Primary = new GlyphInfo { Name = "fad-neuter-primary", Glyph = "\uf22c", FontFamily = GlyphFont.Current.Duotone };
@@ -1084,12 +1133,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Phone_Laptop_Primary = new GlyphInfo { Name = "fad-phone-laptop-primary", Glyph = "\uf87a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Office_Primary = new GlyphInfo { Name = "fad-phone-office-primary", Glyph = "\uf67d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Plus_Primary = new GlyphInfo { Name = "fad-phone-plus-primary", Glyph = "\uf4d2", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Phone_Rotary_Primary = new GlyphInfo { Name = "fad-phone-rotary-primary", Glyph = "\uf8d3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Slash_Primary = new GlyphInfo { Name = "fad-phone-slash-primary", Glyph = "\uf3dd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Square_Primary = new GlyphInfo { Name = "fad-phone-square-primary", Glyph = "\uf098", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Square_Alt_Primary = new GlyphInfo { Name = "fad-phone-square-alt-primary", Glyph = "\uf87b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Volume_Primary = new GlyphInfo { Name = "fad-phone-volume-primary", Glyph = "\uf2a0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Photo_Video_Primary = new GlyphInfo { Name = "fad-photo-video-primary", Glyph = "\uf87c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pi_Primary = new GlyphInfo { Name = "fad-pi-primary", Glyph = "\uf67e", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Piano_Primary = new GlyphInfo { Name = "fad-piano-primary", Glyph = "\uf8d4", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Piano_Keyboard_Primary = new GlyphInfo { Name = "fad-piano-keyboard-primary", Glyph = "\uf8d5", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pie_Primary = new GlyphInfo { Name = "fad-pie-primary", Glyph = "\uf705", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pig_Primary = new GlyphInfo { Name = "fad-pig-primary", Glyph = "\uf706", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Piggy_Bank_Primary = new GlyphInfo { Name = "fad-piggy-bank-primary", Glyph = "\uf4d3", FontFamily = GlyphFont.Current.Duotone };
@@ -1133,6 +1185,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Print_Slash_Primary = new GlyphInfo { Name = "fad-print-slash-primary", Glyph = "\uf686", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Procedures_Primary = new GlyphInfo { Name = "fad-procedures-primary", Glyph = "\uf487", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Project_Diagram_Primary = new GlyphInfo { Name = "fad-project-diagram-primary", Glyph = "\uf542", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Projector_Primary = new GlyphInfo { Name = "fad-projector-primary", Glyph = "\uf8d6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pumpkin_Primary = new GlyphInfo { Name = "fad-pumpkin-primary", Glyph = "\uf707", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Puzzle_Piece_Primary = new GlyphInfo { Name = "fad-puzzle-piece-primary", Glyph = "\uf12e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Qrcode_Primary = new GlyphInfo { Name = "fad-qrcode-primary", Glyph = "\uf029", FontFamily = GlyphFont.Current.Duotone };
@@ -1148,12 +1201,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Racquet_Primary = new GlyphInfo { Name = "fad-racquet-primary", Glyph = "\uf45a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Radiation_Primary = new GlyphInfo { Name = "fad-radiation-primary", Glyph = "\uf7b9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Radiation_Alt_Primary = new GlyphInfo { Name = "fad-radiation-alt-primary", Glyph = "\uf7ba", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Radio_Primary = new GlyphInfo { Name = "fad-radio-primary", Glyph = "\uf8d7", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Radio_Alt_Primary = new GlyphInfo { Name = "fad-radio-alt-primary", Glyph = "\uf8d8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rainbow_Primary = new GlyphInfo { Name = "fad-rainbow-primary", Glyph = "\uf75b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Raindrops_Primary = new GlyphInfo { Name = "fad-raindrops-primary", Glyph = "\uf75c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ram_Primary = new GlyphInfo { Name = "fad-ram-primary", Glyph = "\uf70a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ramp_Loading_Primary = new GlyphInfo { Name = "fad-ramp-loading-primary", Glyph = "\uf4d4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Random_Primary = new GlyphInfo { Name = "fad-random-primary", Glyph = "\uf074", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Receipt_Primary = new GlyphInfo { Name = "fad-receipt-primary", Glyph = "\uf543", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Record_Vinyl_Primary = new GlyphInfo { Name = "fad-record-vinyl-primary", Glyph = "\uf8d9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Landscape_Primary = new GlyphInfo { Name = "fad-rectangle-landscape-primary", Glyph = "\uf2fa", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Portrait_Primary = new GlyphInfo { Name = "fad-rectangle-portrait-primary", Glyph = "\uf2fb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Wide_Primary = new GlyphInfo { Name = "fad-rectangle-wide-primary", Glyph = "\uf2fc", FontFamily = GlyphFont.Current.Duotone };
@@ -1181,6 +1237,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Route_Primary = new GlyphInfo { Name = "fad-route-primary", Glyph = "\uf4d7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Route_Highway_Primary = new GlyphInfo { Name = "fad-route-highway-primary", Glyph = "\uf61a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Route_Interstate_Primary = new GlyphInfo { Name = "fad-route-interstate-primary", Glyph = "\uf61b", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Router_Primary = new GlyphInfo { Name = "fad-router-primary", Glyph = "\uf8da", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rss_Primary = new GlyphInfo { Name = "fad-rss-primary", Glyph = "\uf09e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rss_Square_Primary = new GlyphInfo { Name = "fad-rss-square-primary", Glyph = "\uf143", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ruble_Sign_Primary = new GlyphInfo { Name = "fad-ruble-sign-primary", Glyph = "\uf158", FontFamily = GlyphFont.Current.Duotone };
@@ -1202,9 +1259,12 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Satellite_Dish_Primary = new GlyphInfo { Name = "fad-satellite-dish-primary", Glyph = "\uf7c0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sausage_Primary = new GlyphInfo { Name = "fad-sausage-primary", Glyph = "\uf820", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Save_Primary = new GlyphInfo { Name = "fad-save-primary", Glyph = "\uf0c7", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Sax_Hot_Primary = new GlyphInfo { Name = "fad-sax-hot-primary", Glyph = "\uf8db", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Saxophone_Primary = new GlyphInfo { Name = "fad-saxophone-primary", Glyph = "\uf8dc", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scalpel_Primary = new GlyphInfo { Name = "fad-scalpel-primary", Glyph = "\uf61d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scalpel_Path_Primary = new GlyphInfo { Name = "fad-scalpel-path-primary", Glyph = "\uf61e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Primary = new GlyphInfo { Name = "fad-scanner-primary", Glyph = "\uf488", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Scanner_Image_Primary = new GlyphInfo { Name = "fad-scanner-image-primary", Glyph = "\uf8f3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Keyboard_Primary = new GlyphInfo { Name = "fad-scanner-keyboard-primary", Glyph = "\uf489", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Touchscreen_Primary = new GlyphInfo { Name = "fad-scanner-touchscreen-primary", Glyph = "\uf48a", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scarecrow_Primary = new GlyphInfo { Name = "fad-scarecrow-primary", Glyph = "\uf70d", FontFamily = GlyphFont.Current.Duotone };
@@ -1270,6 +1330,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Signal_Alt_3_Primary = new GlyphInfo { Name = "fad-signal-alt-3-primary", Glyph = "\uf693", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signal_Alt_Slash_Primary = new GlyphInfo { Name = "fad-signal-alt-slash-primary", Glyph = "\uf694", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signal_Slash_Primary = new GlyphInfo { Name = "fad-signal-slash-primary", Glyph = "\uf695", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Signal_Stream_Primary = new GlyphInfo { Name = "fad-signal-stream-primary", Glyph = "\uf8dd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signature_Primary = new GlyphInfo { Name = "fad-signature-primary", Glyph = "\uf5b7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sim_Card_Primary = new GlyphInfo { Name = "fad-sim-card-primary", Glyph = "\uf7c4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sitemap_Primary = new GlyphInfo { Name = "fad-sitemap-primary", Glyph = "\uf0e8", FontFamily = GlyphFont.Current.Duotone };
@@ -1280,6 +1341,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Skiing_Primary = new GlyphInfo { Name = "fad-skiing-primary", Glyph = "\uf7c9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skiing_Nordic_Primary = new GlyphInfo { Name = "fad-skiing-nordic-primary", Glyph = "\uf7ca", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skull_Primary = new GlyphInfo { Name = "fad-skull-primary", Glyph = "\uf54c", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Skull_Cow_Primary = new GlyphInfo { Name = "fad-skull-cow-primary", Glyph = "\uf8de", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skull_Crossbones_Primary = new GlyphInfo { Name = "fad-skull-crossbones-primary", Glyph = "\uf714", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Slash_Primary = new GlyphInfo { Name = "fad-slash-primary", Glyph = "\uf715", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sledding_Primary = new GlyphInfo { Name = "fad-sledding-primary", Glyph = "\uf7cb", FontFamily = GlyphFont.Current.Duotone };
@@ -1337,6 +1399,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Space_Shuttle_Primary = new GlyphInfo { Name = "fad-space-shuttle-primary", Glyph = "\uf197", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spade_Primary = new GlyphInfo { Name = "fad-spade-primary", Glyph = "\uf2f4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sparkles_Primary = new GlyphInfo { Name = "fad-sparkles-primary", Glyph = "\uf890", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Speaker_Primary = new GlyphInfo { Name = "fad-speaker-primary", Glyph = "\uf8df", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Speakers_Primary = new GlyphInfo { Name = "fad-speakers-primary", Glyph = "\uf8e0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spell_Check_Primary = new GlyphInfo { Name = "fad-spell-check-primary", Glyph = "\uf891", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spider_Primary = new GlyphInfo { Name = "fad-spider-primary", Glyph = "\uf717", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spider_Black_Widow_Primary = new GlyphInfo { Name = "fad-spider-black-widow-primary", Glyph = "\uf718", FontFamily = GlyphFont.Current.Duotone };
@@ -1515,6 +1579,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Tree_Palm_Primary = new GlyphInfo { Name = "fad-tree-palm-primary", Glyph = "\uf82b", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trees_Primary = new GlyphInfo { Name = "fad-trees-primary", Glyph = "\uf724", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Triangle_Primary = new GlyphInfo { Name = "fad-triangle-primary", Glyph = "\uf2ec", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Triangle_Music_Primary = new GlyphInfo { Name = "fad-triangle-music-primary", Glyph = "\uf8e2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trophy_Primary = new GlyphInfo { Name = "fad-trophy-primary", Glyph = "\uf091", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trophy_Alt_Primary = new GlyphInfo { Name = "fad-trophy-alt-primary", Glyph = "\uf2eb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Primary = new GlyphInfo { Name = "fad-truck-primary", Glyph = "\uf0d1", FontFamily = GlyphFont.Current.Duotone };
@@ -1526,12 +1591,17 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Truck_Pickup_Primary = new GlyphInfo { Name = "fad-truck-pickup-primary", Glyph = "\uf63c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Plow_Primary = new GlyphInfo { Name = "fad-truck-plow-primary", Glyph = "\uf7de", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Ramp_Primary = new GlyphInfo { Name = "fad-truck-ramp-primary", Glyph = "\uf4e0", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Trumpet_Primary = new GlyphInfo { Name = "fad-trumpet-primary", Glyph = "\uf8e3", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tshirt_Primary = new GlyphInfo { Name = "fad-tshirt-primary", Glyph = "\uf553", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tty_Primary = new GlyphInfo { Name = "fad-tty-primary", Glyph = "\uf1e4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Turkey_Primary = new GlyphInfo { Name = "fad-turkey-primary", Glyph = "\uf725", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Turntable_Primary = new GlyphInfo { Name = "fad-turntable-primary", Glyph = "\uf8e4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Turtle_Primary = new GlyphInfo { Name = "fad-turtle-primary", Glyph = "\uf726", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tv_Primary = new GlyphInfo { Name = "fad-tv-primary", Glyph = "\uf26c", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Tv_Alt_Primary = new GlyphInfo { Name = "fad-tv-alt-primary", Glyph = "\uf8e5", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Tv_Music_Primary = new GlyphInfo { Name = "fad-tv-music-primary", Glyph = "\uf8e6", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tv_Retro_Primary = new GlyphInfo { Name = "fad-tv-retro-primary", Glyph = "\uf401", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Typewriter_Primary = new GlyphInfo { Name = "fad-typewriter-primary", Glyph = "\uf8e7", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Umbrella_Primary = new GlyphInfo { Name = "fad-umbrella-primary", Glyph = "\uf0e9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Umbrella_Beach_Primary = new GlyphInfo { Name = "fad-umbrella-beach-primary", Glyph = "\uf5ca", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Underline_Primary = new GlyphInfo { Name = "fad-underline-primary", Glyph = "\uf0cd", FontFamily = GlyphFont.Current.Duotone };
@@ -1545,6 +1615,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Unlock_Primary = new GlyphInfo { Name = "fad-unlock-primary", Glyph = "\uf09c", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Unlock_Alt_Primary = new GlyphInfo { Name = "fad-unlock-alt-primary", Glyph = "\uf13e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Upload_Primary = new GlyphInfo { Name = "fad-upload-primary", Glyph = "\uf093", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Usb_Drive_Primary = new GlyphInfo { Name = "fad-usb-drive-primary", Glyph = "\uf8e9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Usd_Circle_Primary = new GlyphInfo { Name = "fad-usd-circle-primary", Glyph = "\uf2e8", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Usd_Square_Primary = new GlyphInfo { Name = "fad-usd-square-primary", Glyph = "\uf2e9", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Primary = new GlyphInfo { Name = "fad-user-primary", Glyph = "\uf007", FontFamily = GlyphFont.Current.Duotone };
@@ -1556,6 +1627,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_User_Circle_Primary = new GlyphInfo { Name = "fad-user-circle-primary", Glyph = "\uf2bd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Clock_Primary = new GlyphInfo { Name = "fad-user-clock-primary", Glyph = "\uf4fd", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Cog_Primary = new GlyphInfo { Name = "fad-user-cog-primary", Glyph = "\uf4fe", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_User_Cowboy_Primary = new GlyphInfo { Name = "fad-user-cowboy-primary", Glyph = "\uf8ea", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Crown_Primary = new GlyphInfo { Name = "fad-user-crown-primary", Glyph = "\uf6a4", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Edit_Primary = new GlyphInfo { Name = "fad-user-edit-primary", Glyph = "\uf4ff", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Friends_Primary = new GlyphInfo { Name = "fad-user-friends-primary", Glyph = "\uf500", FontFamily = GlyphFont.Current.Duotone };
@@ -1567,6 +1639,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_User_Md_Primary = new GlyphInfo { Name = "fad-user-md-primary", Glyph = "\uf0f0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Md_Chat_Primary = new GlyphInfo { Name = "fad-user-md-chat-primary", Glyph = "\uf82e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Minus_Primary = new GlyphInfo { Name = "fad-user-minus-primary", Glyph = "\uf503", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_User_Music_Primary = new GlyphInfo { Name = "fad-user-music-primary", Glyph = "\uf8eb", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Ninja_Primary = new GlyphInfo { Name = "fad-user-ninja-primary", Glyph = "\uf504", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Nurse_Primary = new GlyphInfo { Name = "fad-user-nurse-primary", Glyph = "\uf82f", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Plus_Primary = new GlyphInfo { Name = "fad-user-plus-primary", Glyph = "\uf234", FontFamily = GlyphFont.Current.Duotone };
@@ -1591,12 +1664,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Venus_Primary = new GlyphInfo { Name = "fad-venus-primary", Glyph = "\uf221", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Venus_Double_Primary = new GlyphInfo { Name = "fad-venus-double-primary", Glyph = "\uf226", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Venus_Mars_Primary = new GlyphInfo { Name = "fad-venus-mars-primary", Glyph = "\uf228", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Vhs_Primary = new GlyphInfo { Name = "fad-vhs-primary", Glyph = "\uf8ec", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vial_Primary = new GlyphInfo { Name = "fad-vial-primary", Glyph = "\uf492", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vials_Primary = new GlyphInfo { Name = "fad-vials-primary", Glyph = "\uf493", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Primary = new GlyphInfo { Name = "fad-video-primary", Glyph = "\uf03d", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Plus_Primary = new GlyphInfo { Name = "fad-video-plus-primary", Glyph = "\uf4e1", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Slash_Primary = new GlyphInfo { Name = "fad-video-slash-primary", Glyph = "\uf4e2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vihara_Primary = new GlyphInfo { Name = "fad-vihara-primary", Glyph = "\uf6a7", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Violin_Primary = new GlyphInfo { Name = "fad-violin-primary", Glyph = "\uf8ed", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Voicemail_Primary = new GlyphInfo { Name = "fad-voicemail-primary", Glyph = "\uf897", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Volcano_Primary = new GlyphInfo { Name = "fad-volcano-primary", Glyph = "\uf770", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Volleyball_Ball_Primary = new GlyphInfo { Name = "fad-volleyball-ball-primary", Glyph = "\uf45f", FontFamily = GlyphFont.Current.Duotone };
@@ -1609,7 +1684,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Vote_Nay_Primary = new GlyphInfo { Name = "fad-vote-nay-primary", Glyph = "\uf771", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vote_Yea_Primary = new GlyphInfo { Name = "fad-vote-yea-primary", Glyph = "\uf772", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vr_Cardboard_Primary = new GlyphInfo { Name = "fad-vr-cardboard-primary", Glyph = "\uf729", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Wagon_Covered_Primary = new GlyphInfo { Name = "fad-wagon-covered-primary", Glyph = "\uf8ee", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Walker_Primary = new GlyphInfo { Name = "fad-walker-primary", Glyph = "\uf831", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Walkie_Talkie_Primary = new GlyphInfo { Name = "fad-walkie-talkie-primary", Glyph = "\uf8ef", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Walking_Primary = new GlyphInfo { Name = "fad-walking-primary", Glyph = "\uf554", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wallet_Primary = new GlyphInfo { Name = "fad-wallet-primary", Glyph = "\uf555", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wand_Primary = new GlyphInfo { Name = "fad-wand-primary", Glyph = "\uf72a", FontFamily = GlyphFont.Current.Duotone };
@@ -1618,6 +1695,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Warehouse_Alt_Primary = new GlyphInfo { Name = "fad-warehouse-alt-primary", Glyph = "\uf495", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Washer_Primary = new GlyphInfo { Name = "fad-washer-primary", Glyph = "\uf898", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Watch_Primary = new GlyphInfo { Name = "fad-watch-primary", Glyph = "\uf2e1", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Watch_Calculator_Primary = new GlyphInfo { Name = "fad-watch-calculator-primary", Glyph = "\uf8f0", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Watch_Fitness_Primary = new GlyphInfo { Name = "fad-watch-fitness-primary", Glyph = "\uf63e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Water_Primary = new GlyphInfo { Name = "fad-water-primary", Glyph = "\uf773", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Water_Lower_Primary = new GlyphInfo { Name = "fad-water-lower-primary", Glyph = "\uf774", FontFamily = GlyphFont.Current.Duotone };
@@ -1625,6 +1703,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Wave_Sine_Primary = new GlyphInfo { Name = "fad-wave-sine-primary", Glyph = "\uf899", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wave_Square_Primary = new GlyphInfo { Name = "fad-wave-square-primary", Glyph = "\uf83e", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wave_Triangle_Primary = new GlyphInfo { Name = "fad-wave-triangle-primary", Glyph = "\uf89a", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Waveform_Primary = new GlyphInfo { Name = "fad-waveform-primary", Glyph = "\uf8f1", FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Waveform_Path_Primary = new GlyphInfo { Name = "fad-waveform-path-primary", Glyph = "\uf8f2", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Webcam_Primary = new GlyphInfo { Name = "fad-webcam-primary", Glyph = "\uf832", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Webcam_Slash_Primary = new GlyphInfo { Name = "fad-webcam-slash-primary", Glyph = "\uf833", FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Weight_Primary = new GlyphInfo { Name = "fad-weight-primary", Glyph = "\uf496", FontFamily = GlyphFont.Current.Duotone };
@@ -1667,6 +1747,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Alarm_Exclamation_Secondary = new GlyphInfo { Name = "fad-alarm-exclamation-secondary", UnicodeNumber = 1112131, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alarm_Plus_Secondary = new GlyphInfo { Name = "fad-alarm-plus-secondary", UnicodeNumber = 1112132, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alarm_Snooze_Secondary = new GlyphInfo { Name = "fad-alarm-snooze-secondary", UnicodeNumber = 1112133, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Album_Secondary = new GlyphInfo { Name = "fad-album-secondary", UnicodeNumber = 1112223, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Album_Collection_Secondary = new GlyphInfo { Name = "fad-album-collection-secondary", UnicodeNumber = 1112224, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Alicorn_Secondary = new GlyphInfo { Name = "fad-alicorn-secondary", UnicodeNumber = 1111728, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Align_Center_Secondary = new GlyphInfo { Name = "fad-align-center-secondary", UnicodeNumber = 1110071, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Align_Justify_Secondary = new GlyphInfo { Name = "fad-align-justify-secondary", UnicodeNumber = 1110073, FontFamily = GlyphFont.Current.Duotone };
@@ -1676,6 +1758,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Allergies_Secondary = new GlyphInfo { Name = "fad-allergies-secondary", UnicodeNumber = 1111137, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ambulance_Secondary = new GlyphInfo { Name = "fad-ambulance-secondary", UnicodeNumber = 1110265, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_American_Sign_Language_Interpreting_Secondary = new GlyphInfo { Name = "fad-american-sign-language-interpreting-secondary", UnicodeNumber = 1110691, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Amp_Guitar_Secondary = new GlyphInfo { Name = "fad-amp-guitar-secondary", UnicodeNumber = 1112225, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Analytics_Secondary = new GlyphInfo { Name = "fad-analytics-secondary", UnicodeNumber = 1111619, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Anchor_Secondary = new GlyphInfo { Name = "fad-anchor-secondary", UnicodeNumber = 1110333, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Angel_Secondary = new GlyphInfo { Name = "fad-angel-secondary", UnicodeNumber = 1111929, FontFamily = GlyphFont.Current.Duotone };
@@ -1759,6 +1842,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Badge_Check_Secondary = new GlyphInfo { Name = "fad-badge-check-secondary", UnicodeNumber = 1110838, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badge_Dollar_Secondary = new GlyphInfo { Name = "fad-badge-dollar-secondary", UnicodeNumber = 1111621, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badge_Percent_Secondary = new GlyphInfo { Name = "fad-badge-percent-secondary", UnicodeNumber = 1111622, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Badge_Sheriff_Secondary = new GlyphInfo { Name = "fad-badge-sheriff-secondary", UnicodeNumber = 1112226, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Badger_Honey_Secondary = new GlyphInfo { Name = "fad-badger-honey-secondary", UnicodeNumber = 1111732, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bags_Shopping_Secondary = new GlyphInfo { Name = "fad-bags-shopping-secondary", UnicodeNumber = 1112135, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Balance_Scale_Secondary = new GlyphInfo { Name = "fad-balance-scale-secondary", UnicodeNumber = 1110606, FontFamily = GlyphFont.Current.Duotone };
@@ -1769,6 +1853,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Ballot_Check_Secondary = new GlyphInfo { Name = "fad-ballot-check-secondary", UnicodeNumber = 1111859, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ban_Secondary = new GlyphInfo { Name = "fad-ban-secondary", UnicodeNumber = 1110110, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Band_Aid_Secondary = new GlyphInfo { Name = "fad-band-aid-secondary", UnicodeNumber = 1111138, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Banjo_Secondary = new GlyphInfo { Name = "fad-banjo-secondary", UnicodeNumber = 1112227, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Secondary = new GlyphInfo { Name = "fad-barcode-secondary", UnicodeNumber = 1110058, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Alt_Secondary = new GlyphInfo { Name = "fad-barcode-alt-secondary", UnicodeNumber = 1111139, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Barcode_Read_Secondary = new GlyphInfo { Name = "fad-barcode-read-secondary", UnicodeNumber = 1111140, FontFamily = GlyphFont.Current.Duotone };
@@ -1796,6 +1881,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bell_School_Slash_Secondary = new GlyphInfo { Name = "fad-bell-school-slash-secondary", UnicodeNumber = 1111510, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bell_Slash_Secondary = new GlyphInfo { Name = "fad-bell-slash-secondary", UnicodeNumber = 1110518, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bells_Secondary = new GlyphInfo { Name = "fad-bells-secondary", UnicodeNumber = 1111935, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Betamax_Secondary = new GlyphInfo { Name = "fad-betamax-secondary", UnicodeNumber = 1112228, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bezier_Curve_Secondary = new GlyphInfo { Name = "fad-bezier-curve-secondary", UnicodeNumber = 1111387, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bible_Secondary = new GlyphInfo { Name = "fad-bible-secondary", UnicodeNumber = 1111623, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Bicycle_Secondary = new GlyphInfo { Name = "fad-bicycle-secondary", UnicodeNumber = 1110534, FontFamily = GlyphFont.Current.Duotone };
@@ -1827,6 +1913,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bookmark_Secondary = new GlyphInfo { Name = "fad-bookmark-secondary", UnicodeNumber = 1110062, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Books_Secondary = new GlyphInfo { Name = "fad-books-secondary", UnicodeNumber = 1111515, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Books_Medical_Secondary = new GlyphInfo { Name = "fad-books-medical-secondary", UnicodeNumber = 1112040, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Boombox_Secondary = new GlyphInfo { Name = "fad-boombox-secondary", UnicodeNumber = 1112229, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Boot_Secondary = new GlyphInfo { Name = "fad-boot-secondary", UnicodeNumber = 1111938, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Booth_Curtain_Secondary = new GlyphInfo { Name = "fad-booth-curtain-secondary", UnicodeNumber = 1111860, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Border_All_Secondary = new GlyphInfo { Name = "fad-border-all-secondary", UnicodeNumber = 1112140, FontFamily = GlyphFont.Current.Duotone };
@@ -1885,6 +1972,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Bus_School_Secondary = new GlyphInfo { Name = "fad-bus-school-secondary", UnicodeNumber = 1111517, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Business_Time_Secondary = new GlyphInfo { Name = "fad-business-time-secondary", UnicodeNumber = 1111626, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cabinet_Filing_Secondary = new GlyphInfo { Name = "fad-cabinet-filing-secondary", UnicodeNumber = 1111627, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cactus_Secondary = new GlyphInfo { Name = "fad-cactus-secondary", UnicodeNumber = 1112231, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calculator_Secondary = new GlyphInfo { Name = "fad-calculator-secondary", UnicodeNumber = 1110508, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calculator_Alt_Secondary = new GlyphInfo { Name = "fad-calculator-alt-secondary", UnicodeNumber = 1111628, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Secondary = new GlyphInfo { Name = "fad-calendar-secondary", UnicodeNumber = 1110323, FontFamily = GlyphFont.Current.Duotone };
@@ -1898,8 +1986,11 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Calendar_Star_Secondary = new GlyphInfo { Name = "fad-calendar-star-secondary", UnicodeNumber = 1111862, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Times_Secondary = new GlyphInfo { Name = "fad-calendar-times-secondary", UnicodeNumber = 1110643, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Calendar_Week_Secondary = new GlyphInfo { Name = "fad-calendar-week-secondary", UnicodeNumber = 1111940, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camcorder_Secondary = new GlyphInfo { Name = "fad-camcorder-secondary", UnicodeNumber = 1112232, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Secondary = new GlyphInfo { Name = "fad-camera-secondary", UnicodeNumber = 1110064, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Alt_Secondary = new GlyphInfo { Name = "fad-camera-alt-secondary", UnicodeNumber = 1110834, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camera_Movie_Secondary = new GlyphInfo { Name = "fad-camera-movie-secondary", UnicodeNumber = 1112233, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Camera_Polaroid_Secondary = new GlyphInfo { Name = "fad-camera-polaroid-secondary", UnicodeNumber = 1112234, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Camera_Retro_Secondary = new GlyphInfo { Name = "fad-camera-retro-secondary", UnicodeNumber = 1110147, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Campfire_Secondary = new GlyphInfo { Name = "fad-campfire-secondary", UnicodeNumber = 1111738, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Campground_Secondary = new GlyphInfo { Name = "fad-campground-secondary", UnicodeNumber = 1111739, FontFamily = GlyphFont.Current.Duotone };
@@ -1937,8 +2028,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Cart_Arrow_Down_Secondary = new GlyphInfo { Name = "fad-cart-arrow-down-secondary", UnicodeNumber = 1110552, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cart_Plus_Secondary = new GlyphInfo { Name = "fad-cart-plus-secondary", UnicodeNumber = 1110551, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cash_Register_Secondary = new GlyphInfo { Name = "fad-cash-register-secondary", UnicodeNumber = 1111944, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cassette_Tape_Secondary = new GlyphInfo { Name = "fad-cassette-tape-secondary", UnicodeNumber = 1112235, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cat_Secondary = new GlyphInfo { Name = "fad-cat-secondary", UnicodeNumber = 1111742, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cauldron_Secondary = new GlyphInfo { Name = "fad-cauldron-secondary", UnicodeNumber = 1111743, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cctv_Secondary = new GlyphInfo { Name = "fad-cctv-secondary", UnicodeNumber = 1112236, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Certificate_Secondary = new GlyphInfo { Name = "fad-certificate-secondary", UnicodeNumber = 1110179, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Chair_Secondary = new GlyphInfo { Name = "fad-chair-secondary", UnicodeNumber = 1111744, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Chair_Office_Secondary = new GlyphInfo { Name = "fad-chair-office-secondary", UnicodeNumber = 1111745, FontFamily = GlyphFont.Current.Duotone };
@@ -1998,6 +2091,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Circle_Secondary = new GlyphInfo { Name = "fad-circle-secondary", UnicodeNumber = 1110289, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Circle_Notch_Secondary = new GlyphInfo { Name = "fad-circle-notch-secondary", UnicodeNumber = 1110478, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_City_Secondary = new GlyphInfo { Name = "fad-city-secondary", UnicodeNumber = 1111631, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Clarinet_Secondary = new GlyphInfo { Name = "fad-clarinet-secondary", UnicodeNumber = 1112237, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Claw_Marks_Secondary = new GlyphInfo { Name = "fad-claw-marks-secondary", UnicodeNumber = 1111746, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Clinic_Medical_Secondary = new GlyphInfo { Name = "fad-clinic-medical-secondary", UnicodeNumber = 1112050, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Clipboard_Secondary = new GlyphInfo { Name = "fad-clipboard-secondary", UnicodeNumber = 1110824, FontFamily = GlyphFont.Current.Duotone };
@@ -2018,6 +2112,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Cloud_Meatball_Secondary = new GlyphInfo { Name = "fad-cloud-meatball-secondary", UnicodeNumber = 1111867, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Moon_Secondary = new GlyphInfo { Name = "fad-cloud-moon-secondary", UnicodeNumber = 1111747, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Moon_Rain_Secondary = new GlyphInfo { Name = "fad-cloud-moon-rain-secondary", UnicodeNumber = 1111868, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cloud_Music_Secondary = new GlyphInfo { Name = "fad-cloud-music-secondary", UnicodeNumber = 1112238, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Rain_Secondary = new GlyphInfo { Name = "fad-cloud-rain-secondary", UnicodeNumber = 1111869, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Rainbow_Secondary = new GlyphInfo { Name = "fad-cloud-rainbow-secondary", UnicodeNumber = 1111870, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cloud_Showers_Secondary = new GlyphInfo { Name = "fad-cloud-showers-secondary", UnicodeNumber = 1111871, FontFamily = GlyphFont.Current.Duotone };
@@ -2055,6 +2150,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Comment_Alt_Lines_Secondary = new GlyphInfo { Name = "fad-comment-alt-lines-secondary", UnicodeNumber = 1111206, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Medical_Secondary = new GlyphInfo { Name = "fad-comment-alt-medical-secondary", UnicodeNumber = 1112052, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Minus_Secondary = new GlyphInfo { Name = "fad-comment-alt-minus-secondary", UnicodeNumber = 1111207, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Comment_Alt_Music_Secondary = new GlyphInfo { Name = "fad-comment-alt-music-secondary", UnicodeNumber = 1112239, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Plus_Secondary = new GlyphInfo { Name = "fad-comment-alt-plus-secondary", UnicodeNumber = 1111208, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Slash_Secondary = new GlyphInfo { Name = "fad-comment-alt-slash-secondary", UnicodeNumber = 1111209, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Alt_Smile_Secondary = new GlyphInfo { Name = "fad-comment-alt-smile-secondary", UnicodeNumber = 1111210, FontFamily = GlyphFont.Current.Duotone };
@@ -2067,6 +2163,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Comment_Lines_Secondary = new GlyphInfo { Name = "fad-comment-lines-secondary", UnicodeNumber = 1111216, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Medical_Secondary = new GlyphInfo { Name = "fad-comment-medical-secondary", UnicodeNumber = 1112053, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Minus_Secondary = new GlyphInfo { Name = "fad-comment-minus-secondary", UnicodeNumber = 1111217, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Comment_Music_Secondary = new GlyphInfo { Name = "fad-comment-music-secondary", UnicodeNumber = 1112240, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Plus_Secondary = new GlyphInfo { Name = "fad-comment-plus-secondary", UnicodeNumber = 1111218, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Slash_Secondary = new GlyphInfo { Name = "fad-comment-slash-secondary", UnicodeNumber = 1111219, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Comment_Smile_Secondary = new GlyphInfo { Name = "fad-comment-smile-secondary", UnicodeNumber = 1111220, FontFamily = GlyphFont.Current.Duotone };
@@ -2082,6 +2179,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Compress_Alt_Secondary = new GlyphInfo { Name = "fad-compress-alt-secondary", UnicodeNumber = 1111074, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Compress_Arrows_Alt_Secondary = new GlyphInfo { Name = "fad-compress-arrows-alt-secondary", UnicodeNumber = 1111948, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Compress_Wide_Secondary = new GlyphInfo { Name = "fad-compress-wide-secondary", UnicodeNumber = 1110822, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Computer_Classic_Secondary = new GlyphInfo { Name = "fad-computer-classic-secondary", UnicodeNumber = 1112241, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Computer_Speaker_Secondary = new GlyphInfo { Name = "fad-computer-speaker-secondary", UnicodeNumber = 1112242, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Concierge_Bell_Secondary = new GlyphInfo { Name = "fad-concierge-bell-secondary", UnicodeNumber = 1111394, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Construction_Secondary = new GlyphInfo { Name = "fad-construction-secondary", UnicodeNumber = 1112157, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Container_Storage_Secondary = new GlyphInfo { Name = "fad-container-storage-secondary", UnicodeNumber = 1111223, FontFamily = GlyphFont.Current.Duotone };
@@ -2094,6 +2193,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Corn_Secondary = new GlyphInfo { Name = "fad-corn-secondary", UnicodeNumber = 1111751, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Couch_Secondary = new GlyphInfo { Name = "fad-couch-secondary", UnicodeNumber = 1111224, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Cow_Secondary = new GlyphInfo { Name = "fad-cow-secondary", UnicodeNumber = 1111752, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cowbell_Secondary = new GlyphInfo { Name = "fad-cowbell-secondary", UnicodeNumber = 1112243, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Cowbell_More_Secondary = new GlyphInfo { Name = "fad-cowbell-more-secondary", UnicodeNumber = 1112244, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Secondary = new GlyphInfo { Name = "fad-credit-card-secondary", UnicodeNumber = 1110173, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Blank_Secondary = new GlyphInfo { Name = "fad-credit-card-blank-secondary", UnicodeNumber = 1110921, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Credit_Card_Front_Secondary = new GlyphInfo { Name = "fad-credit-card-front-secondary", UnicodeNumber = 1110922, FontFamily = GlyphFont.Current.Duotone };
@@ -2141,6 +2242,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Digital_Tachograph_Secondary = new GlyphInfo { Name = "fad-digital-tachograph-secondary", UnicodeNumber = 1111398, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Diploma_Secondary = new GlyphInfo { Name = "fad-diploma-secondary", UnicodeNumber = 1111530, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Directions_Secondary = new GlyphInfo { Name = "fad-directions-secondary", UnicodeNumber = 1111531, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Disc_Drive_Secondary = new GlyphInfo { Name = "fad-disc-drive-secondary", UnicodeNumber = 1112245, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Disease_Secondary = new GlyphInfo { Name = "fad-disease-secondary", UnicodeNumber = 1112058, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Divide_Secondary = new GlyphInfo { Name = "fad-divide-secondary", UnicodeNumber = 1111337, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Dizzy_Secondary = new GlyphInfo { Name = "fad-dizzy-secondary", UnicodeNumber = 1111399, FontFamily = GlyphFont.Current.Duotone };
@@ -2255,6 +2357,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_File_Medical_Secondary = new GlyphInfo { Name = "fad-file-medical-secondary", UnicodeNumber = 1111159, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Medical_Alt_Secondary = new GlyphInfo { Name = "fad-file-medical-alt-secondary", UnicodeNumber = 1111160, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Minus_Secondary = new GlyphInfo { Name = "fad-file-minus-secondary", UnicodeNumber = 1110808, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_File_Music_Secondary = new GlyphInfo { Name = "fad-file-music-secondary", UnicodeNumber = 1112246, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Pdf_Secondary = new GlyphInfo { Name = "fad-file-pdf-secondary", UnicodeNumber = 1110465, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Plus_Secondary = new GlyphInfo { Name = "fad-file-plus-secondary", UnicodeNumber = 1110809, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_File_Powerpoint_Secondary = new GlyphInfo { Name = "fad-file-powerpoint-secondary", UnicodeNumber = 1110468, FontFamily = GlyphFont.Current.Duotone };
@@ -2272,6 +2375,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Fill_Drip_Secondary = new GlyphInfo { Name = "fad-fill-drip-secondary", UnicodeNumber = 1111414, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Film_Secondary = new GlyphInfo { Name = "fad-film-secondary", UnicodeNumber = 1110024, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Film_Alt_Secondary = new GlyphInfo { Name = "fad-film-alt-secondary", UnicodeNumber = 1110944, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Film_Canister_Secondary = new GlyphInfo { Name = "fad-film-canister-secondary", UnicodeNumber = 1112247, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Filter_Secondary = new GlyphInfo { Name = "fad-filter-secondary", UnicodeNumber = 1110192, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fingerprint_Secondary = new GlyphInfo { Name = "fad-fingerprint-secondary", UnicodeNumber = 1111415, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fire_Secondary = new GlyphInfo { Name = "fad-fire-secondary", UnicodeNumber = 1110125, FontFamily = GlyphFont.Current.Duotone };
@@ -2288,6 +2392,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Flag_Checkered_Secondary = new GlyphInfo { Name = "fad-flag-checkered-secondary", UnicodeNumber = 1110302, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flag_Usa_Secondary = new GlyphInfo { Name = "fad-flag-usa-secondary", UnicodeNumber = 1111885, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flame_Secondary = new GlyphInfo { Name = "fad-flame-secondary", UnicodeNumber = 1111775, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flashlight_Secondary = new GlyphInfo { Name = "fad-flashlight-secondary", UnicodeNumber = 1112248, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Secondary = new GlyphInfo { Name = "fad-flask-secondary", UnicodeNumber = 1110211, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Poison_Secondary = new GlyphInfo { Name = "fad-flask-poison-secondary", UnicodeNumber = 1111776, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flask_Potion_Secondary = new GlyphInfo { Name = "fad-flask-potion-secondary", UnicodeNumber = 1111777, FontFamily = GlyphFont.Current.Duotone };
@@ -2295,6 +2400,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Flower_Daffodil_Secondary = new GlyphInfo { Name = "fad-flower-daffodil-secondary", UnicodeNumber = 1112064, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flower_Tulip_Secondary = new GlyphInfo { Name = "fad-flower-tulip-secondary", UnicodeNumber = 1112065, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Flushed_Secondary = new GlyphInfo { Name = "fad-flushed-secondary", UnicodeNumber = 1111417, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flute_Secondary = new GlyphInfo { Name = "fad-flute-secondary", UnicodeNumber = 1112249, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Flux_Capacitor_Secondary = new GlyphInfo { Name = "fad-flux-capacitor-secondary", UnicodeNumber = 1112250, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Fog_Secondary = new GlyphInfo { Name = "fad-fog-secondary", UnicodeNumber = 1111886, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Folder_Secondary = new GlyphInfo { Name = "fad-folder-secondary", UnicodeNumber = 1110139, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Folder_Minus_Secondary = new GlyphInfo { Name = "fad-folder-minus-secondary", UnicodeNumber = 1111645, FontFamily = GlyphFont.Current.Duotone };
@@ -2321,7 +2428,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Futbol_Secondary = new GlyphInfo { Name = "fad-futbol-secondary", UnicodeNumber = 1110499, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Game_Board_Secondary = new GlyphInfo { Name = "fad-game-board-secondary", UnicodeNumber = 1112167, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Game_Board_Alt_Secondary = new GlyphInfo { Name = "fad-game-board-alt-secondary", UnicodeNumber = 1112168, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Game_Console_Handheld_Secondary = new GlyphInfo { Name = "fad-game-console-handheld-secondary", UnicodeNumber = 1112251, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gamepad_Secondary = new GlyphInfo { Name = "fad-gamepad-secondary", UnicodeNumber = 1110299, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Gamepad_Alt_Secondary = new GlyphInfo { Name = "fad-gamepad-alt-secondary", UnicodeNumber = 1112252, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gas_Pump_Secondary = new GlyphInfo { Name = "fad-gas-pump-secondary", UnicodeNumber = 1111343, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gas_Pump_Slash_Secondary = new GlyphInfo { Name = "fad-gas-pump-slash-secondary", UnicodeNumber = 1111540, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gavel_Secondary = new GlyphInfo { Name = "fad-gavel-secondary", UnicodeNumber = 1110243, FontFamily = GlyphFont.Current.Duotone };
@@ -2353,6 +2462,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Golf_Club_Secondary = new GlyphInfo { Name = "fad-golf-club-secondary", UnicodeNumber = 1111121, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Gopuram_Secondary = new GlyphInfo { Name = "fad-gopuram-secondary", UnicodeNumber = 1111652, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Graduation_Cap_Secondary = new GlyphInfo { Name = "fad-graduation-cap-secondary", UnicodeNumber = 1110429, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Gramophone_Secondary = new GlyphInfo { Name = "fad-gramophone-secondary", UnicodeNumber = 1112253, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Greater_Than_Secondary = new GlyphInfo { Name = "fad-greater-than-secondary", UnicodeNumber = 1111345, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Greater_Than_Equal_Secondary = new GlyphInfo { Name = "fad-greater-than-equal-secondary", UnicodeNumber = 1111346, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Grimace_Secondary = new GlyphInfo { Name = "fad-grimace-secondary", UnicodeNumber = 1111423, FontFamily = GlyphFont.Current.Duotone };
@@ -2374,6 +2484,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Grip_Lines_Vertical_Secondary = new GlyphInfo { Name = "fad-grip-lines-vertical-secondary", UnicodeNumber = 1111973, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Grip_Vertical_Secondary = new GlyphInfo { Name = "fad-grip-vertical-secondary", UnicodeNumber = 1111438, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Guitar_Secondary = new GlyphInfo { Name = "fad-guitar-secondary", UnicodeNumber = 1111974, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Guitar_Electric_Secondary = new GlyphInfo { Name = "fad-guitar-electric-secondary", UnicodeNumber = 1112254, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Guitars_Secondary = new GlyphInfo { Name = "fad-guitars-secondary", UnicodeNumber = 1112255, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H_Square_Secondary = new GlyphInfo { Name = "fad-h-square-secondary", UnicodeNumber = 1110269, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H1_Secondary = new GlyphInfo { Name = "fad-h1-secondary", UnicodeNumber = 1110803, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_H2_Secondary = new GlyphInfo { Name = "fad-h2-secondary", UnicodeNumber = 1110804, FontFamily = GlyphFont.Current.Duotone };
@@ -2414,6 +2526,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Hard_Hat_Secondary = new GlyphInfo { Name = "fad-hard-hat-secondary", UnicodeNumber = 1112071, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hashtag_Secondary = new GlyphInfo { Name = "fad-hashtag-secondary", UnicodeNumber = 1110674, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Chef_Secondary = new GlyphInfo { Name = "fad-hat-chef-secondary", UnicodeNumber = 1112171, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Hat_Cowboy_Secondary = new GlyphInfo { Name = "fad-hat-cowboy-secondary", UnicodeNumber = 1112256, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Hat_Cowboy_Side_Secondary = new GlyphInfo { Name = "fad-hat-cowboy-side-secondary", UnicodeNumber = 1112257, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Santa_Secondary = new GlyphInfo { Name = "fad-hat-santa-secondary", UnicodeNumber = 1111975, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Winter_Secondary = new GlyphInfo { Name = "fad-hat-winter-secondary", UnicodeNumber = 1111976, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hat_Witch_Secondary = new GlyphInfo { Name = "fad-hat-witch-secondary", UnicodeNumber = 1111783, FontFamily = GlyphFont.Current.Duotone };
@@ -2422,6 +2536,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Hdd_Secondary = new GlyphInfo { Name = "fad-hdd-secondary", UnicodeNumber = 1110176, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Secondary = new GlyphInfo { Name = "fad-head-side-secondary", UnicodeNumber = 1111785, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Brain_Secondary = new GlyphInfo { Name = "fad-head-side-brain-secondary", UnicodeNumber = 1112072, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Head_Side_Headphones_Secondary = new GlyphInfo { Name = "fad-head-side-headphones-secondary", UnicodeNumber = 1112258, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Side_Medical_Secondary = new GlyphInfo { Name = "fad-head-side-medical-secondary", UnicodeNumber = 1112073, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Head_Vr_Secondary = new GlyphInfo { Name = "fad-head-vr-secondary", UnicodeNumber = 1111786, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Heading_Secondary = new GlyphInfo { Name = "fad-heading-secondary", UnicodeNumber = 1110492, FontFamily = GlyphFont.Current.Duotone };
@@ -2454,6 +2569,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Horizontal_Rule_Secondary = new GlyphInfo { Name = "fad-horizontal-rule-secondary", UnicodeNumber = 1112172, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Horse_Secondary = new GlyphInfo { Name = "fad-horse-secondary", UnicodeNumber = 1111792, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Horse_Head_Secondary = new GlyphInfo { Name = "fad-horse-head-secondary", UnicodeNumber = 1111979, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Horse_Saddle_Secondary = new GlyphInfo { Name = "fad-horse-saddle-secondary", UnicodeNumber = 1112259, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Secondary = new GlyphInfo { Name = "fad-hospital-secondary", UnicodeNumber = 1110264, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Alt_Secondary = new GlyphInfo { Name = "fad-hospital-alt-secondary", UnicodeNumber = 1111165, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Hospital_Symbol_Secondary = new GlyphInfo { Name = "fad-hospital-symbol-secondary", UnicodeNumber = 1111166, FontFamily = GlyphFont.Current.Duotone };
@@ -2482,6 +2598,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Id_Card_Alt_Secondary = new GlyphInfo { Name = "fad-id-card-alt-secondary", UnicodeNumber = 1111167, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Igloo_Secondary = new GlyphInfo { Name = "fad-igloo-secondary", UnicodeNumber = 1111982, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Image_Secondary = new GlyphInfo { Name = "fad-image-secondary", UnicodeNumber = 1110078, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Image_Polaroid_Secondary = new GlyphInfo { Name = "fad-image-polaroid-secondary", UnicodeNumber = 1112260, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Images_Secondary = new GlyphInfo { Name = "fad-images-secondary", UnicodeNumber = 1110786, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Inbox_Secondary = new GlyphInfo { Name = "fad-inbox-secondary", UnicodeNumber = 1110044, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Inbox_In_Secondary = new GlyphInfo { Name = "fad-inbox-in-secondary", UnicodeNumber = 1110800, FontFamily = GlyphFont.Current.Duotone };
@@ -2503,7 +2620,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Jedi_Secondary = new GlyphInfo { Name = "fad-jedi-secondary", UnicodeNumber = 1111657, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Joint_Secondary = new GlyphInfo { Name = "fad-joint-secondary", UnicodeNumber = 1111445, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Journal_Whills_Secondary = new GlyphInfo { Name = "fad-journal-whills-secondary", UnicodeNumber = 1111658, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Joystick_Secondary = new GlyphInfo { Name = "fad-joystick-secondary", UnicodeNumber = 1112261, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Jug_Secondary = new GlyphInfo { Name = "fad-jug-secondary", UnicodeNumber = 1112262, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Kaaba_Secondary = new GlyphInfo { Name = "fad-kaaba-secondary", UnicodeNumber = 1111659, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Kazoo_Secondary = new GlyphInfo { Name = "fad-kazoo-secondary", UnicodeNumber = 1112263, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Kerning_Secondary = new GlyphInfo { Name = "fad-kerning-secondary", UnicodeNumber = 1112175, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Key_Secondary = new GlyphInfo { Name = "fad-key-secondary", UnicodeNumber = 1110148, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Key_Skeleton_Secondary = new GlyphInfo { Name = "fad-key-skeleton-secondary", UnicodeNumber = 1111795, FontFamily = GlyphFont.Current.Duotone };
@@ -2525,6 +2645,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Laptop_Secondary = new GlyphInfo { Name = "fad-laptop-secondary", UnicodeNumber = 1110281, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laptop_Code_Secondary = new GlyphInfo { Name = "fad-laptop-code-secondary", UnicodeNumber = 1111548, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laptop_Medical_Secondary = new GlyphInfo { Name = "fad-laptop-medical-secondary", UnicodeNumber = 1112082, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Lasso_Secondary = new GlyphInfo { Name = "fad-lasso-secondary", UnicodeNumber = 1112264, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Secondary = new GlyphInfo { Name = "fad-laugh-secondary", UnicodeNumber = 1111449, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Beam_Secondary = new GlyphInfo { Name = "fad-laugh-beam-secondary", UnicodeNumber = 1111450, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Laugh_Squint_Secondary = new GlyphInfo { Name = "fad-laugh-squint-secondary", UnicodeNumber = 1111451, FontFamily = GlyphFont.Current.Duotone };
@@ -2557,6 +2678,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Lira_Sign_Secondary = new GlyphInfo { Name = "fad-lira-sign-secondary", UnicodeNumber = 1110421, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Secondary = new GlyphInfo { Name = "fad-list-secondary", UnicodeNumber = 1110074, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Alt_Secondary = new GlyphInfo { Name = "fad-list-alt-secondary", UnicodeNumber = 1110050, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_List_Music_Secondary = new GlyphInfo { Name = "fad-list-music-secondary", UnicodeNumber = 1112265, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Ol_Secondary = new GlyphInfo { Name = "fad-list-ol-secondary", UnicodeNumber = 1110219, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_List_Ul_Secondary = new GlyphInfo { Name = "fad-list-ul-secondary", UnicodeNumber = 1110218, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Location_Secondary = new GlyphInfo { Name = "fad-location-secondary", UnicodeNumber = 1111553, FontFamily = GlyphFont.Current.Duotone };
@@ -2627,6 +2749,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Microphone_Alt_Secondary = new GlyphInfo { Name = "fad-microphone-alt-secondary", UnicodeNumber = 1110985, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microphone_Alt_Slash_Secondary = new GlyphInfo { Name = "fad-microphone-alt-slash-secondary", UnicodeNumber = 1111353, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microphone_Slash_Secondary = new GlyphInfo { Name = "fad-microphone-slash-secondary", UnicodeNumber = 1110321, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Microphone_Stand_Secondary = new GlyphInfo { Name = "fad-microphone-stand-secondary", UnicodeNumber = 1112267, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Microscope_Secondary = new GlyphInfo { Name = "fad-microscope-secondary", UnicodeNumber = 1111568, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mind_Share_Secondary = new GlyphInfo { Name = "fad-mind-share-secondary", UnicodeNumber = 1111671, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Minus_Secondary = new GlyphInfo { Name = "fad-minus-secondary", UnicodeNumber = 1110120, FontFamily = GlyphFont.Current.Duotone };
@@ -2659,12 +2782,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Motorcycle_Secondary = new GlyphInfo { Name = "fad-motorcycle-secondary", UnicodeNumber = 1110556, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mountain_Secondary = new GlyphInfo { Name = "fad-mountain-secondary", UnicodeNumber = 1111804, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mountains_Secondary = new GlyphInfo { Name = "fad-mountains-secondary", UnicodeNumber = 1111805, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mouse_Secondary = new GlyphInfo { Name = "fad-mouse-secondary", UnicodeNumber = 1112268, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mouse_Alt_Secondary = new GlyphInfo { Name = "fad-mouse-alt-secondary", UnicodeNumber = 1112269, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mouse_Pointer_Secondary = new GlyphInfo { Name = "fad-mouse-pointer-secondary", UnicodeNumber = 1110597, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Mp3_Player_Secondary = new GlyphInfo { Name = "fad-mp3-player-secondary", UnicodeNumber = 1112270, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Secondary = new GlyphInfo { Name = "fad-mug-secondary", UnicodeNumber = 1112180, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Hot_Secondary = new GlyphInfo { Name = "fad-mug-hot-secondary", UnicodeNumber = 1111990, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Marshmallows_Secondary = new GlyphInfo { Name = "fad-mug-marshmallows-secondary", UnicodeNumber = 1111991, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Mug_Tea_Secondary = new GlyphInfo { Name = "fad-mug-tea-secondary", UnicodeNumber = 1112181, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Music_Secondary = new GlyphInfo { Name = "fad-music-secondary", UnicodeNumber = 1110017, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Alt_Secondary = new GlyphInfo { Name = "fad-music-alt-secondary", UnicodeNumber = 1112271, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Alt_Slash_Secondary = new GlyphInfo { Name = "fad-music-alt-slash-secondary", UnicodeNumber = 1112272, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Music_Slash_Secondary = new GlyphInfo { Name = "fad-music-slash-secondary", UnicodeNumber = 1112273, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Narwhal_Secondary = new GlyphInfo { Name = "fad-narwhal-secondary", UnicodeNumber = 1111806, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Network_Wired_Secondary = new GlyphInfo { Name = "fad-network-wired-secondary", UnicodeNumber = 1111807, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Neuter_Secondary = new GlyphInfo { Name = "fad-neuter-secondary", UnicodeNumber = 1110572, FontFamily = GlyphFont.Current.Duotone };
@@ -2733,12 +2862,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Phone_Laptop_Secondary = new GlyphInfo { Name = "fad-phone-laptop-secondary", UnicodeNumber = 1112186, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Office_Secondary = new GlyphInfo { Name = "fad-phone-office-secondary", UnicodeNumber = 1111677, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Plus_Secondary = new GlyphInfo { Name = "fad-phone-plus-secondary", UnicodeNumber = 1111250, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Phone_Rotary_Secondary = new GlyphInfo { Name = "fad-phone-rotary-secondary", UnicodeNumber = 1112275, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Slash_Secondary = new GlyphInfo { Name = "fad-phone-slash-secondary", UnicodeNumber = 1111005, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Square_Secondary = new GlyphInfo { Name = "fad-phone-square-secondary", UnicodeNumber = 1110168, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Square_Alt_Secondary = new GlyphInfo { Name = "fad-phone-square-alt-secondary", UnicodeNumber = 1112187, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Phone_Volume_Secondary = new GlyphInfo { Name = "fad-phone-volume-secondary", UnicodeNumber = 1110688, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Photo_Video_Secondary = new GlyphInfo { Name = "fad-photo-video-secondary", UnicodeNumber = 1112188, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pi_Secondary = new GlyphInfo { Name = "fad-pi-secondary", UnicodeNumber = 1111678, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Piano_Secondary = new GlyphInfo { Name = "fad-piano-secondary", UnicodeNumber = 1112276, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Piano_Keyboard_Secondary = new GlyphInfo { Name = "fad-piano-keyboard-secondary", UnicodeNumber = 1112277, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pie_Secondary = new GlyphInfo { Name = "fad-pie-secondary", UnicodeNumber = 1111813, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pig_Secondary = new GlyphInfo { Name = "fad-pig-secondary", UnicodeNumber = 1111814, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Piggy_Bank_Secondary = new GlyphInfo { Name = "fad-piggy-bank-secondary", UnicodeNumber = 1111251, FontFamily = GlyphFont.Current.Duotone };
@@ -2782,6 +2914,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Print_Slash_Secondary = new GlyphInfo { Name = "fad-print-slash-secondary", UnicodeNumber = 1111686, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Procedures_Secondary = new GlyphInfo { Name = "fad-procedures-secondary", UnicodeNumber = 1111175, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Project_Diagram_Secondary = new GlyphInfo { Name = "fad-project-diagram-secondary", UnicodeNumber = 1111362, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Projector_Secondary = new GlyphInfo { Name = "fad-projector-secondary", UnicodeNumber = 1112278, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Pumpkin_Secondary = new GlyphInfo { Name = "fad-pumpkin-secondary", UnicodeNumber = 1111815, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Puzzle_Piece_Secondary = new GlyphInfo { Name = "fad-puzzle-piece-secondary", UnicodeNumber = 1110318, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Qrcode_Secondary = new GlyphInfo { Name = "fad-qrcode-secondary", UnicodeNumber = 1110057, FontFamily = GlyphFont.Current.Duotone };
@@ -2797,12 +2930,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Racquet_Secondary = new GlyphInfo { Name = "fad-racquet-secondary", UnicodeNumber = 1111130, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Radiation_Secondary = new GlyphInfo { Name = "fad-radiation-secondary", UnicodeNumber = 1111993, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Radiation_Alt_Secondary = new GlyphInfo { Name = "fad-radiation-alt-secondary", UnicodeNumber = 1111994, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Radio_Secondary = new GlyphInfo { Name = "fad-radio-secondary", UnicodeNumber = 1112279, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Radio_Alt_Secondary = new GlyphInfo { Name = "fad-radio-alt-secondary", UnicodeNumber = 1112280, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rainbow_Secondary = new GlyphInfo { Name = "fad-rainbow-secondary", UnicodeNumber = 1111899, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Raindrops_Secondary = new GlyphInfo { Name = "fad-raindrops-secondary", UnicodeNumber = 1111900, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ram_Secondary = new GlyphInfo { Name = "fad-ram-secondary", UnicodeNumber = 1111818, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ramp_Loading_Secondary = new GlyphInfo { Name = "fad-ramp-loading-secondary", UnicodeNumber = 1111252, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Random_Secondary = new GlyphInfo { Name = "fad-random-secondary", UnicodeNumber = 1110132, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Receipt_Secondary = new GlyphInfo { Name = "fad-receipt-secondary", UnicodeNumber = 1111363, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Record_Vinyl_Secondary = new GlyphInfo { Name = "fad-record-vinyl-secondary", UnicodeNumber = 1112281, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Landscape_Secondary = new GlyphInfo { Name = "fad-rectangle-landscape-secondary", UnicodeNumber = 1110778, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Portrait_Secondary = new GlyphInfo { Name = "fad-rectangle-portrait-secondary", UnicodeNumber = 1110779, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rectangle_Wide_Secondary = new GlyphInfo { Name = "fad-rectangle-wide-secondary", UnicodeNumber = 1110780, FontFamily = GlyphFont.Current.Duotone };
@@ -2830,6 +2966,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Route_Secondary = new GlyphInfo { Name = "fad-route-secondary", UnicodeNumber = 1111255, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Route_Highway_Secondary = new GlyphInfo { Name = "fad-route-highway-secondary", UnicodeNumber = 1111578, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Route_Interstate_Secondary = new GlyphInfo { Name = "fad-route-interstate-secondary", UnicodeNumber = 1111579, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Router_Secondary = new GlyphInfo { Name = "fad-router-secondary", UnicodeNumber = 1112282, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rss_Secondary = new GlyphInfo { Name = "fad-rss-secondary", UnicodeNumber = 1110174, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Rss_Square_Secondary = new GlyphInfo { Name = "fad-rss-square-secondary", UnicodeNumber = 1110339, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Ruble_Sign_Secondary = new GlyphInfo { Name = "fad-ruble-sign-secondary", UnicodeNumber = 1110360, FontFamily = GlyphFont.Current.Duotone };
@@ -2851,9 +2988,12 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Satellite_Dish_Secondary = new GlyphInfo { Name = "fad-satellite-dish-secondary", UnicodeNumber = 1112000, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sausage_Secondary = new GlyphInfo { Name = "fad-sausage-secondary", UnicodeNumber = 1112096, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Save_Secondary = new GlyphInfo { Name = "fad-save-secondary", UnicodeNumber = 1110215, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Sax_Hot_Secondary = new GlyphInfo { Name = "fad-sax-hot-secondary", UnicodeNumber = 1112283, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Saxophone_Secondary = new GlyphInfo { Name = "fad-saxophone-secondary", UnicodeNumber = 1112284, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scalpel_Secondary = new GlyphInfo { Name = "fad-scalpel-secondary", UnicodeNumber = 1111581, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scalpel_Path_Secondary = new GlyphInfo { Name = "fad-scalpel-path-secondary", UnicodeNumber = 1111582, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Secondary = new GlyphInfo { Name = "fad-scanner-secondary", UnicodeNumber = 1111176, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Scanner_Image_Secondary = new GlyphInfo { Name = "fad-scanner-image-secondary", UnicodeNumber = 1112307, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Keyboard_Secondary = new GlyphInfo { Name = "fad-scanner-keyboard-secondary", UnicodeNumber = 1111177, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scanner_Touchscreen_Secondary = new GlyphInfo { Name = "fad-scanner-touchscreen-secondary", UnicodeNumber = 1111178, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Scarecrow_Secondary = new GlyphInfo { Name = "fad-scarecrow-secondary", UnicodeNumber = 1111821, FontFamily = GlyphFont.Current.Duotone };
@@ -2919,6 +3059,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Signal_Alt_3_Secondary = new GlyphInfo { Name = "fad-signal-alt-3-secondary", UnicodeNumber = 1111699, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signal_Alt_Slash_Secondary = new GlyphInfo { Name = "fad-signal-alt-slash-secondary", UnicodeNumber = 1111700, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signal_Slash_Secondary = new GlyphInfo { Name = "fad-signal-slash-secondary", UnicodeNumber = 1111701, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Signal_Stream_Secondary = new GlyphInfo { Name = "fad-signal-stream-secondary", UnicodeNumber = 1112285, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Signature_Secondary = new GlyphInfo { Name = "fad-signature-secondary", UnicodeNumber = 1111479, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sim_Card_Secondary = new GlyphInfo { Name = "fad-sim-card-secondary", UnicodeNumber = 1112004, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sitemap_Secondary = new GlyphInfo { Name = "fad-sitemap-secondary", UnicodeNumber = 1110248, FontFamily = GlyphFont.Current.Duotone };
@@ -2929,6 +3070,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Skiing_Secondary = new GlyphInfo { Name = "fad-skiing-secondary", UnicodeNumber = 1112009, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skiing_Nordic_Secondary = new GlyphInfo { Name = "fad-skiing-nordic-secondary", UnicodeNumber = 1112010, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skull_Secondary = new GlyphInfo { Name = "fad-skull-secondary", UnicodeNumber = 1111372, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Skull_Cow_Secondary = new GlyphInfo { Name = "fad-skull-cow-secondary", UnicodeNumber = 1112286, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Skull_Crossbones_Secondary = new GlyphInfo { Name = "fad-skull-crossbones-secondary", UnicodeNumber = 1111828, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Slash_Secondary = new GlyphInfo { Name = "fad-slash-secondary", UnicodeNumber = 1111829, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sledding_Secondary = new GlyphInfo { Name = "fad-sledding-secondary", UnicodeNumber = 1112011, FontFamily = GlyphFont.Current.Duotone };
@@ -2986,6 +3128,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Space_Shuttle_Secondary = new GlyphInfo { Name = "fad-space-shuttle-secondary", UnicodeNumber = 1110423, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spade_Secondary = new GlyphInfo { Name = "fad-spade-secondary", UnicodeNumber = 1110772, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Sparkles_Secondary = new GlyphInfo { Name = "fad-sparkles-secondary", UnicodeNumber = 1112208, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Speaker_Secondary = new GlyphInfo { Name = "fad-speaker-secondary", UnicodeNumber = 1112287, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Speakers_Secondary = new GlyphInfo { Name = "fad-speakers-secondary", UnicodeNumber = 1112288, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spell_Check_Secondary = new GlyphInfo { Name = "fad-spell-check-secondary", UnicodeNumber = 1112209, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spider_Secondary = new GlyphInfo { Name = "fad-spider-secondary", UnicodeNumber = 1111831, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Spider_Black_Widow_Secondary = new GlyphInfo { Name = "fad-spider-black-widow-secondary", UnicodeNumber = 1111832, FontFamily = GlyphFont.Current.Duotone };
@@ -3164,6 +3308,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Tree_Palm_Secondary = new GlyphInfo { Name = "fad-tree-palm-secondary", UnicodeNumber = 1112107, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trees_Secondary = new GlyphInfo { Name = "fad-trees-secondary", UnicodeNumber = 1111844, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Triangle_Secondary = new GlyphInfo { Name = "fad-triangle-secondary", UnicodeNumber = 1110764, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Triangle_Music_Secondary = new GlyphInfo { Name = "fad-triangle-music-secondary", UnicodeNumber = 1112290, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trophy_Secondary = new GlyphInfo { Name = "fad-trophy-secondary", UnicodeNumber = 1110161, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Trophy_Alt_Secondary = new GlyphInfo { Name = "fad-trophy-alt-secondary", UnicodeNumber = 1110763, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Secondary = new GlyphInfo { Name = "fad-truck-secondary", UnicodeNumber = 1110225, FontFamily = GlyphFont.Current.Duotone };
@@ -3175,12 +3320,17 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Truck_Pickup_Secondary = new GlyphInfo { Name = "fad-truck-pickup-secondary", UnicodeNumber = 1111612, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Plow_Secondary = new GlyphInfo { Name = "fad-truck-plow-secondary", UnicodeNumber = 1112030, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Truck_Ramp_Secondary = new GlyphInfo { Name = "fad-truck-ramp-secondary", UnicodeNumber = 1111264, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Trumpet_Secondary = new GlyphInfo { Name = "fad-trumpet-secondary", UnicodeNumber = 1112291, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tshirt_Secondary = new GlyphInfo { Name = "fad-tshirt-secondary", UnicodeNumber = 1111379, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tty_Secondary = new GlyphInfo { Name = "fad-tty-secondary", UnicodeNumber = 1110500, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Turkey_Secondary = new GlyphInfo { Name = "fad-turkey-secondary", UnicodeNumber = 1111845, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Turntable_Secondary = new GlyphInfo { Name = "fad-turntable-secondary", UnicodeNumber = 1112292, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Turtle_Secondary = new GlyphInfo { Name = "fad-turtle-secondary", UnicodeNumber = 1111846, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tv_Secondary = new GlyphInfo { Name = "fad-tv-secondary", UnicodeNumber = 1110636, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Tv_Alt_Secondary = new GlyphInfo { Name = "fad-tv-alt-secondary", UnicodeNumber = 1112293, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Tv_Music_Secondary = new GlyphInfo { Name = "fad-tv-music-secondary", UnicodeNumber = 1112294, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Tv_Retro_Secondary = new GlyphInfo { Name = "fad-tv-retro-secondary", UnicodeNumber = 1111041, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Typewriter_Secondary = new GlyphInfo { Name = "fad-typewriter-secondary", UnicodeNumber = 1112295, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Umbrella_Secondary = new GlyphInfo { Name = "fad-umbrella-secondary", UnicodeNumber = 1110249, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Umbrella_Beach_Secondary = new GlyphInfo { Name = "fad-umbrella-beach-secondary", UnicodeNumber = 1111498, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Underline_Secondary = new GlyphInfo { Name = "fad-underline-secondary", UnicodeNumber = 1110221, FontFamily = GlyphFont.Current.Duotone };
@@ -3194,6 +3344,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Unlock_Secondary = new GlyphInfo { Name = "fad-unlock-secondary", UnicodeNumber = 1110172, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Unlock_Alt_Secondary = new GlyphInfo { Name = "fad-unlock-alt-secondary", UnicodeNumber = 1110334, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Upload_Secondary = new GlyphInfo { Name = "fad-upload-secondary", UnicodeNumber = 1110163, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Usb_Drive_Secondary = new GlyphInfo { Name = "fad-usb-drive-secondary", UnicodeNumber = 1112297, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Usd_Circle_Secondary = new GlyphInfo { Name = "fad-usd-circle-secondary", UnicodeNumber = 1110760, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Usd_Square_Secondary = new GlyphInfo { Name = "fad-usd-square-secondary", UnicodeNumber = 1110761, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Secondary = new GlyphInfo { Name = "fad-user-secondary", UnicodeNumber = 1110023, FontFamily = GlyphFont.Current.Duotone };
@@ -3205,6 +3356,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_User_Circle_Secondary = new GlyphInfo { Name = "fad-user-circle-secondary", UnicodeNumber = 1110717, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Clock_Secondary = new GlyphInfo { Name = "fad-user-clock-secondary", UnicodeNumber = 1111293, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Cog_Secondary = new GlyphInfo { Name = "fad-user-cog-secondary", UnicodeNumber = 1111294, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_User_Cowboy_Secondary = new GlyphInfo { Name = "fad-user-cowboy-secondary", UnicodeNumber = 1112298, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Crown_Secondary = new GlyphInfo { Name = "fad-user-crown-secondary", UnicodeNumber = 1111716, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Edit_Secondary = new GlyphInfo { Name = "fad-user-edit-secondary", UnicodeNumber = 1111295, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Friends_Secondary = new GlyphInfo { Name = "fad-user-friends-secondary", UnicodeNumber = 1111296, FontFamily = GlyphFont.Current.Duotone };
@@ -3216,6 +3368,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_User_Md_Secondary = new GlyphInfo { Name = "fad-user-md-secondary", UnicodeNumber = 1110256, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Md_Chat_Secondary = new GlyphInfo { Name = "fad-user-md-chat-secondary", UnicodeNumber = 1112110, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Minus_Secondary = new GlyphInfo { Name = "fad-user-minus-secondary", UnicodeNumber = 1111299, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_User_Music_Secondary = new GlyphInfo { Name = "fad-user-music-secondary", UnicodeNumber = 1112299, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Ninja_Secondary = new GlyphInfo { Name = "fad-user-ninja-secondary", UnicodeNumber = 1111300, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Nurse_Secondary = new GlyphInfo { Name = "fad-user-nurse-secondary", UnicodeNumber = 1112111, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_User_Plus_Secondary = new GlyphInfo { Name = "fad-user-plus-secondary", UnicodeNumber = 1110580, FontFamily = GlyphFont.Current.Duotone };
@@ -3240,12 +3393,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Venus_Secondary = new GlyphInfo { Name = "fad-venus-secondary", UnicodeNumber = 1110561, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Venus_Double_Secondary = new GlyphInfo { Name = "fad-venus-double-secondary", UnicodeNumber = 1110566, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Venus_Mars_Secondary = new GlyphInfo { Name = "fad-venus-mars-secondary", UnicodeNumber = 1110568, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Vhs_Secondary = new GlyphInfo { Name = "fad-vhs-secondary", UnicodeNumber = 1112300, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vial_Secondary = new GlyphInfo { Name = "fad-vial-secondary", UnicodeNumber = 1111186, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vials_Secondary = new GlyphInfo { Name = "fad-vials-secondary", UnicodeNumber = 1111187, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Secondary = new GlyphInfo { Name = "fad-video-secondary", UnicodeNumber = 1110077, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Plus_Secondary = new GlyphInfo { Name = "fad-video-plus-secondary", UnicodeNumber = 1111265, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Video_Slash_Secondary = new GlyphInfo { Name = "fad-video-slash-secondary", UnicodeNumber = 1111266, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vihara_Secondary = new GlyphInfo { Name = "fad-vihara-secondary", UnicodeNumber = 1111719, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Violin_Secondary = new GlyphInfo { Name = "fad-violin-secondary", UnicodeNumber = 1112301, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Voicemail_Secondary = new GlyphInfo { Name = "fad-voicemail-secondary", UnicodeNumber = 1112215, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Volcano_Secondary = new GlyphInfo { Name = "fad-volcano-secondary", UnicodeNumber = 1111920, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Volleyball_Ball_Secondary = new GlyphInfo { Name = "fad-volleyball-ball-secondary", UnicodeNumber = 1111135, FontFamily = GlyphFont.Current.Duotone };
@@ -3258,7 +3413,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Vote_Nay_Secondary = new GlyphInfo { Name = "fad-vote-nay-secondary", UnicodeNumber = 1111921, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vote_Yea_Secondary = new GlyphInfo { Name = "fad-vote-yea-secondary", UnicodeNumber = 1111922, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Vr_Cardboard_Secondary = new GlyphInfo { Name = "fad-vr-cardboard-secondary", UnicodeNumber = 1111849, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Wagon_Covered_Secondary = new GlyphInfo { Name = "fad-wagon-covered-secondary", UnicodeNumber = 1112302, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Walker_Secondary = new GlyphInfo { Name = "fad-walker-secondary", UnicodeNumber = 1112113, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Walkie_Talkie_Secondary = new GlyphInfo { Name = "fad-walkie-talkie-secondary", UnicodeNumber = 1112303, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Walking_Secondary = new GlyphInfo { Name = "fad-walking-secondary", UnicodeNumber = 1111380, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wallet_Secondary = new GlyphInfo { Name = "fad-wallet-secondary", UnicodeNumber = 1111381, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wand_Secondary = new GlyphInfo { Name = "fad-wand-secondary", UnicodeNumber = 1111850, FontFamily = GlyphFont.Current.Duotone };
@@ -3267,6 +3424,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Warehouse_Alt_Secondary = new GlyphInfo { Name = "fad-warehouse-alt-secondary", UnicodeNumber = 1111189, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Washer_Secondary = new GlyphInfo { Name = "fad-washer-secondary", UnicodeNumber = 1112216, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Watch_Secondary = new GlyphInfo { Name = "fad-watch-secondary", UnicodeNumber = 1110753, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Watch_Calculator_Secondary = new GlyphInfo { Name = "fad-watch-calculator-secondary", UnicodeNumber = 1112304, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Watch_Fitness_Secondary = new GlyphInfo { Name = "fad-watch-fitness-secondary", UnicodeNumber = 1111614, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Water_Secondary = new GlyphInfo { Name = "fad-water-secondary", UnicodeNumber = 1111923, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Water_Lower_Secondary = new GlyphInfo { Name = "fad-water-lower-secondary", UnicodeNumber = 1111924, FontFamily = GlyphFont.Current.Duotone };
@@ -3274,6 +3432,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fad_Wave_Sine_Secondary = new GlyphInfo { Name = "fad-wave-sine-secondary", UnicodeNumber = 1112217, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wave_Square_Secondary = new GlyphInfo { Name = "fad-wave-square-secondary", UnicodeNumber = 1112126, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Wave_Triangle_Secondary = new GlyphInfo { Name = "fad-wave-triangle-secondary", UnicodeNumber = 1112218, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Waveform_Secondary = new GlyphInfo { Name = "fad-waveform-secondary", UnicodeNumber = 1112305, FontFamily = GlyphFont.Current.Duotone };
+        public static readonly GlyphInfo Fad_Waveform_Path_Secondary = new GlyphInfo { Name = "fad-waveform-path-secondary", UnicodeNumber = 1112306, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Webcam_Secondary = new GlyphInfo { Name = "fad-webcam-secondary", UnicodeNumber = 1112114, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Webcam_Slash_Secondary = new GlyphInfo { Name = "fad-webcam-slash-secondary", UnicodeNumber = 1112115, FontFamily = GlyphFont.Current.Duotone };
         public static readonly GlyphInfo Fad_Weight_Secondary = new GlyphInfo { Name = "fad-weight-secondary", UnicodeNumber = 1111190, FontFamily = GlyphFont.Current.Duotone };

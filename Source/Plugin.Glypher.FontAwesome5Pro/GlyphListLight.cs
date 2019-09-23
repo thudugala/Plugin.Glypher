@@ -1,7 +1,7 @@
 namespace Plugin.Glypher.FontAwesome5Pro
 {
     /// <summary>
-    /// Font Awesome Pro 5.10.2
+    /// Font Awesome Pro 5.11.2
     /// </summary>
     public static class GlyphListLight
     {
@@ -18,6 +18,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Alarm_Exclamation = new GlyphInfo { Name = "fal-alarm-exclamation", Glyph = "\uf843", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Alarm_Plus = new GlyphInfo { Name = "fal-alarm-plus", Glyph = "\uf844", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Alarm_Snooze = new GlyphInfo { Name = "fal-alarm-snooze", Glyph = "\uf845", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Album = new GlyphInfo { Name = "fal-album", Glyph = "\uf89f", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Album_Collection = new GlyphInfo { Name = "fal-album-collection", Glyph = "\uf8a0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Alicorn = new GlyphInfo { Name = "fal-alicorn", Glyph = "\uf6b0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Align_Center = new GlyphInfo { Name = "fal-align-center", Glyph = "\uf037", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Align_Justify = new GlyphInfo { Name = "fal-align-justify", Glyph = "\uf039", FontFamily = GlyphFont.Current.Light };
@@ -27,6 +29,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Allergies = new GlyphInfo { Name = "fal-allergies", Glyph = "\uf461", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ambulance = new GlyphInfo { Name = "fal-ambulance", Glyph = "\uf0f9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_American_Sign_Language_Interpreting = new GlyphInfo { Name = "fal-american-sign-language-interpreting", Glyph = "\uf2a3", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Amp_Guitar = new GlyphInfo { Name = "fal-amp-guitar", Glyph = "\uf8a1", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Analytics = new GlyphInfo { Name = "fal-analytics", Glyph = "\uf643", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Anchor = new GlyphInfo { Name = "fal-anchor", Glyph = "\uf13d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Angel = new GlyphInfo { Name = "fal-angel", Glyph = "\uf779", FontFamily = GlyphFont.Current.Light };
@@ -110,6 +113,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Badge_Check = new GlyphInfo { Name = "fal-badge-check", Glyph = "\uf336", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Badge_Dollar = new GlyphInfo { Name = "fal-badge-dollar", Glyph = "\uf645", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Badge_Percent = new GlyphInfo { Name = "fal-badge-percent", Glyph = "\uf646", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Badge_Sheriff = new GlyphInfo { Name = "fal-badge-sheriff", Glyph = "\uf8a2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Badger_Honey = new GlyphInfo { Name = "fal-badger-honey", Glyph = "\uf6b4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bags_Shopping = new GlyphInfo { Name = "fal-bags-shopping", Glyph = "\uf847", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Balance_Scale = new GlyphInfo { Name = "fal-balance-scale", Glyph = "\uf24e", FontFamily = GlyphFont.Current.Light };
@@ -120,6 +124,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Ballot_Check = new GlyphInfo { Name = "fal-ballot-check", Glyph = "\uf733", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ban = new GlyphInfo { Name = "fal-ban", Glyph = "\uf05e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Band_Aid = new GlyphInfo { Name = "fal-band-aid", Glyph = "\uf462", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Banjo = new GlyphInfo { Name = "fal-banjo", Glyph = "\uf8a3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Barcode = new GlyphInfo { Name = "fal-barcode", Glyph = "\uf02a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Barcode_Alt = new GlyphInfo { Name = "fal-barcode-alt", Glyph = "\uf463", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Barcode_Read = new GlyphInfo { Name = "fal-barcode-read", Glyph = "\uf464", FontFamily = GlyphFont.Current.Light };
@@ -147,6 +152,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Bell_School_Slash = new GlyphInfo { Name = "fal-bell-school-slash", Glyph = "\uf5d6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bell_Slash = new GlyphInfo { Name = "fal-bell-slash", Glyph = "\uf1f6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bells = new GlyphInfo { Name = "fal-bells", Glyph = "\uf77f", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Betamax = new GlyphInfo { Name = "fal-betamax", Glyph = "\uf8a4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bezier_Curve = new GlyphInfo { Name = "fal-bezier-curve", Glyph = "\uf55b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bible = new GlyphInfo { Name = "fal-bible", Glyph = "\uf647", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Bicycle = new GlyphInfo { Name = "fal-bicycle", Glyph = "\uf206", FontFamily = GlyphFont.Current.Light };
@@ -178,6 +184,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Bookmark = new GlyphInfo { Name = "fal-bookmark", Glyph = "\uf02e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Books = new GlyphInfo { Name = "fal-books", Glyph = "\uf5db", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Books_Medical = new GlyphInfo { Name = "fal-books-medical", Glyph = "\uf7e8", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Boombox = new GlyphInfo { Name = "fal-boombox", Glyph = "\uf8a5", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Boot = new GlyphInfo { Name = "fal-boot", Glyph = "\uf782", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Booth_Curtain = new GlyphInfo { Name = "fal-booth-curtain", Glyph = "\uf734", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Border_All = new GlyphInfo { Name = "fal-border-all", Glyph = "\uf84c", FontFamily = GlyphFont.Current.Light };
@@ -236,6 +243,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Bus_School = new GlyphInfo { Name = "fal-bus-school", Glyph = "\uf5dd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Business_Time = new GlyphInfo { Name = "fal-business-time", Glyph = "\uf64a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cabinet_Filing = new GlyphInfo { Name = "fal-cabinet-filing", Glyph = "\uf64b", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cactus = new GlyphInfo { Name = "fal-cactus", Glyph = "\uf8a7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Calculator = new GlyphInfo { Name = "fal-calculator", Glyph = "\uf1ec", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Calculator_Alt = new GlyphInfo { Name = "fal-calculator-alt", Glyph = "\uf64c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Calendar = new GlyphInfo { Name = "fal-calendar", Glyph = "\uf133", FontFamily = GlyphFont.Current.Light };
@@ -249,8 +257,11 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Calendar_Star = new GlyphInfo { Name = "fal-calendar-star", Glyph = "\uf736", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Calendar_Times = new GlyphInfo { Name = "fal-calendar-times", Glyph = "\uf273", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Calendar_Week = new GlyphInfo { Name = "fal-calendar-week", Glyph = "\uf784", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Camcorder = new GlyphInfo { Name = "fal-camcorder", Glyph = "\uf8a8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Camera = new GlyphInfo { Name = "fal-camera", Glyph = "\uf030", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Camera_Alt = new GlyphInfo { Name = "fal-camera-alt", Glyph = "\uf332", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Camera_Movie = new GlyphInfo { Name = "fal-camera-movie", Glyph = "\uf8a9", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Camera_Polaroid = new GlyphInfo { Name = "fal-camera-polaroid", Glyph = "\uf8aa", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Camera_Retro = new GlyphInfo { Name = "fal-camera-retro", Glyph = "\uf083", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Campfire = new GlyphInfo { Name = "fal-campfire", Glyph = "\uf6ba", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Campground = new GlyphInfo { Name = "fal-campground", Glyph = "\uf6bb", FontFamily = GlyphFont.Current.Light };
@@ -288,8 +299,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Cart_Arrow_Down = new GlyphInfo { Name = "fal-cart-arrow-down", Glyph = "\uf218", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cart_Plus = new GlyphInfo { Name = "fal-cart-plus", Glyph = "\uf217", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cash_Register = new GlyphInfo { Name = "fal-cash-register", Glyph = "\uf788", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cassette_Tape = new GlyphInfo { Name = "fal-cassette-tape", Glyph = "\uf8ab", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cat = new GlyphInfo { Name = "fal-cat", Glyph = "\uf6be", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cauldron = new GlyphInfo { Name = "fal-cauldron", Glyph = "\uf6bf", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cctv = new GlyphInfo { Name = "fal-cctv", Glyph = "\uf8ac", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Certificate = new GlyphInfo { Name = "fal-certificate", Glyph = "\uf0a3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Chair = new GlyphInfo { Name = "fal-chair", Glyph = "\uf6c0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Chair_Office = new GlyphInfo { Name = "fal-chair-office", Glyph = "\uf6c1", FontFamily = GlyphFont.Current.Light };
@@ -349,6 +362,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Circle = new GlyphInfo { Name = "fal-circle", Glyph = "\uf111", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Circle_Notch = new GlyphInfo { Name = "fal-circle-notch", Glyph = "\uf1ce", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_City = new GlyphInfo { Name = "fal-city", Glyph = "\uf64f", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Clarinet = new GlyphInfo { Name = "fal-clarinet", Glyph = "\uf8ad", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Claw_Marks = new GlyphInfo { Name = "fal-claw-marks", Glyph = "\uf6c2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Clinic_Medical = new GlyphInfo { Name = "fal-clinic-medical", Glyph = "\uf7f2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Clipboard = new GlyphInfo { Name = "fal-clipboard", Glyph = "\uf328", FontFamily = GlyphFont.Current.Light };
@@ -369,6 +383,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Cloud_Meatball = new GlyphInfo { Name = "fal-cloud-meatball", Glyph = "\uf73b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cloud_Moon = new GlyphInfo { Name = "fal-cloud-moon", Glyph = "\uf6c3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cloud_Moon_Rain = new GlyphInfo { Name = "fal-cloud-moon-rain", Glyph = "\uf73c", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cloud_Music = new GlyphInfo { Name = "fal-cloud-music", Glyph = "\uf8ae", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cloud_Rain = new GlyphInfo { Name = "fal-cloud-rain", Glyph = "\uf73d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cloud_Rainbow = new GlyphInfo { Name = "fal-cloud-rainbow", Glyph = "\uf73e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cloud_Showers = new GlyphInfo { Name = "fal-cloud-showers", Glyph = "\uf73f", FontFamily = GlyphFont.Current.Light };
@@ -406,6 +421,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Comment_Alt_Lines = new GlyphInfo { Name = "fal-comment-alt-lines", Glyph = "\uf4a6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Alt_Medical = new GlyphInfo { Name = "fal-comment-alt-medical", Glyph = "\uf7f4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Alt_Minus = new GlyphInfo { Name = "fal-comment-alt-minus", Glyph = "\uf4a7", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Comment_Alt_Music = new GlyphInfo { Name = "fal-comment-alt-music", Glyph = "\uf8af", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Alt_Plus = new GlyphInfo { Name = "fal-comment-alt-plus", Glyph = "\uf4a8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Alt_Slash = new GlyphInfo { Name = "fal-comment-alt-slash", Glyph = "\uf4a9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Alt_Smile = new GlyphInfo { Name = "fal-comment-alt-smile", Glyph = "\uf4aa", FontFamily = GlyphFont.Current.Light };
@@ -418,6 +434,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Comment_Lines = new GlyphInfo { Name = "fal-comment-lines", Glyph = "\uf4b0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Medical = new GlyphInfo { Name = "fal-comment-medical", Glyph = "\uf7f5", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Minus = new GlyphInfo { Name = "fal-comment-minus", Glyph = "\uf4b1", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Comment_Music = new GlyphInfo { Name = "fal-comment-music", Glyph = "\uf8b0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Plus = new GlyphInfo { Name = "fal-comment-plus", Glyph = "\uf4b2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Slash = new GlyphInfo { Name = "fal-comment-slash", Glyph = "\uf4b3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Comment_Smile = new GlyphInfo { Name = "fal-comment-smile", Glyph = "\uf4b4", FontFamily = GlyphFont.Current.Light };
@@ -433,6 +450,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Compress_Alt = new GlyphInfo { Name = "fal-compress-alt", Glyph = "\uf422", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Compress_Arrows_Alt = new GlyphInfo { Name = "fal-compress-arrows-alt", Glyph = "\uf78c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Compress_Wide = new GlyphInfo { Name = "fal-compress-wide", Glyph = "\uf326", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Computer_Classic = new GlyphInfo { Name = "fal-computer-classic", Glyph = "\uf8b1", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Computer_Speaker = new GlyphInfo { Name = "fal-computer-speaker", Glyph = "\uf8b2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Concierge_Bell = new GlyphInfo { Name = "fal-concierge-bell", Glyph = "\uf562", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Construction = new GlyphInfo { Name = "fal-construction", Glyph = "\uf85d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Container_Storage = new GlyphInfo { Name = "fal-container-storage", Glyph = "\uf4b7", FontFamily = GlyphFont.Current.Light };
@@ -445,6 +464,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Corn = new GlyphInfo { Name = "fal-corn", Glyph = "\uf6c7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Couch = new GlyphInfo { Name = "fal-couch", Glyph = "\uf4b8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Cow = new GlyphInfo { Name = "fal-cow", Glyph = "\uf6c8", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cowbell = new GlyphInfo { Name = "fal-cowbell", Glyph = "\uf8b3", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Cowbell_More = new GlyphInfo { Name = "fal-cowbell-more", Glyph = "\uf8b4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Credit_Card = new GlyphInfo { Name = "fal-credit-card", Glyph = "\uf09d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Credit_Card_Blank = new GlyphInfo { Name = "fal-credit-card-blank", Glyph = "\uf389", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Credit_Card_Front = new GlyphInfo { Name = "fal-credit-card-front", Glyph = "\uf38a", FontFamily = GlyphFont.Current.Light };
@@ -492,6 +513,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Digital_Tachograph = new GlyphInfo { Name = "fal-digital-tachograph", Glyph = "\uf566", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Diploma = new GlyphInfo { Name = "fal-diploma", Glyph = "\uf5ea", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Directions = new GlyphInfo { Name = "fal-directions", Glyph = "\uf5eb", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Disc_Drive = new GlyphInfo { Name = "fal-disc-drive", Glyph = "\uf8b5", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Disease = new GlyphInfo { Name = "fal-disease", Glyph = "\uf7fa", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Divide = new GlyphInfo { Name = "fal-divide", Glyph = "\uf529", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Dizzy = new GlyphInfo { Name = "fal-dizzy", Glyph = "\uf567", FontFamily = GlyphFont.Current.Light };
@@ -606,6 +628,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_File_Medical = new GlyphInfo { Name = "fal-file-medical", Glyph = "\uf477", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_File_Medical_Alt = new GlyphInfo { Name = "fal-file-medical-alt", Glyph = "\uf478", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_File_Minus = new GlyphInfo { Name = "fal-file-minus", Glyph = "\uf318", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_File_Music = new GlyphInfo { Name = "fal-file-music", Glyph = "\uf8b6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_File_Pdf = new GlyphInfo { Name = "fal-file-pdf", Glyph = "\uf1c1", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_File_Plus = new GlyphInfo { Name = "fal-file-plus", Glyph = "\uf319", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_File_Powerpoint = new GlyphInfo { Name = "fal-file-powerpoint", Glyph = "\uf1c4", FontFamily = GlyphFont.Current.Light };
@@ -623,6 +646,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Fill_Drip = new GlyphInfo { Name = "fal-fill-drip", Glyph = "\uf576", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Film = new GlyphInfo { Name = "fal-film", Glyph = "\uf008", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Film_Alt = new GlyphInfo { Name = "fal-film-alt", Glyph = "\uf3a0", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Film_Canister = new GlyphInfo { Name = "fal-film-canister", Glyph = "\uf8b7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Filter = new GlyphInfo { Name = "fal-filter", Glyph = "\uf0b0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Fingerprint = new GlyphInfo { Name = "fal-fingerprint", Glyph = "\uf577", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Fire = new GlyphInfo { Name = "fal-fire", Glyph = "\uf06d", FontFamily = GlyphFont.Current.Light };
@@ -639,6 +663,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Flag_Checkered = new GlyphInfo { Name = "fal-flag-checkered", Glyph = "\uf11e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flag_Usa = new GlyphInfo { Name = "fal-flag-usa", Glyph = "\uf74d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flame = new GlyphInfo { Name = "fal-flame", Glyph = "\uf6df", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Flashlight = new GlyphInfo { Name = "fal-flashlight", Glyph = "\uf8b8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flask = new GlyphInfo { Name = "fal-flask", Glyph = "\uf0c3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flask_Poison = new GlyphInfo { Name = "fal-flask-poison", Glyph = "\uf6e0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flask_Potion = new GlyphInfo { Name = "fal-flask-potion", Glyph = "\uf6e1", FontFamily = GlyphFont.Current.Light };
@@ -646,6 +671,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Flower_Daffodil = new GlyphInfo { Name = "fal-flower-daffodil", Glyph = "\uf800", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flower_Tulip = new GlyphInfo { Name = "fal-flower-tulip", Glyph = "\uf801", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Flushed = new GlyphInfo { Name = "fal-flushed", Glyph = "\uf579", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Flute = new GlyphInfo { Name = "fal-flute", Glyph = "\uf8b9", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Flux_Capacitor = new GlyphInfo { Name = "fal-flux-capacitor", Glyph = "\uf8ba", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Fog = new GlyphInfo { Name = "fal-fog", Glyph = "\uf74e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Folder = new GlyphInfo { Name = "fal-folder", Glyph = "\uf07b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Folder_Minus = new GlyphInfo { Name = "fal-folder-minus", Glyph = "\uf65d", FontFamily = GlyphFont.Current.Light };
@@ -672,7 +699,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Futbol = new GlyphInfo { Name = "fal-futbol", Glyph = "\uf1e3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Game_Board = new GlyphInfo { Name = "fal-game-board", Glyph = "\uf867", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Game_Board_Alt = new GlyphInfo { Name = "fal-game-board-alt", Glyph = "\uf868", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Game_Console_Handheld = new GlyphInfo { Name = "fal-game-console-handheld", Glyph = "\uf8bb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Gamepad = new GlyphInfo { Name = "fal-gamepad", Glyph = "\uf11b", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Gamepad_Alt = new GlyphInfo { Name = "fal-gamepad-alt", Glyph = "\uf8bc", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Gas_Pump = new GlyphInfo { Name = "fal-gas-pump", Glyph = "\uf52f", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Gas_Pump_Slash = new GlyphInfo { Name = "fal-gas-pump-slash", Glyph = "\uf5f4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Gavel = new GlyphInfo { Name = "fal-gavel", Glyph = "\uf0e3", FontFamily = GlyphFont.Current.Light };
@@ -704,6 +733,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Golf_Club = new GlyphInfo { Name = "fal-golf-club", Glyph = "\uf451", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Gopuram = new GlyphInfo { Name = "fal-gopuram", Glyph = "\uf664", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Graduation_Cap = new GlyphInfo { Name = "fal-graduation-cap", Glyph = "\uf19d", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Gramophone = new GlyphInfo { Name = "fal-gramophone", Glyph = "\uf8bd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Greater_Than = new GlyphInfo { Name = "fal-greater-than", Glyph = "\uf531", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Greater_Than_Equal = new GlyphInfo { Name = "fal-greater-than-equal", Glyph = "\uf532", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Grimace = new GlyphInfo { Name = "fal-grimace", Glyph = "\uf57f", FontFamily = GlyphFont.Current.Light };
@@ -725,6 +755,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Grip_Lines_Vertical = new GlyphInfo { Name = "fal-grip-lines-vertical", Glyph = "\uf7a5", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Grip_Vertical = new GlyphInfo { Name = "fal-grip-vertical", Glyph = "\uf58e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Guitar = new GlyphInfo { Name = "fal-guitar", Glyph = "\uf7a6", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Guitar_Electric = new GlyphInfo { Name = "fal-guitar-electric", Glyph = "\uf8be", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Guitars = new GlyphInfo { Name = "fal-guitars", Glyph = "\uf8bf", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_H_Square = new GlyphInfo { Name = "fal-h-square", Glyph = "\uf0fd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_H1 = new GlyphInfo { Name = "fal-h1", Glyph = "\uf313", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_H2 = new GlyphInfo { Name = "fal-h2", Glyph = "\uf314", FontFamily = GlyphFont.Current.Light };
@@ -765,6 +797,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Hard_Hat = new GlyphInfo { Name = "fal-hard-hat", Glyph = "\uf807", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hashtag = new GlyphInfo { Name = "fal-hashtag", Glyph = "\uf292", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hat_Chef = new GlyphInfo { Name = "fal-hat-chef", Glyph = "\uf86b", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Hat_Cowboy = new GlyphInfo { Name = "fal-hat-cowboy", Glyph = "\uf8c0", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Hat_Cowboy_Side = new GlyphInfo { Name = "fal-hat-cowboy-side", Glyph = "\uf8c1", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hat_Santa = new GlyphInfo { Name = "fal-hat-santa", Glyph = "\uf7a7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hat_Winter = new GlyphInfo { Name = "fal-hat-winter", Glyph = "\uf7a8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hat_Witch = new GlyphInfo { Name = "fal-hat-witch", Glyph = "\uf6e7", FontFamily = GlyphFont.Current.Light };
@@ -773,6 +807,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Hdd = new GlyphInfo { Name = "fal-hdd", Glyph = "\uf0a0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Head_Side = new GlyphInfo { Name = "fal-head-side", Glyph = "\uf6e9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Head_Side_Brain = new GlyphInfo { Name = "fal-head-side-brain", Glyph = "\uf808", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Head_Side_Headphones = new GlyphInfo { Name = "fal-head-side-headphones", Glyph = "\uf8c2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Head_Side_Medical = new GlyphInfo { Name = "fal-head-side-medical", Glyph = "\uf809", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Head_Vr = new GlyphInfo { Name = "fal-head-vr", Glyph = "\uf6ea", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Heading = new GlyphInfo { Name = "fal-heading", Glyph = "\uf1dc", FontFamily = GlyphFont.Current.Light };
@@ -805,6 +840,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Horizontal_Rule = new GlyphInfo { Name = "fal-horizontal-rule", Glyph = "\uf86c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Horse = new GlyphInfo { Name = "fal-horse", Glyph = "\uf6f0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Horse_Head = new GlyphInfo { Name = "fal-horse-head", Glyph = "\uf7ab", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Horse_Saddle = new GlyphInfo { Name = "fal-horse-saddle", Glyph = "\uf8c3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hospital = new GlyphInfo { Name = "fal-hospital", Glyph = "\uf0f8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hospital_Alt = new GlyphInfo { Name = "fal-hospital-alt", Glyph = "\uf47d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Hospital_Symbol = new GlyphInfo { Name = "fal-hospital-symbol", Glyph = "\uf47e", FontFamily = GlyphFont.Current.Light };
@@ -833,6 +869,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Id_Card_Alt = new GlyphInfo { Name = "fal-id-card-alt", Glyph = "\uf47f", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Igloo = new GlyphInfo { Name = "fal-igloo", Glyph = "\uf7ae", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Image = new GlyphInfo { Name = "fal-image", Glyph = "\uf03e", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Image_Polaroid = new GlyphInfo { Name = "fal-image-polaroid", Glyph = "\uf8c4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Images = new GlyphInfo { Name = "fal-images", Glyph = "\uf302", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Inbox = new GlyphInfo { Name = "fal-inbox", Glyph = "\uf01c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Inbox_In = new GlyphInfo { Name = "fal-inbox-in", Glyph = "\uf310", FontFamily = GlyphFont.Current.Light };
@@ -854,7 +891,10 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Jedi = new GlyphInfo { Name = "fal-jedi", Glyph = "\uf669", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Joint = new GlyphInfo { Name = "fal-joint", Glyph = "\uf595", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Journal_Whills = new GlyphInfo { Name = "fal-journal-whills", Glyph = "\uf66a", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Joystick = new GlyphInfo { Name = "fal-joystick", Glyph = "\uf8c5", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Jug = new GlyphInfo { Name = "fal-jug", Glyph = "\uf8c6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Kaaba = new GlyphInfo { Name = "fal-kaaba", Glyph = "\uf66b", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Kazoo = new GlyphInfo { Name = "fal-kazoo", Glyph = "\uf8c7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Kerning = new GlyphInfo { Name = "fal-kerning", Glyph = "\uf86f", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Key = new GlyphInfo { Name = "fal-key", Glyph = "\uf084", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Key_Skeleton = new GlyphInfo { Name = "fal-key-skeleton", Glyph = "\uf6f3", FontFamily = GlyphFont.Current.Light };
@@ -876,6 +916,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Laptop = new GlyphInfo { Name = "fal-laptop", Glyph = "\uf109", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Laptop_Code = new GlyphInfo { Name = "fal-laptop-code", Glyph = "\uf5fc", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Laptop_Medical = new GlyphInfo { Name = "fal-laptop-medical", Glyph = "\uf812", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Lasso = new GlyphInfo { Name = "fal-lasso", Glyph = "\uf8c8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Laugh = new GlyphInfo { Name = "fal-laugh", Glyph = "\uf599", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Laugh_Beam = new GlyphInfo { Name = "fal-laugh-beam", Glyph = "\uf59a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Laugh_Squint = new GlyphInfo { Name = "fal-laugh-squint", Glyph = "\uf59b", FontFamily = GlyphFont.Current.Light };
@@ -908,6 +949,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Lira_Sign = new GlyphInfo { Name = "fal-lira-sign", Glyph = "\uf195", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_List = new GlyphInfo { Name = "fal-list", Glyph = "\uf03a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_List_Alt = new GlyphInfo { Name = "fal-list-alt", Glyph = "\uf022", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_List_Music = new GlyphInfo { Name = "fal-list-music", Glyph = "\uf8c9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_List_Ol = new GlyphInfo { Name = "fal-list-ol", Glyph = "\uf0cb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_List_Ul = new GlyphInfo { Name = "fal-list-ul", Glyph = "\uf0ca", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Location = new GlyphInfo { Name = "fal-location", Glyph = "\uf601", FontFamily = GlyphFont.Current.Light };
@@ -978,6 +1020,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Microphone_Alt = new GlyphInfo { Name = "fal-microphone-alt", Glyph = "\uf3c9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Microphone_Alt_Slash = new GlyphInfo { Name = "fal-microphone-alt-slash", Glyph = "\uf539", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Microphone_Slash = new GlyphInfo { Name = "fal-microphone-slash", Glyph = "\uf131", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Microphone_Stand = new GlyphInfo { Name = "fal-microphone-stand", Glyph = "\uf8cb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Microscope = new GlyphInfo { Name = "fal-microscope", Glyph = "\uf610", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mind_Share = new GlyphInfo { Name = "fal-mind-share", Glyph = "\uf677", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Minus = new GlyphInfo { Name = "fal-minus", Glyph = "\uf068", FontFamily = GlyphFont.Current.Light };
@@ -1010,12 +1053,18 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Motorcycle = new GlyphInfo { Name = "fal-motorcycle", Glyph = "\uf21c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mountain = new GlyphInfo { Name = "fal-mountain", Glyph = "\uf6fc", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mountains = new GlyphInfo { Name = "fal-mountains", Glyph = "\uf6fd", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Mouse = new GlyphInfo { Name = "fal-mouse", Glyph = "\uf8cc", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Mouse_Alt = new GlyphInfo { Name = "fal-mouse-alt", Glyph = "\uf8cd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mouse_Pointer = new GlyphInfo { Name = "fal-mouse-pointer", Glyph = "\uf245", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Mp3_Player = new GlyphInfo { Name = "fal-mp3-player", Glyph = "\uf8ce", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mug = new GlyphInfo { Name = "fal-mug", Glyph = "\uf874", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mug_Hot = new GlyphInfo { Name = "fal-mug-hot", Glyph = "\uf7b6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mug_Marshmallows = new GlyphInfo { Name = "fal-mug-marshmallows", Glyph = "\uf7b7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Mug_Tea = new GlyphInfo { Name = "fal-mug-tea", Glyph = "\uf875", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Music = new GlyphInfo { Name = "fal-music", Glyph = "\uf001", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Music_Alt = new GlyphInfo { Name = "fal-music-alt", Glyph = "\uf8cf", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Music_Alt_Slash = new GlyphInfo { Name = "fal-music-alt-slash", Glyph = "\uf8d0", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Music_Slash = new GlyphInfo { Name = "fal-music-slash", Glyph = "\uf8d1", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Narwhal = new GlyphInfo { Name = "fal-narwhal", Glyph = "\uf6fe", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Network_Wired = new GlyphInfo { Name = "fal-network-wired", Glyph = "\uf6ff", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Neuter = new GlyphInfo { Name = "fal-neuter", Glyph = "\uf22c", FontFamily = GlyphFont.Current.Light };
@@ -1084,12 +1133,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Phone_Laptop = new GlyphInfo { Name = "fal-phone-laptop", Glyph = "\uf87a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Office = new GlyphInfo { Name = "fal-phone-office", Glyph = "\uf67d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Plus = new GlyphInfo { Name = "fal-phone-plus", Glyph = "\uf4d2", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Phone_Rotary = new GlyphInfo { Name = "fal-phone-rotary", Glyph = "\uf8d3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Slash = new GlyphInfo { Name = "fal-phone-slash", Glyph = "\uf3dd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Square = new GlyphInfo { Name = "fal-phone-square", Glyph = "\uf098", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Square_Alt = new GlyphInfo { Name = "fal-phone-square-alt", Glyph = "\uf87b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Phone_Volume = new GlyphInfo { Name = "fal-phone-volume", Glyph = "\uf2a0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Photo_Video = new GlyphInfo { Name = "fal-photo-video", Glyph = "\uf87c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Pi = new GlyphInfo { Name = "fal-pi", Glyph = "\uf67e", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Piano = new GlyphInfo { Name = "fal-piano", Glyph = "\uf8d4", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Piano_Keyboard = new GlyphInfo { Name = "fal-piano-keyboard", Glyph = "\uf8d5", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Pie = new GlyphInfo { Name = "fal-pie", Glyph = "\uf705", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Pig = new GlyphInfo { Name = "fal-pig", Glyph = "\uf706", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Piggy_Bank = new GlyphInfo { Name = "fal-piggy-bank", Glyph = "\uf4d3", FontFamily = GlyphFont.Current.Light };
@@ -1133,6 +1185,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Print_Slash = new GlyphInfo { Name = "fal-print-slash", Glyph = "\uf686", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Procedures = new GlyphInfo { Name = "fal-procedures", Glyph = "\uf487", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Project_Diagram = new GlyphInfo { Name = "fal-project-diagram", Glyph = "\uf542", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Projector = new GlyphInfo { Name = "fal-projector", Glyph = "\uf8d6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Pumpkin = new GlyphInfo { Name = "fal-pumpkin", Glyph = "\uf707", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Puzzle_Piece = new GlyphInfo { Name = "fal-puzzle-piece", Glyph = "\uf12e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Qrcode = new GlyphInfo { Name = "fal-qrcode", Glyph = "\uf029", FontFamily = GlyphFont.Current.Light };
@@ -1148,12 +1201,15 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Racquet = new GlyphInfo { Name = "fal-racquet", Glyph = "\uf45a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Radiation = new GlyphInfo { Name = "fal-radiation", Glyph = "\uf7b9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Radiation_Alt = new GlyphInfo { Name = "fal-radiation-alt", Glyph = "\uf7ba", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Radio = new GlyphInfo { Name = "fal-radio", Glyph = "\uf8d7", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Radio_Alt = new GlyphInfo { Name = "fal-radio-alt", Glyph = "\uf8d8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rainbow = new GlyphInfo { Name = "fal-rainbow", Glyph = "\uf75b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Raindrops = new GlyphInfo { Name = "fal-raindrops", Glyph = "\uf75c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ram = new GlyphInfo { Name = "fal-ram", Glyph = "\uf70a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ramp_Loading = new GlyphInfo { Name = "fal-ramp-loading", Glyph = "\uf4d4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Random = new GlyphInfo { Name = "fal-random", Glyph = "\uf074", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Receipt = new GlyphInfo { Name = "fal-receipt", Glyph = "\uf543", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Record_Vinyl = new GlyphInfo { Name = "fal-record-vinyl", Glyph = "\uf8d9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rectangle_Landscape = new GlyphInfo { Name = "fal-rectangle-landscape", Glyph = "\uf2fa", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rectangle_Portrait = new GlyphInfo { Name = "fal-rectangle-portrait", Glyph = "\uf2fb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rectangle_Wide = new GlyphInfo { Name = "fal-rectangle-wide", Glyph = "\uf2fc", FontFamily = GlyphFont.Current.Light };
@@ -1181,6 +1237,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Route = new GlyphInfo { Name = "fal-route", Glyph = "\uf4d7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Route_Highway = new GlyphInfo { Name = "fal-route-highway", Glyph = "\uf61a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Route_Interstate = new GlyphInfo { Name = "fal-route-interstate", Glyph = "\uf61b", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Router = new GlyphInfo { Name = "fal-router", Glyph = "\uf8da", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rss = new GlyphInfo { Name = "fal-rss", Glyph = "\uf09e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Rss_Square = new GlyphInfo { Name = "fal-rss-square", Glyph = "\uf143", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Ruble_Sign = new GlyphInfo { Name = "fal-ruble-sign", Glyph = "\uf158", FontFamily = GlyphFont.Current.Light };
@@ -1202,9 +1259,12 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Satellite_Dish = new GlyphInfo { Name = "fal-satellite-dish", Glyph = "\uf7c0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Sausage = new GlyphInfo { Name = "fal-sausage", Glyph = "\uf820", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Save = new GlyphInfo { Name = "fal-save", Glyph = "\uf0c7", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Sax_Hot = new GlyphInfo { Name = "fal-sax-hot", Glyph = "\uf8db", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Saxophone = new GlyphInfo { Name = "fal-saxophone", Glyph = "\uf8dc", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scalpel = new GlyphInfo { Name = "fal-scalpel", Glyph = "\uf61d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scalpel_Path = new GlyphInfo { Name = "fal-scalpel-path", Glyph = "\uf61e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scanner = new GlyphInfo { Name = "fal-scanner", Glyph = "\uf488", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Scanner_Image = new GlyphInfo { Name = "fal-scanner-image", Glyph = "\uf8f3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scanner_Keyboard = new GlyphInfo { Name = "fal-scanner-keyboard", Glyph = "\uf489", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scanner_Touchscreen = new GlyphInfo { Name = "fal-scanner-touchscreen", Glyph = "\uf48a", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Scarecrow = new GlyphInfo { Name = "fal-scarecrow", Glyph = "\uf70d", FontFamily = GlyphFont.Current.Light };
@@ -1270,6 +1330,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Signal_Alt_3 = new GlyphInfo { Name = "fal-signal-alt-3", Glyph = "\uf693", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Signal_Alt_Slash = new GlyphInfo { Name = "fal-signal-alt-slash", Glyph = "\uf694", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Signal_Slash = new GlyphInfo { Name = "fal-signal-slash", Glyph = "\uf695", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Signal_Stream = new GlyphInfo { Name = "fal-signal-stream", Glyph = "\uf8dd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Signature = new GlyphInfo { Name = "fal-signature", Glyph = "\uf5b7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Sim_Card = new GlyphInfo { Name = "fal-sim-card", Glyph = "\uf7c4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Sitemap = new GlyphInfo { Name = "fal-sitemap", Glyph = "\uf0e8", FontFamily = GlyphFont.Current.Light };
@@ -1280,6 +1341,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Skiing = new GlyphInfo { Name = "fal-skiing", Glyph = "\uf7c9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Skiing_Nordic = new GlyphInfo { Name = "fal-skiing-nordic", Glyph = "\uf7ca", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Skull = new GlyphInfo { Name = "fal-skull", Glyph = "\uf54c", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Skull_Cow = new GlyphInfo { Name = "fal-skull-cow", Glyph = "\uf8de", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Skull_Crossbones = new GlyphInfo { Name = "fal-skull-crossbones", Glyph = "\uf714", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Slash = new GlyphInfo { Name = "fal-slash", Glyph = "\uf715", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Sledding = new GlyphInfo { Name = "fal-sledding", Glyph = "\uf7cb", FontFamily = GlyphFont.Current.Light };
@@ -1337,6 +1399,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Space_Shuttle = new GlyphInfo { Name = "fal-space-shuttle", Glyph = "\uf197", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Spade = new GlyphInfo { Name = "fal-spade", Glyph = "\uf2f4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Sparkles = new GlyphInfo { Name = "fal-sparkles", Glyph = "\uf890", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Speaker = new GlyphInfo { Name = "fal-speaker", Glyph = "\uf8df", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Speakers = new GlyphInfo { Name = "fal-speakers", Glyph = "\uf8e0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Spell_Check = new GlyphInfo { Name = "fal-spell-check", Glyph = "\uf891", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Spider = new GlyphInfo { Name = "fal-spider", Glyph = "\uf717", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Spider_Black_Widow = new GlyphInfo { Name = "fal-spider-black-widow", Glyph = "\uf718", FontFamily = GlyphFont.Current.Light };
@@ -1515,6 +1579,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Tree_Palm = new GlyphInfo { Name = "fal-tree-palm", Glyph = "\uf82b", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Trees = new GlyphInfo { Name = "fal-trees", Glyph = "\uf724", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Triangle = new GlyphInfo { Name = "fal-triangle", Glyph = "\uf2ec", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Triangle_Music = new GlyphInfo { Name = "fal-triangle-music", Glyph = "\uf8e2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Trophy = new GlyphInfo { Name = "fal-trophy", Glyph = "\uf091", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Trophy_Alt = new GlyphInfo { Name = "fal-trophy-alt", Glyph = "\uf2eb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Truck = new GlyphInfo { Name = "fal-truck", Glyph = "\uf0d1", FontFamily = GlyphFont.Current.Light };
@@ -1526,12 +1591,17 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Truck_Pickup = new GlyphInfo { Name = "fal-truck-pickup", Glyph = "\uf63c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Truck_Plow = new GlyphInfo { Name = "fal-truck-plow", Glyph = "\uf7de", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Truck_Ramp = new GlyphInfo { Name = "fal-truck-ramp", Glyph = "\uf4e0", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Trumpet = new GlyphInfo { Name = "fal-trumpet", Glyph = "\uf8e3", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Tshirt = new GlyphInfo { Name = "fal-tshirt", Glyph = "\uf553", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Tty = new GlyphInfo { Name = "fal-tty", Glyph = "\uf1e4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Turkey = new GlyphInfo { Name = "fal-turkey", Glyph = "\uf725", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Turntable = new GlyphInfo { Name = "fal-turntable", Glyph = "\uf8e4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Turtle = new GlyphInfo { Name = "fal-turtle", Glyph = "\uf726", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Tv = new GlyphInfo { Name = "fal-tv", Glyph = "\uf26c", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Tv_Alt = new GlyphInfo { Name = "fal-tv-alt", Glyph = "\uf8e5", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Tv_Music = new GlyphInfo { Name = "fal-tv-music", Glyph = "\uf8e6", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Tv_Retro = new GlyphInfo { Name = "fal-tv-retro", Glyph = "\uf401", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Typewriter = new GlyphInfo { Name = "fal-typewriter", Glyph = "\uf8e7", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Umbrella = new GlyphInfo { Name = "fal-umbrella", Glyph = "\uf0e9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Umbrella_Beach = new GlyphInfo { Name = "fal-umbrella-beach", Glyph = "\uf5ca", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Underline = new GlyphInfo { Name = "fal-underline", Glyph = "\uf0cd", FontFamily = GlyphFont.Current.Light };
@@ -1545,6 +1615,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Unlock = new GlyphInfo { Name = "fal-unlock", Glyph = "\uf09c", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Unlock_Alt = new GlyphInfo { Name = "fal-unlock-alt", Glyph = "\uf13e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Upload = new GlyphInfo { Name = "fal-upload", Glyph = "\uf093", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Usb_Drive = new GlyphInfo { Name = "fal-usb-drive", Glyph = "\uf8e9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Usd_Circle = new GlyphInfo { Name = "fal-usd-circle", Glyph = "\uf2e8", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Usd_Square = new GlyphInfo { Name = "fal-usd-square", Glyph = "\uf2e9", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User = new GlyphInfo { Name = "fal-user", Glyph = "\uf007", FontFamily = GlyphFont.Current.Light };
@@ -1556,6 +1627,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_User_Circle = new GlyphInfo { Name = "fal-user-circle", Glyph = "\uf2bd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Clock = new GlyphInfo { Name = "fal-user-clock", Glyph = "\uf4fd", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Cog = new GlyphInfo { Name = "fal-user-cog", Glyph = "\uf4fe", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_User_Cowboy = new GlyphInfo { Name = "fal-user-cowboy", Glyph = "\uf8ea", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Crown = new GlyphInfo { Name = "fal-user-crown", Glyph = "\uf6a4", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Edit = new GlyphInfo { Name = "fal-user-edit", Glyph = "\uf4ff", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Friends = new GlyphInfo { Name = "fal-user-friends", Glyph = "\uf500", FontFamily = GlyphFont.Current.Light };
@@ -1567,6 +1639,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_User_Md = new GlyphInfo { Name = "fal-user-md", Glyph = "\uf0f0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Md_Chat = new GlyphInfo { Name = "fal-user-md-chat", Glyph = "\uf82e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Minus = new GlyphInfo { Name = "fal-user-minus", Glyph = "\uf503", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_User_Music = new GlyphInfo { Name = "fal-user-music", Glyph = "\uf8eb", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Ninja = new GlyphInfo { Name = "fal-user-ninja", Glyph = "\uf504", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Nurse = new GlyphInfo { Name = "fal-user-nurse", Glyph = "\uf82f", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_User_Plus = new GlyphInfo { Name = "fal-user-plus", Glyph = "\uf234", FontFamily = GlyphFont.Current.Light };
@@ -1591,12 +1664,14 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Venus = new GlyphInfo { Name = "fal-venus", Glyph = "\uf221", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Venus_Double = new GlyphInfo { Name = "fal-venus-double", Glyph = "\uf226", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Venus_Mars = new GlyphInfo { Name = "fal-venus-mars", Glyph = "\uf228", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Vhs = new GlyphInfo { Name = "fal-vhs", Glyph = "\uf8ec", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Vial = new GlyphInfo { Name = "fal-vial", Glyph = "\uf492", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Vials = new GlyphInfo { Name = "fal-vials", Glyph = "\uf493", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Video = new GlyphInfo { Name = "fal-video", Glyph = "\uf03d", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Video_Plus = new GlyphInfo { Name = "fal-video-plus", Glyph = "\uf4e1", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Video_Slash = new GlyphInfo { Name = "fal-video-slash", Glyph = "\uf4e2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Vihara = new GlyphInfo { Name = "fal-vihara", Glyph = "\uf6a7", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Violin = new GlyphInfo { Name = "fal-violin", Glyph = "\uf8ed", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Voicemail = new GlyphInfo { Name = "fal-voicemail", Glyph = "\uf897", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Volcano = new GlyphInfo { Name = "fal-volcano", Glyph = "\uf770", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Volleyball_Ball = new GlyphInfo { Name = "fal-volleyball-ball", Glyph = "\uf45f", FontFamily = GlyphFont.Current.Light };
@@ -1609,7 +1684,9 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Vote_Nay = new GlyphInfo { Name = "fal-vote-nay", Glyph = "\uf771", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Vote_Yea = new GlyphInfo { Name = "fal-vote-yea", Glyph = "\uf772", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Vr_Cardboard = new GlyphInfo { Name = "fal-vr-cardboard", Glyph = "\uf729", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Wagon_Covered = new GlyphInfo { Name = "fal-wagon-covered", Glyph = "\uf8ee", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Walker = new GlyphInfo { Name = "fal-walker", Glyph = "\uf831", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Walkie_Talkie = new GlyphInfo { Name = "fal-walkie-talkie", Glyph = "\uf8ef", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Walking = new GlyphInfo { Name = "fal-walking", Glyph = "\uf554", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Wallet = new GlyphInfo { Name = "fal-wallet", Glyph = "\uf555", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Wand = new GlyphInfo { Name = "fal-wand", Glyph = "\uf72a", FontFamily = GlyphFont.Current.Light };
@@ -1618,6 +1695,7 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Warehouse_Alt = new GlyphInfo { Name = "fal-warehouse-alt", Glyph = "\uf495", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Washer = new GlyphInfo { Name = "fal-washer", Glyph = "\uf898", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Watch = new GlyphInfo { Name = "fal-watch", Glyph = "\uf2e1", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Watch_Calculator = new GlyphInfo { Name = "fal-watch-calculator", Glyph = "\uf8f0", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Watch_Fitness = new GlyphInfo { Name = "fal-watch-fitness", Glyph = "\uf63e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Water = new GlyphInfo { Name = "fal-water", Glyph = "\uf773", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Water_Lower = new GlyphInfo { Name = "fal-water-lower", Glyph = "\uf774", FontFamily = GlyphFont.Current.Light };
@@ -1625,6 +1703,8 @@ namespace Plugin.Glypher.FontAwesome5Pro
         public static readonly GlyphInfo Fal_Wave_Sine = new GlyphInfo { Name = "fal-wave-sine", Glyph = "\uf899", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Wave_Square = new GlyphInfo { Name = "fal-wave-square", Glyph = "\uf83e", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Wave_Triangle = new GlyphInfo { Name = "fal-wave-triangle", Glyph = "\uf89a", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Waveform = new GlyphInfo { Name = "fal-waveform", Glyph = "\uf8f1", FontFamily = GlyphFont.Current.Light };
+        public static readonly GlyphInfo Fal_Waveform_Path = new GlyphInfo { Name = "fal-waveform-path", Glyph = "\uf8f2", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Webcam = new GlyphInfo { Name = "fal-webcam", Glyph = "\uf832", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Webcam_Slash = new GlyphInfo { Name = "fal-webcam-slash", Glyph = "\uf833", FontFamily = GlyphFont.Current.Light };
         public static readonly GlyphInfo Fal_Weight = new GlyphInfo { Name = "fal-weight", Glyph = "\uf496", FontFamily = GlyphFont.Current.Light };
