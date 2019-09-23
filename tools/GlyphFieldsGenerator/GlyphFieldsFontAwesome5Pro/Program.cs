@@ -8,6 +8,10 @@ namespace GlyphFieldsFontAwesome5Pro
 {
     internal class Program
     {
+        private const string FolderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Pro";
+        private const string LibName = @"Font Awesome Pro 5.11.2";
+        private const string LibNamespace = @"FontAwesome5Pro";
+
         private static void Main(string[] args)
         {
             using (var reader = new StreamReader(@"icons.json"))
@@ -43,43 +47,39 @@ namespace GlyphFieldsFontAwesome5Pro
 
                 iconList.AddRange(iconDuotoneSecondaryList);
 
-                const string folderPath = @"..\..\..\..\..\..\Source\Plugin.Glypher.FontAwesome5Pro";
-                const string libName = @"Font Awesome Pro 5.11.2";
-                const string libNamespace = @"FontAwesome5Pro";
-
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Brands),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Brands).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Duotone),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Duotone).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Light),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Light).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Regular),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Regular).Cast<GlyphField>().ToList());
 
                 FieldGenerator.Write(
-                    folderPath,
+                    FolderPath,
                     nameof(Free.Solid),
-                    libName,
-                    libNamespace,
+                    LibName,
+                    LibNamespace,
                     iconList.Where(i => i.IconType == Free.Solid).Cast<GlyphField>().ToList());
             }
         }
