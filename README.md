@@ -1,3 +1,10 @@
+# Using Xamarin Embedded fonts and Font Image Source, What this plugging was trying to achieve can be achieved now. 
+
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/fonts#use-a-custom-font
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/fonts#display-font-icons
+
+If you are using Xamarin.Forms 4.5.0.530 below version, it still make sense to use this pluging. 
+
 <img src="screenshots/icon.png" alt="icon" width="64px" >
 
 [![Build status](https://ci.appveyor.com/api/projects/status/t28ovdlfdb1hmoys?svg=true)](https://ci.appveyor.com/project/tmt242001/plugin-glypher)
